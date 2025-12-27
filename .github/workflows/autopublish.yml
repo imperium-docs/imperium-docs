@@ -1,0 +1,57 @@
+name: Atlas Autopublish
+
+on:
+  schedule:
+    # 05:00 BRT (UTC-3) -> 08:00 UTC
+    - cron: "0 8 * * *"
+    # 12:00 BRT -> 15:00 UTC
+    - cron: "0 15 * * *"
+    # 20:00 BRT -> 23:00 UTC
+    - cron: "0 23 * * *"
+
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "Optional slot override (morning | noon | night)"
+        required: false
+        type: choice
+        options:
+          - morning
+          - noon
+          - night
+
+jobs:
+  autopublish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: atlas-site
+
+      - name: Run autopublish
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL || 'gpt-5' }}
+        run: |
+          if [ -n "${{ github.event.inputs.slot }}" ]; then
+            npm run autopublish -- --slot ${{ github.event.inputs.slot }}
+          else
+            npm run autopublish
+          fi
+        working-directory: atlas-site
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: autopublish-logs
+          path: atlas-site/logs
