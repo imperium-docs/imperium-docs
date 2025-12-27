@@ -49,6 +49,7 @@ jobs:
         run: |
           cd "$PKG_DIR"
           npm ci
+              npm run build
 
       - name: Run autopublish
         env:
@@ -61,9 +62,9 @@ jobs:
           fi
           cd "$PKG_DIR"
           if [ -n "${{ github.event.inputs.slot }}" ]; then
-            npm run autopublish -- --slot ${{ github.event.inputs.slot }}
+            npm run autopublish:ci -- --slot ${{ github.event.inputs.slot }}
           else
-            npm run autopublish
+            npm run autopublish:ci
           fi
 
       - name: Upload logs
