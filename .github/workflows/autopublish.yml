@@ -23,7 +23,6 @@ on:
 jobs:
   autopublish:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -33,14 +32,22 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install dependencies
-        run: npm ci
-        working-directory: atlas-site
-
-          - name: Install dependencies
+      - name: Detect atlas-site project directory
+        id: detect
         run: |
           ls -la
-          cd atlas-site || cd imperium-docs/atlas-site
+          PKG_DIR=$(find . -maxdepth 6 -path "*atlas-site*" -name package.json -exec dirname {} \; | head -n 1)
+          if [ -z "$PKG_DIR" ]; then
+            echo "Could not find atlas-site directory. Found package.json files:"
+            find . -maxdepth 6 -name package.json -print
+            exit 1
+          fi
+          echo "PKG_DIR=$PKG_DIR" >> $GITHUB_ENV
+          echo "package_dir=$PKG_DIR" >> $GITHUB_OUTPUT
+
+      - name: Install dependencies
+        run: |
+          cd "$PKG_DIR"
           npm ci
 
       - name: Run autopublish
@@ -48,7 +55,11 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL || 'gpt-5' }}
         run: |
-          cd atlas-site || cd imperium-docs/atlas-site
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "OPENAI_API_KEY missing in GitHub Secrets" >&2
+            exit 1
+          fi
+          cd "$PKG_DIR"
           if [ -n "${{ github.event.inputs.slot }}" ]; then
             npm run autopublish -- --slot ${{ github.event.inputs.slot }}
           else
@@ -60,4 +71,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: autopublish-logs
-          path: atlas-site/logs
+          path: ${{ env.PKG_DIR }}/logs
