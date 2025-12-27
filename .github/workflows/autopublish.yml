@@ -37,17 +37,23 @@ jobs:
         run: npm ci
         working-directory: atlas-site
 
+          - name: Install dependencies
+        run: |
+          ls -la
+          cd atlas-site || cd imperium-docs/atlas-site
+          npm ci
+
       - name: Run autopublish
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL || 'gpt-5' }}
         run: |
+          cd atlas-site || cd imperium-docs/atlas-site
           if [ -n "${{ github.event.inputs.slot }}" ]; then
             npm run autopublish -- --slot ${{ github.event.inputs.slot }}
           else
             npm run autopublish
           fi
-        working-directory: atlas-site
 
       - name: Upload logs
         if: always()
