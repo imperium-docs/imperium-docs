@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "recordId": "rev_4eb10d2c5b6a",
+  "dateLocal": "2025-12-27",
+  "slot": "morning",
+  "theme": "revenue",
+  "title": "SEC Charges Three Purported Crypto Asset Trading Platforms and Four Investment Clubs with Scheme That Targeted Retail Investors on Social Media",
+  "canonicalUrl": "https://www.sec.gov/newsroom/press-releases/2025-144-sec-charges-three-purported-crypto-asset-trading-platforms-four-investment-clubs-scheme-targeted",
+  "publishedAtISO": "2025-12-22T20:00:00.000Z",
+  "source": {
+    "id": "sec_press_releases",
+    "name": "SEC - Press Releases",
+    "weight": 3
+  },
+  "entityGuess": {
+    "type": "person",
+    "name": "SEC Charges Three Purported Crypto Asset Trading Platforms and Four Investment Clubs with Scheme That Targeted Retail Investors on Social Media"
+  },
+  "score": {
+    "total": 1.8900000000000001,
+    "sourceWeight": 3,
+    "themeWeight": 1.05,
+    "recencyScore": 0.6
+  },
+  "pipeline": {
+    "pipelineVersion": 1,
+    "candidatePath": "out\\candidate-fallback-2025-12-27-morning.json",
+    "generatedAtUTC": "2025-12-27T08:34:58.316Z"
+  },
+  "statuses": {
+    "recordStatus": "recorded",
+    "docStatus": "not_started"
+  }
+}

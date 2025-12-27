@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "recordId": "ipo_2602f178327d",
+  "dateLocal": "2025-12-26",
+  "slot": "morning",
+  "theme": "ipo",
+  "title": "What a $14 Million Accelerant Bet Signals to Long-Term Investors After the Firm's July IPO",
+  "canonicalUrl": "https://www.nasdaq.com/articles/what-14-million-accelerant-bet-signals-long-term-investors-after-firms-july-ipo",
+  "publishedAtISO": "2025-12-26T17:11:53.000Z",
+  "source": {
+    "id": "nasdaq_rss_markets",
+    "name": "Nasdaq Markets (category feed)",
+    "weight": 1.2
+  },
+  "entityGuess": {
+    "type": "company",
+    "name": "What a $14 Million Accelerant Bet Signals to Long"
+  },
+  "score": {
+    "total": 2.109777424537037,
+    "sourceWeight": 1.2,
+    "themeWeight": 1.15,
+    "recencyScore": 1.5288242206790124
+  },
+  "pipeline": {
+    "pipelineVersion": 1,
+    "candidatePath": "out\\candidate-2025-12-26-morning.json",
+    "generatedAtUTC": "2025-12-26T22:19:21.764Z"
+  },
+  "statuses": {
+    "recordStatus": "recorded",
+    "docStatus": "not_started"
+  }
+}

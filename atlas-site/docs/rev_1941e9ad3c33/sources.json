@@ -1,0 +1,95 @@
+{
+  "sources": [
+    {
+      "url": "https://www.sec.gov/newsroom/press-releases/2025-143-joshua-t-white-named-sec-chief-economist",
+      "publisher": "SEC - Press Releases",
+      "tier": "primary",
+      "accessedAtUTC": "2025-12-27T09:29:20.713Z",
+      "note": "Canonical URL anchor.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "sec",
+        "confidence": "high"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/732717/000119312525262515/d935272d8k.htm",
+      "publisher": "SEC EDGAR",
+      "tier": "secondary",
+      "accessedAtUTC": "2025-12-27T09:29:20.713Z",
+      "note": "Form 8-K filed 2025-11-03.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "t",
+        "confidence": "high"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/732717/000073271725000163/t-20251022.htm",
+      "publisher": "SEC EDGAR",
+      "tier": "secondary",
+      "accessedAtUTC": "2025-12-27T09:29:20.713Z",
+      "note": "Form 8-K filed 2025-10-22.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "t",
+        "confidence": "high"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/732717/000119312525215530/d77733d8k.htm",
+      "publisher": "SEC EDGAR",
+      "tier": "secondary",
+      "accessedAtUTC": "2025-12-27T09:29:20.713Z",
+      "note": "Form 8-K filed 2025-09-24.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "t",
+        "confidence": "high"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/732717/000119312525205072/d70951d8k.htm",
+      "publisher": "SEC EDGAR",
+      "tier": "secondary",
+      "accessedAtUTC": "2025-12-27T09:29:20.713Z",
+      "note": "Form 8-K filed 2025-09-16.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "t",
+        "confidence": "high"
+      }
+    }
+  ],
+  "recoveryAttempted": false,
+  "recoveredIssuer": null,
+  "recoveryNotes": [],
+  "recoveryTrace": {
+    "lanesAttempted": [],
+    "candidates": {
+      "issuerCandidates": [
+        "Joshua T. White Named SEC Chief Economist",
+        "joshua t white named sec chief economist",
+        "t",
+        "sec"
+      ],
+      "tickers": [
+        "T",
+        "SEC"
+      ]
+    },
+    "canonicalRecovery": {
+      "attempted": false,
+      "success": false,
+      "reason": null
+    },
+    "secSearch": {
+      "attempted": false,
+      "methodUsed": "none",
+      "query": null,
+      "resultsCount": 0,
+      "chosen": null,
+      "failureReason": null
+    },
+    "sourceCollection": {
+      "attempted": false,
+      "sourcesFound": 5,
+      "failureReason": null
+    }
+  }
+}

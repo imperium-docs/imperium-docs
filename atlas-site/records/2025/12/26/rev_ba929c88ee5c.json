@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "recordId": "rev_ba929c88ee5c",
+  "dateLocal": "2025-12-26",
+  "slot": "morning",
+  "theme": "revenue",
+  "title": "Down 73% From All-Time High, Is The Trade Desk Stock a Buy?",
+  "canonicalUrl": "https://www.nasdaq.com/articles/down-73-all-time-high-trade-desk-stock-buy",
+  "publishedAtISO": "2025-12-26T23:51:00.000Z",
+  "source": {
+    "id": "nasdaq_rss_markets",
+    "name": "Nasdaq Markets (category feed)",
+    "weight": 1.2
+  },
+  "entityGuess": {
+    "type": "person",
+    "name": "Down 73% From All"
+  },
+  "score": {
+    "total": 1.9720823645833336,
+    "sourceWeight": 1.2,
+    "themeWeight": 1.05,
+    "recencyScore": 1.5651447337962965
+  },
+  "pipeline": {
+    "pipelineVersion": 1,
+    "candidatePath": "out\\candidate-2025-12-26-morning.json",
+    "generatedAtUTC": "2025-12-27T02:21:34.486Z"
+  },
+  "statuses": {
+    "recordStatus": "recorded",
+    "docStatus": "not_started"
+  }
+}

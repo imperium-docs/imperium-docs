@@ -1,0 +1,23 @@
+{
+  "name": "ambiguous_title",
+  "title": "Churchill Downs, Inc. Reports Third Quarter Results",
+  "entityGuess": { "type": "unknown", "name": "" },
+  "sources": [
+    {
+      "tier": "primary",
+      "url": "https://example.com/press",
+      "html": "The Trade Desk, Inc. reported results and issued a filing."
+    },
+    {
+      "tier": "secondary",
+      "url": "https://example.com/filing",
+      "html": "The Trade Desk, Inc. filed its quarterly report with the SEC."
+    },
+    {
+      "tier": "secondary",
+      "url": "https://example.com/coverage",
+      "html": "The Trade Desk reported quarterly results in its latest release."
+    }
+  ],
+  "expect": { "status": "needs_review" }
+}

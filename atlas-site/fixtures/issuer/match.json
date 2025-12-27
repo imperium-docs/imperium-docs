@@ -1,0 +1,33 @@
+{
+  "name": "clear_match",
+  "title": "The Trade Desk, Inc. Reports Third Quarter Results",
+  "entityGuess": { "type": "company", "name": "The Trade Desk, Inc." },
+  "sources": [
+    {
+      "tier": "primary",
+      "url": "https://example.com/press",
+      "html": "The Trade Desk, Inc. reported results and issued a filing."
+    },
+    {
+      "tier": "secondary",
+      "url": "https://example.com/filing",
+      "html": "The Trade Desk, Inc. filed its quarterly report with the SEC."
+    },
+    {
+      "tier": "secondary",
+      "url": "https://example.com/coverage",
+      "html": "The Trade Desk reported quarterly results in its latest release."
+    },
+    {
+      "tier": "secondary",
+      "url": "https://example.com/secondary-two",
+      "html": "The Trade Desk, Inc. updated its reporting disclosure."
+    },
+    {
+      "tier": "secondary",
+      "url": "https://example.com/secondary-three",
+      "html": "The Trade Desk remains listed following a reporting update."
+    }
+  ],
+  "expect": { "status": "ok" }
+}

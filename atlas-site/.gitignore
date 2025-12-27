@@ -1,0 +1,7 @@
+# fixtures outputs
+fixtures/out/**
+fixtures/records/**
+fixtures/content/**
+fixtures/docs/**
+fixtures/**/.DS_Store
+fixtures/**/Thumbs.db

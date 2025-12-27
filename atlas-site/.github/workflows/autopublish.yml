@@ -1,0 +1,83 @@
+name: Autopublish
+
+on:
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "Optional slot override (morning|noon|night)"
+        required: false
+        type: string
+  schedule:
+    - cron: "0 8 * * *"
+    - cron: "0 15 * * *"
+    - cron: "0 23 * * *"
+
+jobs:
+  autopublish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run autopublish
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+        run: |
+          set -o pipefail
+          mkdir -p logs
+          : > logs/autopublish-output.txt
+          if [ -n "${OPENAI_MODEL}" ]; then
+            export OPENAI_MODEL
+          else
+            export OPENAI_MODEL="gpt-5"
+          fi
+          if [ -n "${{ inputs.slot }}" ]; then
+            npm run autopublish -- --slot "${{ inputs.slot }}" 2>&1 | tee logs/autopublish-output.txt
+          else
+            npm run autopublish 2>&1 | tee logs/autopublish-output.txt
+          fi
+
+      - name: Parse autopublish output
+        id: parse
+        if: always()
+        run: |
+          node - <<'NODE'
+          const fs = require("fs");
+          const outPath = "logs/autopublish-output.txt";
+          const text = fs.existsSync(outPath) ? fs.readFileSync(outPath, "utf8") : "";
+          const lines = text.trim().split(/\r?\n/).filter(Boolean);
+          let payload = null;
+          for (let i = lines.length - 1; i >= 0; i -= 1) {
+            const line = lines[i].trim();
+            if (!line.startsWith("{") || !line.endsWith("}")) continue;
+            try {
+              payload = JSON.parse(line);
+              break;
+            } catch {}
+          }
+          const dateLocal = payload?.dateLocal ?? new Date().toISOString().slice(0, 10);
+          const slot = payload?.slot ?? "unknown";
+          const status = payload?.status ?? "unknown";
+          const artifactName = `autopublish-logs-${dateLocal}-${slot}`;
+          const summary = payload ?? { status: "unknown" };
+          fs.writeFileSync("logs/autopublish-summary.json", JSON.stringify(summary, null, 2));
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, `artifact_name=${artifactName}\n`);
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, `status=${status}\n`);
+          NODE
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.parse.outputs.artifact_name }}
+          path: logs

@@ -1,0 +1,93 @@
+{
+  "sources": [
+    {
+      "url": "https://www.sec.gov/newsroom/press-releases/2025-144-sec-charges-three-purported-crypto-asset-trading-platforms-four-investment-clubs-scheme-targeted",
+      "publisher": "SEC - Press Releases",
+      "tier": "primary",
+      "accessedAtUTC": "2025-12-27T08:35:00.785Z",
+      "note": "Canonical URL anchor.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "sec",
+        "confidence": "high"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1284143/000119312525191390/d865663d8k.htm",
+      "publisher": "SEC EDGAR",
+      "tier": "secondary",
+      "accessedAtUTC": "2025-12-27T08:35:00.785Z",
+      "note": "Form 8-K filed 2025-08-29.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "sec",
+        "confidence": "high"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1284143/000119312525042237/d812718d8k.htm",
+      "publisher": "SEC EDGAR",
+      "tier": "secondary",
+      "accessedAtUTC": "2025-12-27T08:35:00.785Z",
+      "note": "Form 8-K filed 2025-02-28.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "sec",
+        "confidence": "high"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1284143/000119312524207979/d873850d8k.htm",
+      "publisher": "SEC EDGAR",
+      "tier": "secondary",
+      "accessedAtUTC": "2025-12-27T08:35:00.785Z",
+      "note": "Form 8-K filed 2024-08-28.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "sec",
+        "confidence": "high"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1284143/000119312524052974/d786930d8k.htm",
+      "publisher": "SEC EDGAR",
+      "tier": "secondary",
+      "accessedAtUTC": "2025-12-27T08:35:00.785Z",
+      "note": "Form 8-K filed 2024-02-29.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "sec",
+        "confidence": "high"
+      }
+    }
+  ],
+  "recoveryAttempted": false,
+  "recoveredIssuer": null,
+  "recoveryNotes": [],
+  "recoveryTrace": {
+    "lanesAttempted": [],
+    "candidates": {
+      "issuerCandidates": [
+        "SEC Charges Three Purported Crypto Asset Trading Platforms and Four Investment Clubs with Scheme That Targeted Retail Investors on Social Media",
+        "sec charges three purported crypto asset trading platforms and four investment clubs with scheme that targeted retail investors on social media",
+        "sec"
+      ],
+      "tickers": [
+        "SEC"
+      ]
+    },
+    "canonicalRecovery": {
+      "attempted": false,
+      "success": false,
+      "reason": null
+    },
+    "secSearch": {
+      "attempted": false,
+      "methodUsed": "none",
+      "query": null,
+      "resultsCount": 0,
+      "chosen": null,
+      "failureReason": null
+    },
+    "sourceCollection": {
+      "attempted": false,
+      "sourcesFound": 5,
+      "failureReason": null
+    }
+  }
+}

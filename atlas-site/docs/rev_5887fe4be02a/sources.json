@@ -1,0 +1,93 @@
+{
+  "sources": [
+    {
+      "url": "https://www.sec.gov/newsroom/press-releases/2025-142-sec-office-investor-advocate-delivers-congress-report-activities-fiscal-year-2025",
+      "publisher": "SEC - Press Releases",
+      "tier": "primary",
+      "accessedAtUTC": "2025-12-27T09:33:13.773Z",
+      "note": "Canonical URL anchor.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "sec",
+        "confidence": "high"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1286405/000199937125020725/strats20046-8k_121525.htm",
+      "publisher": "SEC EDGAR",
+      "tier": "secondary",
+      "accessedAtUTC": "2025-12-27T09:33:13.773Z",
+      "note": "Form 8-K filed 2025-12-19.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "sec",
+        "confidence": "high"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1286405/000199937125008531/strats20046-8k.htm",
+      "publisher": "SEC EDGAR",
+      "tier": "secondary",
+      "accessedAtUTC": "2025-12-27T09:33:13.773Z",
+      "note": "Form 8-K filed 2025-06-30.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "sec",
+        "confidence": "high"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1286405/000199937124015773/strats20046-8k_121624.htm",
+      "publisher": "SEC EDGAR",
+      "tier": "secondary",
+      "accessedAtUTC": "2025-12-27T09:33:13.773Z",
+      "note": "Form 8-K filed 2024-12-26.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "sec",
+        "confidence": "high"
+      }
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1286405/000199937124007808/strats20046-8k_061724.htm",
+      "publisher": "SEC EDGAR",
+      "tier": "secondary",
+      "accessedAtUTC": "2025-12-27T09:33:13.773Z",
+      "note": "Form 8-K filed 2024-06-26.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "sec",
+        "confidence": "high"
+      }
+    }
+  ],
+  "recoveryAttempted": false,
+  "recoveredIssuer": null,
+  "recoveryNotes": [],
+  "recoveryTrace": {
+    "lanesAttempted": [],
+    "candidates": {
+      "issuerCandidates": [
+        "SEC Office of the Investor Advocate Delivers to Congress Report on Activities for Fiscal Year 2025",
+        "sec office of the investor advocate delivers to congress report on activities for fiscal year 2025",
+        "sec"
+      ],
+      "tickers": [
+        "SEC"
+      ]
+    },
+    "canonicalRecovery": {
+      "attempted": false,
+      "success": false,
+      "reason": null
+    },
+    "secSearch": {
+      "attempted": false,
+      "methodUsed": "none",
+      "query": null,
+      "resultsCount": 0,
+      "chosen": null,
+      "failureReason": null
+    },
+    "sourceCollection": {
+      "attempted": false,
+      "sourcesFound": 5,
+      "failureReason": null
+    }
+  }
+}

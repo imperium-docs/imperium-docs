@@ -1,0 +1,56 @@
+{
+  "sources": [
+    {
+      "url": "https://www.nasdaq.com/articles/ipo-pops-are-back",
+      "publisher": "Nasdaq IPOs (category feed)",
+      "tier": "primary",
+      "accessedAtUTC": "2025-12-27T08:12:15.463Z",
+      "note": "Canonical URL anchor.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "ipo pops are back",
+        "confidence": "high"
+      }
+    }
+  ],
+  "recoveryAttempted": true,
+  "recoveredIssuer": null,
+  "recoveryNotes": [
+    "issuer_candidates=IPO Pops Are Back|ipo pops are back|ipo",
+    "recovery_canonical_failed",
+    "recovery_unresolved"
+  ],
+  "recoveryTrace": {
+    "lanesAttempted": [
+      "canonical",
+      "sec_search_name"
+    ],
+    "candidates": {
+      "issuerCandidates": [
+        "IPO Pops Are Back",
+        "ipo pops are back",
+        "ipo"
+      ],
+      "tickers": [
+        "IPO"
+      ]
+    },
+    "canonicalRecovery": {
+      "attempted": true,
+      "success": false,
+      "reason": "canonical_unresolved"
+    },
+    "secSearch": {
+      "attempted": true,
+      "methodUsed": "name",
+      "query": "ipo",
+      "resultsCount": 0,
+      "chosen": null,
+      "failureReason": "no_sec_matches"
+    },
+    "sourceCollection": {
+      "attempted": false,
+      "sourcesFound": 0,
+      "failureReason": null
+    }
+  }
+}

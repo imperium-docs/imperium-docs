@@ -1,0 +1,53 @@
+{
+  "sources": [
+    {
+      "url": "https://www.nasdaq.com/articles/down-73-all-time-high-trade-desk-stock-buy",
+      "publisher": "Nasdaq Markets (category feed)",
+      "tier": "primary",
+      "accessedAtUTC": "2025-12-27T05:28:14.828Z",
+      "note": "Canonical URL anchor.",
+      "extractedIssuerSignals": {
+        "matchedAlias": "down 73 from all",
+        "confidence": "high"
+      }
+    }
+  ],
+  "recoveryAttempted": true,
+  "recoveredIssuer": null,
+  "recoveryNotes": [
+    "issuer_candidates=Down 73% From All|down 73 from all",
+    "recovery_canonical_failed",
+    "recovery_unresolved"
+  ],
+  "recoveryTrace": {
+    "lanesAttempted": [
+      "canonical",
+      "sec_search_name"
+    ],
+    "candidates": {
+      "issuerCandidates": [
+        "Down 73% From All",
+        "down 73 from all"
+      ],
+      "tickers": []
+    },
+    "canonicalRecovery": {
+      "attempted": true,
+      "success": false,
+      "reason": "canonical_unresolved"
+    },
+    "secSearch": {
+      "attempted": true,
+      "methodUsed": "name",
+      "query": "down 73 from all",
+      "resultsCount": 0,
+      "chosen": null,
+      "failureReason": "no_sec_matches"
+    },
+    "sourceCollection": {
+      "attempted": false,
+      "sourcesFound": 0,
+      "failureReason": null
+    }
+  }
+}

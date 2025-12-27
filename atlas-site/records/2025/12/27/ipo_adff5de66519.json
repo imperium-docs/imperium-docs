@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "recordId": "ipo_adff5de66519",
+  "dateLocal": "2025-12-27",
+  "slot": "noon",
+  "theme": "ipo",
+  "title": "IPO Pops Are Back",
+  "canonicalUrl": "https://www.nasdaq.com/articles/ipo-pops-are-back",
+  "publishedAtISO": "2025-10-09T21:50:57.000Z",
+  "source": {
+    "id": "nasdaq_rss_ipos",
+    "name": "Nasdaq IPOs (category feed)",
+    "weight": 1.8
+  },
+  "entityGuess": {
+    "type": "company",
+    "name": "IPO Pops Are Back"
+  },
+  "score": {
+    "total": 1.2419999999999998,
+    "sourceWeight": 1.8,
+    "themeWeight": 1.15,
+    "recencyScore": 0.6
+  },
+  "pipeline": {
+    "pipelineVersion": 1,
+    "candidatePath": "out\\candidate-2025-12-27-noon.json",
+    "generatedAtUTC": "2025-12-27T07:50:42.045Z"
+  },
+  "statuses": {
+    "recordStatus": "recorded",
+    "docStatus": "not_started"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "version": "1.1",
+  "policy": {
+    "require_primary": true,
+    "sources_per_article": 5,
+    "min_primary_weight": 4,
+    "min_secondary_weight": 4
+  },
+  "domains": [
+    { "domain": "sec.gov", "kind": "primary", "weight": 5, "tags": ["filings", "ipo", "earnings"] },
+
+    { "domain": "nasdaq.com", "kind": "primary", "weight": 5, "tags": ["exchange", "ipo", "listings"] },
+    { "domain": "nyse.com", "kind": "primary", "weight": 5, "tags": ["exchange", "ipo", "listings"] },
+    { "domain": "lseg.com", "kind": "primary", "weight": 4, "tags": ["market_infra", "data"] },
+    { "domain": "cboe.com", "kind": "primary", "weight": 4, "tags": ["exchange", "markets"] },
+
+    { "domain": "hkex.com.hk", "kind": "primary", "weight": 5, "tags": ["exchange", "ipo", "listings"] },
+    { "domain": "jpx.co.jp", "kind": "primary", "weight": 5, "tags": ["exchange", "ipo", "listings"] },
+    { "domain": "euronext.com", "kind": "primary", "weight": 4, "tags": ["exchange", "ipo", "listings"] },
+    { "domain": "londonstockexchange.com", "kind": "primary", "weight": 4, "tags": ["exchange", "ipo", "listings"] },
+    { "domain": "tsx.com", "kind": "primary", "weight": 4, "tags": ["exchange", "ipo", "listings"] },
+    { "domain": "sgx.com", "kind": "primary", "weight": 4, "tags": ["exchange", "ipo", "listings"] },
+    { "domain": "asx.com.au", "kind": "primary", "weight": 4, "tags": ["exchange", "ipo", "listings"] },
+    { "domain": "bseindia.com", "kind": "primary", "weight": 4, "tags": ["exchange", "ipo", "listings"] },
+    { "domain": "nseindia.com", "kind": "primary", "weight": 4, "tags": ["exchange", "ipo", "listings"] },
+
+    { "domain": "reuters.com", "kind": "secondary", "weight": 5, "tags": ["wire", "markets"] },
+    { "domain": "bloomberg.com", "kind": "secondary", "weight": 5, "tags": ["markets", "companies"] },
+    { "domain": "ft.com", "kind": "secondary", "weight": 5, "tags": ["finance", "companies"] },
+    { "domain": "wsj.com", "kind": "secondary", "weight": 5, "tags": ["finance", "companies"] },
+
+    { "domain": "economist.com", "kind": "secondary", "weight": 4, "tags": ["macro", "strategy"] },
+    { "domain": "nikkei.com", "kind": "secondary", "weight": 4, "tags": ["asia", "markets"] },
+    { "domain": "caixinglobal.com", "kind": "secondary", "weight": 4, "tags": ["china", "markets"] },
+
+    { "domain": "imf.org", "kind": "primary", "weight": 4, "tags": ["macro", "stats"] },
+    { "domain": "worldbank.org", "kind": "primary", "weight": 4, "tags": ["macro", "development"] },
+    { "domain": "oecd.org", "kind": "primary", "weight": 4, "tags": ["macro", "policy"] },
+    { "domain": "bis.org", "kind": "primary", "weight": 4, "tags": ["banking", "macro"] },
+
+    { "domain": "federalreserve.gov", "kind": "primary", "weight": 4, "tags": ["rates", "policy"] },
+    { "domain": "ecb.europa.eu", "kind": "primary", "weight": 4, "tags": ["rates", "policy"] },
+    { "domain": "bankofengland.co.uk", "kind": "primary", "weight": 4, "tags": ["rates", "policy"] },
+    { "domain": "boj.or.jp", "kind": "primary", "weight": 4, "tags": ["rates", "policy"] },
+
+    { "domain": "ey.com", "kind": "secondary", "weight": 4, "tags": ["reports", "ipo", "wealth"] },
+    { "domain": "pwc.com", "kind": "secondary", "weight": 4, "tags": ["reports", "ipo"] },
+    { "domain": "deloitte.com", "kind": "secondary", "weight": 4, "tags": ["reports", "ipo"] },
+    { "domain": "kpmg.com", "kind": "secondary", "weight": 4, "tags": ["reports", "ipo"] },
+
+    { "domain": "forbes.com", "kind": "secondary", "weight": 4, "tags": ["billionaires", "lists"] }
+  ]
+}

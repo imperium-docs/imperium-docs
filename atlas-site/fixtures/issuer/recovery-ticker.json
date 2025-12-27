@@ -1,0 +1,37 @@
+{
+  "name": "recovery_v2_ticker_success",
+  "title": "Revenue Update (TTD)",
+  "entityGuess": { "type": "unknown", "name": "" },
+  "sources": [
+    {
+      "tier": "primary",
+      "url": "https://example.com/filing",
+      "html": "The Trade Desk, Inc. filed its quarterly report with the SEC."
+    },
+    {
+      "tier": "secondary",
+      "url": "https://example.com/secondary-one",
+      "html": "The Trade Desk reported quarterly results in its latest release."
+    },
+    {
+      "tier": "secondary",
+      "url": "https://example.com/secondary-two",
+      "html": "The Trade Desk, Inc. updated its reporting disclosure."
+    },
+    {
+      "tier": "secondary",
+      "url": "https://example.com/secondary-three",
+      "html": "The Trade Desk remains listed following a reporting update."
+    },
+    {
+      "tier": "secondary",
+      "url": "https://example.com/secondary-four",
+      "html": "The Trade Desk, Inc. issued a filing related statement."
+    }
+  ],
+  "recovery": {
+    "secHtml": "<span class=\"companyName\">The Trade Desk, Inc. CIK 0001671933</span>",
+    "useTicker": true
+  },
+  "expect": { "status": "ok", "recoveryUsed": true }
+}

@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "purpose": "atlas-scan-smoke-test",
+  "sources": [
+    {
+      "id": "sec_press_releases",
+      "name": "SEC — Press Releases",
+      "tier": "primary",
+      "method": "rss",
+      "feed_url": "https://www.sec.gov/news/pressreleases.rss",
+      "homepage": "https://www.sec.gov/about/rss-feeds"
+    },
+    {
+      "id": "sec_latest_filings_search",
+      "name": "SEC — Latest Filings (Search feeds via EDGAR)",
+      "tier": "primary",
+      "method": "html",
+      "homepage": "https://www.sec.gov/about/rss-feeds",
+      "note": "SEC offers RSS/feeds generated from EDGAR searches; keep for next phase."
+    },
+    {
+      "id": "nasdaq_rss_ipos",
+      "name": "Nasdaq — IPOs (category feed)",
+      "tier": "secondary",
+      "method": "rss",
+      "feed_url": "https://www.nasdaq.com/feed/rssoutbound?category=IPOs",
+      "homepage": "https://www.nasdaq.com/nasdaq-RSS-Feeds"
+    },
+    {
+      "id": "nasdaq_rss_earnings",
+      "name": "Nasdaq — Earnings (category feed)",
+      "tier": "secondary",
+      "method": "rss",
+      "feed_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
+      "homepage": "https://www.nasdaq.com/nasdaq-RSS-Feeds"
+    },
+    {
+      "id": "nasdaq_rss_markets",
+      "name": "Nasdaq — Markets (category feed)",
+      "tier": "secondary",
+      "method": "rss",
+      "feed_url": "https://www.nasdaq.com/feed/rssoutbound?category=Markets",
+      "homepage": "https://www.nasdaq.com/nasdaq-RSS-Feeds"
+    },
+    {
+      "id": "globenewswire_press_releases",
+      "name": "GlobeNewswire — Press Releases",
+      "tier": "primary",
+      "method": "rss",
+      "feed_url": "https://www.globenewswire.com/RssFeed/subjectcode/72-Press%20Releases/feedTitle/GlobeNewswire%20-%20Press%20Releases",
+      "homepage": "https://www.globenewswire.com/rss/list"
+    },
+    {
+      "id": "globenewswire_prospectus",
+      "name": "GlobeNewswire — Prospectus / Announcement of Prospectus",
+      "tier": "primary",
+      "method": "rss",
+      "feed_url": "https://www.globenewswire.com/RssFeed/subjectcode/63-Prospectus%202fAnnouncement%20Of%20Prospectus/feedTitle/GlobeNewswire%20-%20Prospectus%2C%20Announcement%20Of%20Prospectus",
+      "homepage": "https://www.globenewswire.com/rss/list"
+    },
+    {
+      "id": "globenewswire_stock_market_news",
+      "name": "GlobeNewswire — Stock Market News",
+      "tier": "secondary",
+      "method": "rss",
+      "feed_url": "https://www.globenewswire.com/RssFeed/subjectcode/39-Stock%20Market%20News/feedTitle/GlobeNewswire%20-%20Stock%20Market%20News",
+      "homepage": "https://www.globenewswire.com/rss/list"
+    },
+    {
+      "id": "prnewswire_rss_entry",
+      "name": "PR Newswire — RSS directory (use to add specific feeds next)",
+      "tier": "secondary",
+      "method": "html",
+      "homepage": "https://www.prnewswire.com/rss/",
+      "note": "PR Newswire exposes RSS options via directory; add concrete feed URLs in phase 2."
+    },
+    {
+      "id": "businesswire_feeds_info",
+      "name": "Business Wire — Feed options (add concrete pre-configured RSS in phase 2)",
+      "tier": "secondary",
+      "method": "html",
+      "homepage": "https://www.businesswire.com/help/feed-options",
+      "note": "Business Wire offers RSS/Atom customization; add explicit RSS endpoints later."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "recordId": "rev_1941e9ad3c33",
+  "dateLocal": "2025-12-27",
+  "slot": "morning",
+  "theme": "revenue",
+  "title": "Joshua T. White Named SEC Chief Economist",
+  "canonicalUrl": "https://www.sec.gov/newsroom/press-releases/2025-143-joshua-t-white-named-sec-chief-economist",
+  "publishedAtISO": "2025-12-17T20:00:00.000Z",
+  "source": {
+    "id": "sec_press_releases",
+    "name": "SEC - Press Releases",
+    "weight": 3
+  },
+  "entityGuess": {
+    "type": "person",
+    "name": "Joshua T. White Named SEC Chief Economist"
+  },
+  "score": {
+    "total": 1.8900000000000001,
+    "sourceWeight": 3,
+    "themeWeight": 1.05,
+    "recencyScore": 0.6
+  },
+  "pipeline": {
+    "pipelineVersion": 1,
+    "candidatePath": "out\\candidate-fallback-2025-12-27-morning-1.json",
+    "generatedAtUTC": "2025-12-27T09:29:18.475Z"
+  },
+  "statuses": {
+    "recordStatus": "recorded",
+    "docStatus": "not_started"
+  }
+}
