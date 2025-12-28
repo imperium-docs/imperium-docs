@@ -15,7 +15,9 @@
     "doc:stub": "node -r ts-node/register scripts/build-doc-stub.ts",
     "test:ledger": "node -r ts-node/register scripts/test-ledger.ts",
     "build:document-b": "node -r ts-node/register scripts/build-document-b.ts",
-    "test:issuer": "node -r ts-node/register scripts/test-issuer-guardrail.ts"
+    "test:issuer": "node -r ts-node/register scripts/test-issuer-guardrail.ts",
+    "build": "echo 'Skipping build'",
+    "autopublish:ci": "node -r ts-node/register scripts/autopublish.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
