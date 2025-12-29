@@ -1,14 +1,6 @@
 name: Atlas Autopublish
 
 on:
-  schedule:
-    # 05:00 BRT (UTC-3) -> 08:00 UTC
-    - cron: "0 8 * * *"
-    # 12:00 BRT -> 15:00 UTC
-    - cron: "0 15 * * *"
-    # 20:00 BRT -> 23:00 UTC
-    - cron: "0 23 * * *"
-
   workflow_dispatch:
     inputs:
       slot:

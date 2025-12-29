@@ -1,0 +1,45 @@
+name: Atlas Cron
+
+on:
+  schedule:
+    - cron: "0 8,15,23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  atlas-cron:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        working-directory: atlas-site
+        run: npm ci
+
+      - name: Run RSS cron
+        working-directory: atlas-site
+        env:
+          ATLAS_LLM_ENABLED: "true"
+          ATLAS_LLM_PROVIDER: "openrouter"
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: npm run atlas:cron
+
+      - name: Commit updates
+        run: |
+          git config user.name "atlas-bot"
+          git config user.email "atlas-bot@users.noreply.github.com"
+          git add atlas-site/content/atlas/feed.json atlas-site/content/atlas/state.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "atlas: update feed"
+            git push
+          fi

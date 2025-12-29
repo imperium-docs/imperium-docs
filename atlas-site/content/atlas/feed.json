@@ -1,32 +1,1161 @@
-[
-  {
-    "recordId": "rev_4eb10d2c5b6a",
-    "dateLocal": "2025-12-27",
-    "slot": "morning",
-    "theme": "revenue",
-    "title": "SEC Charges Three Purported Crypto Asset Trading Platforms and Four Investment Clubs with Scheme That Targeted Retail Investors on Social Media",
-    "canonicalUrl": "https://www.sec.gov/newsroom/press-releases/2025-144-sec-charges-three-purported-crypto-asset-trading-platforms-four-investment-clubs-scheme-targeted",
-    "recordCardPath": "content/atlas/records/rev_4eb10d2c5b6a.md",
-    "docStatus": "draft"
-  },
-  {
-    "recordId": "rev_1941e9ad3c33",
-    "dateLocal": "2025-12-27",
-    "slot": "morning",
-    "theme": "revenue",
-    "title": "Joshua T. White Named SEC Chief Economist",
-    "canonicalUrl": "https://www.sec.gov/newsroom/press-releases/2025-143-joshua-t-white-named-sec-chief-economist",
-    "recordCardPath": "content/atlas/records/rev_1941e9ad3c33.md",
-    "docStatus": "draft"
-  },
-  {
-    "recordId": "rev_5887fe4be02a",
-    "dateLocal": "2025-12-27",
-    "slot": "morning",
-    "theme": "revenue",
-    "title": "SEC Office of the Investor Advocate Delivers to Congress Report on Activities for Fiscal Year 2025",
-    "canonicalUrl": "https://www.sec.gov/newsroom/press-releases/2025-142-sec-office-investor-advocate-delivers-congress-report-activities-fiscal-year-2025",
-    "recordCardPath": "content/atlas/records/rev_5887fe4be02a.md",
-    "docStatus": "draft"
-  }
-]
+{
+  "version": 3,
+  "generated_at": "2025-12-29T13:30:37.348Z",
+  "items": [
+    {
+      "id": "b69f0442ed48",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "QHSLab, Inc. (OTCQB:USAQ) Completes $500K Private Placement, Enters 2026 With Clean Capital Structure",
+      "summary": "With legacy overhang removed and new capital secured, management shifts focus from balance-sheet repair to disciplined growth execution.",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nQHSLab, Inc. (OTCQB:USAQ) Completes $500K Private Placement, Enters 2026 With Clean Capital Structure. With legacy overhang removed and new capital secured, management shifts focus from balance-sheet repair to disciplined growth execution.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:30:00.000Z by GlobeNewswire - Press Releases. Source: https://www.globenewswire.com/news-release/2025/12/29/3210915/0/en/QHSLab-Inc-OTCQB-USAQ-Completes-500K-Private-Placement-Enters-2026-With-Clean-Capital-Structure.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: QHSLab, Inc. (OTCQB:USAQ) Completes $500K Private Placement, Enters 2026 With Clean Capital Structure. Gatekeeper: GlobeNewswire - Press Releases.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3210915/0/en/QHSLab-Inc-OTCQB-USAQ-Completes-500K-Private-Placement-Enters-2026-With-Clean-Capital-Structure.html",
+      "source_name": "GlobeNewswire - Press Releases",
+      "excerpt": "With legacy overhang removed and new capital secured, management shifts focus from balance-sheet repair to disciplined growth execution.",
+      "facts": [
+        "Source: GlobeNewswire - Press Releases",
+        "Published: 2025-12-29T13:30:00.000Z"
+      ],
+      "entities": {
+        "name": "QHSLab, Inc. (OTCQB:USAQ) Completes $500K Private Placement, Enters 2026 With Clean Capital Structure",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T13:30:00.000Z",
+      "event_date": "2025-12-29T13:30:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/29/3210915/0/en/QHSLab-Inc-OTCQB-USAQ-Completes-500K-Private-Placement-Enters-2026-With-Clean-Capital-Structure.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-29T13:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1d1e965a7187",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Digital Brands Group Added to S&P Total Market Index (TMI)",
+      "summary": "Austin, Texas, Dec. 29, 2025 (GLOBE NEWSWIRE) -- Digital Brands Group, Inc. (NASDAQ:DBGI) (the “Company,” “Digital Brands Group” or “DBG”) today announced he company has been added to the S&amp;P Total Market Index (TMI) , effective December 21, 2025 .",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nDigital Brands Group Added to S&P Total Market Index (TMI). Austin, Texas, Dec. 29, 2025 (GLOBE NEWSWIRE) -- Digital Brands Group, Inc. (NASDAQ:DBGI) (the “Company,” “Digital Brands Group” or “DBG”) today announced he company has been added to the S&amp;P Total Market Index (TMI) , effective December 21, 2025 .\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:30:00.000Z by GlobeNewswire - Press Releases. Source: https://www.globenewswire.com/news-release/2025/12/29/3210914/0/en/Digital-Brands-Group-Added-to-S-P-Total-Market-Index-TMI.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Digital Brands Group Added to S&P Total Market Index (TMI). Gatekeeper: GlobeNewswire - Press Releases.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3210914/0/en/Digital-Brands-Group-Added-to-S-P-Total-Market-Index-TMI.html",
+      "source_name": "GlobeNewswire - Press Releases",
+      "excerpt": "Austin, Texas, Dec. 29, 2025 (GLOBE NEWSWIRE) -- Digital Brands Group, Inc. (NASDAQ:DBGI) (the “Company,” “Digital Brands Group” or “DBG”) today announced he company has been added to the S&amp;P Tota",
+      "facts": [
+        "Source: GlobeNewswire - Press Releases",
+        "Published: 2025-12-29T13:30:00.000Z"
+      ],
+      "entities": {
+        "name": "Digital Brands Group Added to S&P Total Market Index (TMI)",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T13:30:00.000Z",
+      "event_date": "2025-12-29T13:30:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/29/3210914/0/en/Digital-Brands-Group-Added-to-S-P-Total-Market-Index-TMI.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-29T13:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "86633e98c6b4",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "N2OFF Accelerates European Renewable Energy Momentum with Major De-Risking Milestones and Approximately $1.69 Million Value Unlock in Germany and Italy",
+      "summary": "Neve Yarak, Israel, Dec. 29, 2025 (GLOBE NEWSWIRE) -- N2OFF, Inc. (NASDAQ: NITO) (“N2OFF” and the “Company”), a cleantech company investing in solar energy assets based on the RTB (Ready to Build) business model, today announced advancement in its European portfolio via its partnership with Solterra Renewable Energy Ltd. (“Solterra”). Key milestones in Germany and Italy have reduced permitting risks, unlocked value through smart capital deployment, and positioned projects for compelling monetization optionality.",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nN2OFF Accelerates European Renewable Energy Momentum with Major De-Risking Milestones and Approximately $1.69 Million Value Unlock in Germany and Italy. Neve Yarak, Israel, Dec. 29, 2025 (GLOBE NEWSWIRE) -- N2OFF, Inc. (NASDAQ: NITO) (“N2OFF” and the “Company”), a cleantech company investing in solar energy assets based on the RTB (Ready to Build) business model, today announced advancement in its European portfolio via its partnership with Solterra Renewable Energy Ltd. (“Solterra”). Key milestones in Germany and Italy have reduced permitting risks, unlocked value through smart capital deployment, and positioned projects for compelling monetization optionality.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:22:00.000Z by GlobeNewswire - Press Releases. Source: https://www.globenewswire.com/news-release/2025/12/29/3210909/0/en/N2OFF-Accelerates-European-Renewable-Energy-Momentum-with-Major-De-Risking-Milestones-and-Approximately-1-69-Million-Value-Unlock-in-Germany-and-Italy.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: N2OFF Accelerates European Renewable Energy Momentum with Major De-Risking Milestones and Approximately $1.69 Million Value Unlock in Germany and Italy. Gatekeeper: GlobeNewswire - Press Releases.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3210909/0/en/N2OFF-Accelerates-European-Renewable-Energy-Momentum-with-Major-De-Risking-Milestones-and-Approximately-1-69-Million-Value-Unlock-in-Germany-and-Italy.html",
+      "source_name": "GlobeNewswire - Press Releases",
+      "excerpt": "Neve Yarak, Israel, Dec. 29, 2025 (GLOBE NEWSWIRE) -- N2OFF, Inc. (NASDAQ: NITO) (“N2OFF” and the “Company”), a cleantech company investing in solar energy assets based on the RTB (Ready to Build) bus",
+      "facts": [
+        "Source: GlobeNewswire - Press Releases",
+        "Published: 2025-12-29T13:22:00.000Z"
+      ],
+      "entities": {
+        "name": "N2OFF Accelerates European Renewable Energy Momentum with Major De-Risking Milestones and Approximately $1.69 Million Value Unlock in Germany and Italy",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T13:22:00.000Z",
+      "event_date": "2025-12-29T13:22:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/29/3210909/0/en/N2OFF-Accelerates-European-Renewable-Energy-Momentum-with-Major-De-Risking-Milestones-and-Approximately-1-69-Million-Value-Unlock-in-Germany-and-Italy.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-29T13:22:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "5edb3518e5e8",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Foresight Selected by Car Manufacturer Audi AG to Showcase its Terrain Intelligence Technology",
+      "summary": "Next steps entail discussions on a potential POC project for integrating Foresight’s terrain intelligence into Audi’s vehicle development program",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nForesight Selected by Car Manufacturer Audi AG to Showcase its Terrain Intelligence Technology. Next steps entail discussions on a potential POC project for integrating Foresight’s terrain intelligence into Audi’s vehicle development program\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:12:00.000Z by GlobeNewswire - Press Releases. Source: https://www.globenewswire.com/news-release/2025/12/29/3210907/0/en/Foresight-Selected-by-Car-Manufacturer-Audi-AG-to-Showcase-its-Terrain-Intelligence-Technology.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Foresight Selected by Car Manufacturer Audi AG to Showcase its Terrain Intelligence Technology. Gatekeeper: GlobeNewswire - Press Releases.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3210907/0/en/Foresight-Selected-by-Car-Manufacturer-Audi-AG-to-Showcase-its-Terrain-Intelligence-Technology.html",
+      "source_name": "GlobeNewswire - Press Releases",
+      "excerpt": "Next steps entail discussions on a potential POC project for integrating Foresight’s terrain intelligence into Audi’s vehicle development program",
+      "facts": [
+        "Source: GlobeNewswire - Press Releases",
+        "Published: 2025-12-29T13:12:00.000Z"
+      ],
+      "entities": {
+        "name": "Foresight Selected by Car Manufacturer Audi AG to Showcase its Terrain Intelligence Technology",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T13:12:00.000Z",
+      "event_date": "2025-12-29T13:12:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/29/3210907/0/en/Foresight-Selected-by-Car-Manufacturer-Audi-AG-to-Showcase-its-Terrain-Intelligence-Technology.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-29T13:12:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "edf54d669758",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "No Deposit Bonus Casinos 2026: BitStarz Launches 50 Free Spins to Support Faster, Verified Withdrawals",
+      "summary": "New York City, NY, Dec. 29, 2025 (GLOBE NEWSWIRE) -- As payout delays and unclear promotions continue to challenge the global iGaming market, BitStarz is setting a new standard by streamlining bonus transparency and accelerating withdrawals. With no deposit bonus casinos now emerging as a key trust indicator for players, the move signals a broader industry shift toward secure, risk-free engagement backed by robust payment infrastructure.",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nNo Deposit Bonus Casinos 2026: BitStarz Launches 50 Free Spins to Support Faster, Verified Withdrawals. New York City, NY, Dec. 29, 2025 (GLOBE NEWSWIRE) -- As payout delays and unclear promotions continue to challenge the global iGaming market, BitStarz is setting a new standard by streamlining bonus transparency and accelerating withdrawals. With no deposit bonus casinos now emerging as a key trust indicator for players, the move signals a broader industry shift toward secure, risk-free engagement backed by robust payment infrastructure.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:10:00.000Z by GlobeNewswire - Press Releases. Source: https://www.globenewswire.com/news-release/2025/12/29/3210904/0/en/No-Deposit-Bonus-Casinos-2026-BitStarz-Launches-50-Free-Spins-to-Support-Faster-Verified-Withdrawals.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: No Deposit Bonus Casinos 2026: BitStarz Launches 50 Free Spins to Support Faster, Verified Withdrawals. Gatekeeper: GlobeNewswire - Press Releases.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3210904/0/en/No-Deposit-Bonus-Casinos-2026-BitStarz-Launches-50-Free-Spins-to-Support-Faster-Verified-Withdrawals.html",
+      "source_name": "GlobeNewswire - Press Releases",
+      "excerpt": "New York City, NY, Dec. 29, 2025 (GLOBE NEWSWIRE) -- As payout delays and unclear promotions continue to challenge the global iGaming market, BitStarz is setting a new standard by streamlining bonus t",
+      "facts": [
+        "Source: GlobeNewswire - Press Releases",
+        "Published: 2025-12-29T13:10:00.000Z"
+      ],
+      "entities": {
+        "name": "No Deposit Bonus Casinos 2026: BitStarz Launches 50 Free Spins to Support Faster, Verified Withdrawals",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T13:10:00.000Z",
+      "event_date": "2025-12-29T13:10:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/29/3210904/0/en/No-Deposit-Bonus-Casinos-2026-BitStarz-Launches-50-Free-Spins-to-Support-Faster-Verified-Withdrawals.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-29T13:10:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c396e0e664e0",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Could Vertiv Become the Next Essential AI Infrastructure Stock?",
+      "summary": "Key PointsAI data centers are consuming more increasingly-expensive electricity than the industry anticipated.",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nCould Vertiv Become the Next Essential AI Infrastructure Stock?. Key PointsAI data centers are consuming more increasingly-expensive electricity than the industry anticipated.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:05:00.000Z by Nasdaq - Markets (category feed). Source: https://www.nasdaq.com/articles/could-vertiv-become-next-essential-ai-infrastructure-stock.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Could Vertiv Become the Next Essential AI Infrastructure Stock?. Gatekeeper: Nasdaq - Markets (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/could-vertiv-become-next-essential-ai-infrastructure-stock",
+      "source_name": "Nasdaq - Markets (category feed)",
+      "excerpt": "Key PointsAI data centers are consuming more increasingly-expensive electricity than the industry anticipated.",
+      "facts": [
+        "Source: Nasdaq - Markets (category feed)",
+        "Published: 2025-12-29T13:05:00.000Z"
+      ],
+      "entities": {
+        "name": "Could Vertiv Become the Next Essential AI Infrastructure Stock?",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T13:05:00.000Z",
+      "event_date": "2025-12-29T13:05:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/could-vertiv-become-next-essential-ai-infrastructure-stock",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-29T13:05:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2da827f5708b",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Bay Street Likely To Open On Mixed Note",
+      "summary": "(RTTNews) - Canadian shares are likely to open on a mixed note Monday morning, tracking global cues and commodity prices. While oil prices have climbed up sharply amid geopolitical tensions, metal prices have tumbled today.",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nBay Street Likely To Open On Mixed Note. (RTTNews) - Canadian shares are likely to open on a mixed note Monday morning, tracking global cues and commodity prices. While oil prices have climbed up sharply amid geopolitical tensions, metal prices have tumbled today.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:01:39.000Z by Nasdaq - Markets (category feed). Source: https://www.nasdaq.com/articles/bay-street-likely-open-mixed-note-0.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Bay Street Likely To Open On Mixed Note. Gatekeeper: Nasdaq - Markets (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/bay-street-likely-open-mixed-note-0",
+      "source_name": "Nasdaq - Markets (category feed)",
+      "excerpt": "(RTTNews) - Canadian shares are likely to open on a mixed note Monday morning, tracking global cues and commodity prices. While oil prices have climbed up sharply amid geopolitical tensions, metal pri",
+      "facts": [
+        "Source: Nasdaq - Markets (category feed)",
+        "Published: 2025-12-29T13:01:39.000Z"
+      ],
+      "entities": {
+        "name": "Bay Street Likely To Open On Mixed Note",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T13:01:39.000Z",
+      "event_date": "2025-12-29T13:01:39.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/bay-street-likely-open-mixed-note-0",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-29T13:01:39.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f6a52606ab2c",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Futures Points To Lower Open For Wall Street",
+      "summary": "(RTTNews) - Investor sentiments might be influenced by geopolitical tensions on Monday. Thin trading is expected in view of the upcoming New Year Holiday.",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nFutures Points To Lower Open For Wall Street. (RTTNews) - Investor sentiments might be influenced by geopolitical tensions on Monday. Thin trading is expected in view of the upcoming New Year Holiday.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:00:05.000Z by Nasdaq - Markets (category feed). Source: https://www.nasdaq.com/articles/futures-points-lower-open-wall-street.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Futures Points To Lower Open For Wall Street. Gatekeeper: Nasdaq - Markets (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/futures-points-lower-open-wall-street",
+      "source_name": "Nasdaq - Markets (category feed)",
+      "excerpt": "(RTTNews) - Investor sentiments might be influenced by geopolitical tensions on Monday. Thin trading is expected in view of the upcoming New Year Holiday.",
+      "facts": [
+        "Source: Nasdaq - Markets (category feed)",
+        "Published: 2025-12-29T13:00:05.000Z"
+      ],
+      "entities": {
+        "name": "Futures Points To Lower Open For Wall Street",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T13:00:05.000Z",
+      "event_date": "2025-12-29T13:00:05.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/futures-points-lower-open-wall-street",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-29T13:00:05.000Z"
+        }
+      ]
+    },
+    {
+      "id": "571c89bedbb6",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "BiomX Announces $3.0 Million Private Placement",
+      "summary": "Proceeds to Support the Company’s Assessment of Opportunities to Advance BX011 and Ongoing Evaluation of Strategic Alternatives Proceeds to Support the Company’s Assessment of Opportunities to Advance BX011 and Ongoing Evaluation of Strategic Alternatives",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nBiomX Announces $3.0 Million Private Placement. Proceeds to Support the Company’s Assessment of Opportunities to Advance BX011 and Ongoing Evaluation of Strategic Alternatives Proceeds to Support the Company’s Assessment of Opportunities to Advance BX011 and Ongoing Evaluation of Strategic Alternatives\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:00:00.000Z by GlobeNewswire - Stock Market News. Source: https://www.globenewswire.com/news-release/2025/12/29/3210881/0/en/BiomX-Announces-3-0-Million-Private-Placement.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: BiomX Announces $3.0 Million Private Placement. Gatekeeper: GlobeNewswire - Stock Market News.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3210881/0/en/BiomX-Announces-3-0-Million-Private-Placement.html",
+      "source_name": "GlobeNewswire - Stock Market News",
+      "excerpt": "Proceeds to Support the Company’s Assessment of Opportunities to Advance BX011 and Ongoing Evaluation of Strategic Alternatives Proceeds to Support the Company’s Assessment of Opportunities to Advance",
+      "facts": [
+        "Source: GlobeNewswire - Stock Market News",
+        "Published: 2025-12-29T13:00:00.000Z"
+      ],
+      "entities": {
+        "name": "BiomX Announces $3.0 Million Private Placement",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T13:00:00.000Z",
+      "event_date": "2025-12-29T13:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/29/3210881/0/en/BiomX-Announces-3-0-Million-Private-Placement.html",
+          "domain": "www.globenewswire.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-29T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9a28b29d414c",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Peter Lynch Detailed Fundamental Analysis - DIS",
+      "summary": "Below is Validea's guru fundamental report for WALT DISNEY CO (DIS). Of the 22 guru strategies we follow, DIS rates highest using our P/E/Growth Investor model based on the published strategy of Peter Lynch. This strategy looks for stocks trading at a reasonable price relative t",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nPeter Lynch Detailed Fundamental Analysis - DIS. Below is Validea's guru fundamental report for WALT DISNEY CO (DIS). Of the 22 guru strategies we follow, DIS rates highest using our P/E/Growth Investor model based on the published strategy of Peter Lynch. This strategy looks for stocks trading at a reasonable price relative t\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:00:00.000Z by Nasdaq - Markets (category feed). Source: https://www.nasdaq.com/articles/peter-lynch-detailed-fundamental-analysis-dis-11.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Peter Lynch Detailed Fundamental Analysis. Gatekeeper: Nasdaq - Markets (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/peter-lynch-detailed-fundamental-analysis-dis-11",
+      "source_name": "Nasdaq - Markets (category feed)",
+      "excerpt": "Below is Validea's guru fundamental report for WALT DISNEY CO (DIS). Of the 22 guru strategies we follow, DIS rates highest using our P/E/Growth Investor model based on the published strategy of Peter",
+      "facts": [
+        "Source: Nasdaq - Markets (category feed)",
+        "Published: 2025-12-29T13:00:00.000Z"
+      ],
+      "entities": {
+        "name": "Peter Lynch Detailed Fundamental Analysis",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T13:00:00.000Z",
+      "event_date": "2025-12-29T13:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/peter-lynch-detailed-fundamental-analysis-dis-11",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-29T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "f9f3c3c2675f",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Validea Detailed Fundamental Analysis - DASH",
+      "summary": "Below is Validea's guru fundamental report for DOORDASH INC (DASH). Of the 22 guru strategies we follow, DASH rates highest using our P/B Growth Investor model based on the published strategy of Partha Mohanram. This growth model looks for low book-to-market stocks that exhibit",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nValidea Detailed Fundamental Analysis - DASH. Below is Validea's guru fundamental report for DOORDASH INC (DASH). Of the 22 guru strategies we follow, DASH rates highest using our P/B Growth Investor model based on the published strategy of Partha Mohanram. This growth model looks for low book-to-market stocks that exhibit\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:00:00.000Z by Nasdaq - Markets (category feed). Source: https://www.nasdaq.com/articles/validea-detailed-fundamental-analysis-dash.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Validea Detailed Fundamental Analysis. Gatekeeper: Nasdaq - Markets (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/validea-detailed-fundamental-analysis-dash",
+      "source_name": "Nasdaq - Markets (category feed)",
+      "excerpt": "Below is Validea's guru fundamental report for DOORDASH INC (DASH). Of the 22 guru strategies we follow, DASH rates highest using our P/B Growth Investor model based on the published strategy of Parth",
+      "facts": [
+        "Source: Nasdaq - Markets (category feed)",
+        "Published: 2025-12-29T13:00:00.000Z"
+      ],
+      "entities": {
+        "name": "Validea Detailed Fundamental Analysis",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T13:00:00.000Z",
+      "event_date": "2025-12-29T13:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/validea-detailed-fundamental-analysis-dash",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-29T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "477d85f1a3fa",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Opdateret prospekt for Sparinvest SICAV",
+      "summary": "Opdateret prospekt for Sparinvest SICAV",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nOpdateret prospekt for Sparinvest SICAV. Opdateret prospekt for Sparinvest SICAV\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T07:00:00.000Z by GlobeNewswire - Prospectus / Announcement of Prospectus. Source: https://www.globenewswire.com/news-release/2025/12/29/3210780/0/da/Opdateret-prospekt-for-Sparinvest-SICAV.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Opdateret prospekt for Sparinvest SICAV. Gatekeeper: GlobeNewswire - Prospectus / Announcement of Prospectus.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3210780/0/da/Opdateret-prospekt-for-Sparinvest-SICAV.html",
+      "source_name": "GlobeNewswire - Prospectus / Announcement of Prospectus",
+      "excerpt": "Opdateret prospekt for Sparinvest SICAV",
+      "facts": [
+        "Source: GlobeNewswire - Prospectus / Announcement of Prospectus",
+        "Published: 2025-12-29T07:00:00.000Z"
+      ],
+      "entities": {
+        "name": "Opdateret prospekt for Sparinvest SICAV",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T07:00:00.000Z",
+      "event_date": "2025-12-29T07:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/29/3210780/0/da/Opdateret-prospekt-for-Sparinvest-SICAV.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-29T07:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8dcdd95468de",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Fresh Air, Fresh Highs: 3 Premium Outdoor Brands with 2026 Tailwinds",
+      "summary": "The outdoor recreation industry is a larger part of the economy than you might think. Despite a reputation to the contrary, Americans love the great outdoors. We love hiking, biking, and traveling across our vast network of parks, and outdoor recreation is a major driver of econ",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nFresh Air, Fresh Highs: 3 Premium Outdoor Brands with 2026 Tailwinds. The outdoor recreation industry is a larger part of the economy than you might think. Despite a reputation to the contrary, Americans love the great outdoors. We love hiking, biking, and traveling across our vast network of parks, and outdoor recreation is a major driver of econ\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-27T14:15:00.000Z by Nasdaq - Earnings (category feed). Source: https://www.nasdaq.com/articles/fresh-air-fresh-highs-3-premium-outdoor-brands-2026-tailwinds.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Fresh Air, Fresh Highs: 3 Premium Outdoor Brands with 2026 Tailwinds. Gatekeeper: Nasdaq - Earnings (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/fresh-air-fresh-highs-3-premium-outdoor-brands-2026-tailwinds",
+      "source_name": "Nasdaq - Earnings (category feed)",
+      "excerpt": "The outdoor recreation industry is a larger part of the economy than you might think. Despite a reputation to the contrary, Americans love the great outdoors. We love hiking, biking, and traveling acr",
+      "facts": [
+        "Source: Nasdaq - Earnings (category feed)",
+        "Published: 2025-12-27T14:15:00.000Z"
+      ],
+      "entities": {
+        "name": "Fresh Air, Fresh Highs: 3 Premium Outdoor Brands with 2026 Tailwinds",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-27T14:15:00.000Z",
+      "event_date": "2025-12-27T14:15:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/fresh-air-fresh-highs-3-premium-outdoor-brands-2026-tailwinds",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-27T14:15:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a3d6fe96dcbe",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "MarketBeat Week in Review – 12/22 - 12/26",
+      "summary": "A better-than-expected read for fourth-quarter gross domestic product (GDP) is adding fuel to hopes for&nbsp;a Santa Claus rally. But with thin trading volume, investors won&rsquo;t really know if that rally will take shape until next week.",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nMarketBeat Week in Review – 12/22 - 12/26. A better-than-expected read for fourth-quarter gross domestic product (GDP) is adding fuel to hopes for&nbsp;a Santa Claus rally. But with thin trading volume, investors won&rsquo;t really know if that rally will take shape until next week.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-27T12:00:00.000Z by Nasdaq - Earnings (category feed). Source: https://www.nasdaq.com/articles/marketbeat-week-review-12-22-12-26.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: MarketBeat Week in Review – 12/22. Gatekeeper: Nasdaq - Earnings (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/marketbeat-week-review-12-22-12-26",
+      "source_name": "Nasdaq - Earnings (category feed)",
+      "excerpt": "A better-than-expected read for fourth-quarter gross domestic product (GDP) is adding fuel to hopes for&nbsp;a Santa Claus rally. But with thin trading volume, investors won&rsquo;t really know if tha",
+      "facts": [
+        "Source: Nasdaq - Earnings (category feed)",
+        "Published: 2025-12-27T12:00:00.000Z"
+      ],
+      "entities": {
+        "name": "MarketBeat Week in Review – 12/22",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-27T12:00:00.000Z",
+      "event_date": "2025-12-27T12:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/marketbeat-week-review-12-22-12-26",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-27T12:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "5202e7874907",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Is MetaX a NVIDIA Threat—or Just Another DeepSeek Market Scare?",
+      "summary": "On Dec. 17, news broke about China-based MetaX Integrated Circuits making its public debut on the Shanghai Stock Exchange and subsequently surging by around 700%.&nbsp; The company&mdash;not to be confused with Mark Zuckerberg-led Meta Platforms (NASDAQ: META)&mdash;was founded by former Advance",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nIs MetaX a NVIDIA Threat—or Just Another DeepSeek Market Scare?. On Dec. 17, news broke about China-based MetaX Integrated Circuits making its public debut on the Shanghai Stock Exchange and subsequently surging by around 700%.&nbsp; The company&mdash;not to be confused with Mark Zuckerberg-led Meta Platforms (NASDAQ: META)&mdash;was founded by former Advance\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-26T21:45:00.000Z by Nasdaq - IPOs (category feed). Source: https://www.nasdaq.com/articles/metax-nvidia-threat-or-just-another-deepseek-market-scare.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Is MetaX a NVIDIA Threat—or Just Another DeepSeek Market Scare?. Gatekeeper: Nasdaq - IPOs (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/metax-nvidia-threat-or-just-another-deepseek-market-scare",
+      "source_name": "Nasdaq - IPOs (category feed)",
+      "excerpt": "On Dec. 17, news broke about China-based MetaX Integrated Circuits making its public debut on the Shanghai Stock Exchange and subsequently surging by around 700%.&nbsp; The company&mdash;not to be con",
+      "facts": [
+        "Source: Nasdaq - IPOs (category feed)",
+        "Published: 2025-12-26T21:45:00.000Z"
+      ],
+      "entities": {
+        "name": "Is MetaX a NVIDIA Threat—or Just Another DeepSeek Market Scare?",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-26T21:45:00.000Z",
+      "event_date": "2025-12-26T21:45:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/metax-nvidia-threat-or-just-another-deepseek-market-scare",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-26T21:45:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "6b709b8a8e65",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Amid Tech Volatility, These 3 Stocks Are Up & Boosting Buybacks",
+      "summary": "Since the end of October, technology stocks have seen significant volatility. The Technology Select Sector SPDR Fund (NYSEARCA: XLK) reached a split-adjusted all-time high of around $152 on Oct. 29. However, the fund fell over 10% from that level by Nov. 20. After continuing to",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nAmid Tech Volatility, These 3 Stocks Are Up & Boosting Buybacks. Since the end of October, technology stocks have seen significant volatility. The Technology Select Sector SPDR Fund (NYSEARCA: XLK) reached a split-adjusted all-time high of around $152 on Oct. 29. However, the fund fell over 10% from that level by Nov. 20. After continuing to\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-26T13:11:00.000Z by Nasdaq - Earnings (category feed). Source: https://www.nasdaq.com/articles/amid-tech-volatility-these-3-stocks-are-boosting-buybacks.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Amid Tech Volatility, These 3 Stocks Are Up & Boosting Buybacks. Gatekeeper: Nasdaq - Earnings (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/amid-tech-volatility-these-3-stocks-are-boosting-buybacks",
+      "source_name": "Nasdaq - Earnings (category feed)",
+      "excerpt": "Since the end of October, technology stocks have seen significant volatility. The Technology Select Sector SPDR Fund (NYSEARCA: XLK) reached a split-adjusted all-time high of around $152 on Oct. 29. H",
+      "facts": [
+        "Source: Nasdaq - Earnings (category feed)",
+        "Published: 2025-12-26T13:11:00.000Z"
+      ],
+      "entities": {
+        "name": "Amid Tech Volatility, These 3 Stocks Are Up & Boosting Buybacks",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-26T13:11:00.000Z",
+      "event_date": "2025-12-26T13:11:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/amid-tech-volatility-these-3-stocks-are-boosting-buybacks",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-26T13:11:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "35db68ffc09b",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "3 Mining Companies to Fill Stockings With More Than Just Coal",
+      "summary": "As 2025 comes to a close, the precious metals surge appears poised to continue well into the new year, despite some bumps in the fall. Gold and silver hit fresh all-time highs again in December after having already done so many times previously in recent months. A perfect storm",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\n3 Mining Companies to Fill Stockings With More Than Just Coal. As 2025 comes to a close, the precious metals surge appears poised to continue well into the new year, despite some bumps in the fall. Gold and silver hit fresh all-time highs again in December after having already done so many times previously in recent months. A perfect storm\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-24T16:49:00.000Z by Nasdaq - Earnings (category feed). Source: https://www.nasdaq.com/articles/3-mining-companies-fill-stockings-more-just-coal.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: 3 Mining Companies to Fill Stockings With More Than Just Coal. Gatekeeper: Nasdaq - Earnings (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/3-mining-companies-fill-stockings-more-just-coal",
+      "source_name": "Nasdaq - Earnings (category feed)",
+      "excerpt": "As 2025 comes to a close, the precious metals surge appears poised to continue well into the new year, despite some bumps in the fall. Gold and silver hit fresh all-time highs again in December after ",
+      "facts": [
+        "Source: Nasdaq - Earnings (category feed)",
+        "Published: 2025-12-24T16:49:00.000Z"
+      ],
+      "entities": {
+        "name": "3 Mining Companies to Fill Stockings With More Than Just Coal",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-24T16:49:00.000Z",
+      "event_date": "2025-12-24T16:49:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/3-mining-companies-fill-stockings-more-just-coal",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-24T16:49:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b8e00b4b3be1",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Lululemon Is a Good Fit for 2026: Limited Downside, Ample Upside",
+      "summary": "lululemon athletica's&nbsp;(NASDAQ: LULU) late-2025 price action is starting to look like a real bottom, not just a reflex rally. The bottom was catalyzed by performance, expansion plans, and the shifting analyst sentiment, which limits the downside and points to ample upside for inv",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nLululemon Is a Good Fit for 2026: Limited Downside, Ample Upside. lululemon athletica's&nbsp;(NASDAQ: LULU) late-2025 price action is starting to look like a real bottom, not just a reflex rally. The bottom was catalyzed by performance, expansion plans, and the shifting analyst sentiment, which limits the downside and points to ample upside for inv\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-24T15:29:00.000Z by Nasdaq - Earnings (category feed). Source: https://www.nasdaq.com/articles/lululemon-good-fit-2026-limited-downside-ample-upside.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Lululemon Is a Good Fit for 2026: Limited Downside, Ample Upside. Gatekeeper: Nasdaq - Earnings (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/lululemon-good-fit-2026-limited-downside-ample-upside",
+      "source_name": "Nasdaq - Earnings (category feed)",
+      "excerpt": "lululemon athletica's&nbsp;(NASDAQ: LULU) late-2025 price action is starting to look like a real bottom, not just a reflex rally. The bottom was catalyzed by performance, expansion plans, and the shif",
+      "facts": [
+        "Source: Nasdaq - Earnings (category feed)",
+        "Published: 2025-12-24T15:29:00.000Z"
+      ],
+      "entities": {
+        "name": "Lululemon Is a Good Fit for 2026: Limited Downside, Ample Upside",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-24T15:29:00.000Z",
+      "event_date": "2025-12-24T15:29:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/lululemon-good-fit-2026-limited-downside-ample-upside",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-24T15:29:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d78fcf6c6f53",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Inspira Technologies Reaffirms $49.5 Million in Binding Purchase Orders and Aligns Execution with 2026 Regulatory and Deployment Milestones",
+      "summary": "Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026 Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nInspira Technologies Reaffirms $49.5 Million in Binding Purchase Orders and Aligns Execution with 2026 Regulatory and Deployment Milestones. Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026 Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-23T13:30:00.000Z by GlobeNewswire - Stock Market News. Source: https://www.globenewswire.com/news-release/2025/12/23/3209873/0/en/Inspira-Technologies-Reaffirms-49-5-Million-in-Binding-Purchase-Orders-and-Aligns-Execution-with-2026-Regulatory-and-Deployment-Milestones.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Inspira Technologies Reaffirms $49.5 Million in Binding Purchase Orders and Aligns Execution with 2026 Regulatory and Deployment Milestones. Gatekeeper: GlobeNewswire - Stock Market News.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/23/3209873/0/en/Inspira-Technologies-Reaffirms-49-5-Million-in-Binding-Purchase-Orders-and-Aligns-Execution-with-2026-Regulatory-and-Deployment-Milestones.html",
+      "source_name": "GlobeNewswire - Stock Market News",
+      "excerpt": "Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026 Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026",
+      "facts": [
+        "Source: GlobeNewswire - Stock Market News",
+        "Published: 2025-12-23T13:30:00.000Z"
+      ],
+      "entities": {
+        "name": "Inspira Technologies Reaffirms $49.5 Million in Binding Purchase Orders and Aligns Execution with 2026 Regulatory and Deployment Milestones",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-23T13:30:00.000Z",
+      "event_date": "2025-12-23T13:30:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/23/3209873/0/en/Inspira-Technologies-Reaffirms-49-5-Million-in-Binding-Purchase-Orders-and-Aligns-Execution-with-2026-Regulatory-and-Deployment-Milestones.html",
+          "domain": "www.globenewswire.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-23T13:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "7fb8f01de269",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "DriveItAway Holdings Ignites National Scale with Free2move and Launches 9 New Cities in December",
+      "summary": "Co-branded program with Stellantis’ mobility division launches a nationwide scale-up, backed by a strengthened Advisory Board and an accelerated capital-markets strategy supporting DriveItAway’ s targeted NASDAQ uplisting (OTC: DWAY) Co-branded program with Stellantis’ mobility division launches a nationwide scale-up, backed by a strengthened Advisory Board and an accelerated capital-markets strategy supporting DriveItAway’ s targeted NASDAQ uplisting (OTC: DWAY)",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nDriveItAway Holdings Ignites National Scale with Free2move and Launches 9 New Cities in December. Co-branded program with Stellantis’ mobility division launches a nationwide scale-up, backed by a strengthened Advisory Board and an accelerated capital-markets strategy supporting DriveItAway’ s targeted NASDAQ uplisting (OTC: DWAY) Co-branded program with Stellantis’ mobility division launches a nationwide scale-up, backed by a strengthened Advisory Board and an accelerated capital-markets strategy supporting DriveItAway’ s targeted NASDAQ uplisting (OTC: DWAY)\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-23T13:30:00.000Z by GlobeNewswire - Stock Market News. Source: https://www.globenewswire.com/news-release/2025/12/23/3209868/0/en/DriveItAway-Holdings-Ignites-National-Scale-with-Free2move-and-Launches-9-New-Cities-in-December.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: DriveItAway Holdings Ignites National Scale with Free2move and Launches 9 New Cities in December. Gatekeeper: GlobeNewswire - Stock Market News.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/23/3209868/0/en/DriveItAway-Holdings-Ignites-National-Scale-with-Free2move-and-Launches-9-New-Cities-in-December.html",
+      "source_name": "GlobeNewswire - Stock Market News",
+      "excerpt": "Co-branded program with Stellantis’ mobility division launches a nationwide scale-up, backed by a strengthened Advisory Board and an accelerated capital-markets strategy supporting DriveItAway’ s targ",
+      "facts": [
+        "Source: GlobeNewswire - Stock Market News",
+        "Published: 2025-12-23T13:30:00.000Z"
+      ],
+      "entities": {
+        "name": "DriveItAway Holdings Ignites National Scale with Free2move and Launches 9 New Cities in December",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-23T13:30:00.000Z",
+      "event_date": "2025-12-23T13:30:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/23/3209868/0/en/DriveItAway-Holdings-Ignites-National-Scale-with-Free2move-and-Launches-9-New-Cities-in-December.html",
+          "domain": "www.globenewswire.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-23T13:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "37929ea5af4e",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Placements Vanguard Canada annonce les distributions annuelles définitives des gains en capital des FNB Vanguard(MC) VBU, VBG et VGAB pour 2025",
+      "summary": "TORONTO, 23 d&#233;c. 2025 (GLOBE NEWSWIRE) -- Placements Vanguard Canada Inc. a annoncé aujourd’hui les distributions annuelles définitives de gains en capital des FNB Vanguard énumérés ci-dessous pour l’année d’imposition 2025. Il s’agit d’une mise à jour des distributions annuelles estimatives de gains en capital annoncées le 18 novembre 2025 et le 17 décembre 2025.",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nPlacements Vanguard Canada annonce les distributions annuelles définitives des gains en capital des FNB Vanguard(MC) VBU, VBG et VGAB pour 2025. TORONTO, 23 d&#233;c. 2025 (GLOBE NEWSWIRE) -- Placements Vanguard Canada Inc. a annoncé aujourd’hui les distributions annuelles définitives de gains en capital des FNB Vanguard énumérés ci-dessous pour l’année d’imposition 2025. Il s’agit d’une mise à jour des distributions annuelles estimatives de gains en capital annoncées le 18 novembre 2025 et le 17 décembre 2025.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-23T13:30:00.000Z by GlobeNewswire - Stock Market News. Source: https://www.globenewswire.com/news-release/2025/12/23/3209877/0/fr/Placements-Vanguard-Canada-annonce-les-distributions-annuelles-d%C3%A9finitives-des-gains-en-capital-des-FNB-Vanguard-MC-VBU-VBG-et-VGAB-pour-2025.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Placements Vanguard Canada annonce les distributions annuelles définitives des gains en capital des FNB Vanguard(MC) VBU, VBG et VGAB pour 2025. Gatekeeper: GlobeNewswire - Stock Market News.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/23/3209877/0/fr/Placements-Vanguard-Canada-annonce-les-distributions-annuelles-d%C3%A9finitives-des-gains-en-capital-des-FNB-Vanguard-MC-VBU-VBG-et-VGAB-pour-2025.html",
+      "source_name": "GlobeNewswire - Stock Market News",
+      "excerpt": "TORONTO, 23 d&#233;c. 2025 (GLOBE NEWSWIRE) -- Placements Vanguard Canada Inc. a annoncé aujourd’hui les distributions annuelles définitives de gains en capital des FNB Vanguard énumérés ci-dessous po",
+      "facts": [
+        "Source: GlobeNewswire - Stock Market News",
+        "Published: 2025-12-23T13:30:00.000Z"
+      ],
+      "entities": {
+        "name": "Placements Vanguard Canada annonce les distributions annuelles définitives des gains en capital des FNB Vanguard(MC) VBU, VBG et VGAB pour 2025",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-23T13:30:00.000Z",
+      "event_date": "2025-12-23T13:30:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/23/3209877/0/fr/Placements-Vanguard-Canada-annonce-les-distributions-annuelles-d%C3%A9finitives-des-gains-en-capital-des-FNB-Vanguard-MC-VBU-VBG-et-VGAB-pour-2025.html",
+          "domain": "www.globenewswire.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-23T13:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "824b446c8fd6",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Vanguard Investments Canada Announces Final 2025 Annual Capital Gains Distributions for the Vanguard ETFs® - VBU, VBG and VGAB",
+      "summary": "TORONTO, Dec. 23, 2025 (GLOBE NEWSWIRE) -- Vanguard Investments Canada Inc. today announced the final annual capital gains distributions for the Vanguard ETFs listed below for the 2025 tax year. This is an update to the estimated annual capital gains distributions announced on November 18, 2025 and December 17, 2025.",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nVanguard Investments Canada Announces Final 2025 Annual Capital Gains Distributions for the Vanguard ETFs® - VBU, VBG and VGAB. TORONTO, Dec. 23, 2025 (GLOBE NEWSWIRE) -- Vanguard Investments Canada Inc. today announced the final annual capital gains distributions for the Vanguard ETFs listed below for the 2025 tax year. This is an update to the estimated annual capital gains distributions announced on November 18, 2025 and December 17, 2025.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-23T13:30:00.000Z by GlobeNewswire - Stock Market News. Source: https://www.globenewswire.com/news-release/2025/12/23/3209877/0/en/Vanguard-Investments-Canada-Announces-Final-2025-Annual-Capital-Gains-Distributions-for-the-Vanguard-ETFs-VBU-VBG-and-VGAB.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Vanguard Investments Canada Announces Final 2025 Annual Capital Gains Distributions for the Vanguard ETFs®. Gatekeeper: GlobeNewswire - Stock Market News.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/23/3209877/0/en/Vanguard-Investments-Canada-Announces-Final-2025-Annual-Capital-Gains-Distributions-for-the-Vanguard-ETFs-VBU-VBG-and-VGAB.html",
+      "source_name": "GlobeNewswire - Stock Market News",
+      "excerpt": "TORONTO, Dec. 23, 2025 (GLOBE NEWSWIRE) -- Vanguard Investments Canada Inc. today announced the final annual capital gains distributions for the Vanguard ETFs listed below for the 2025 tax year. This ",
+      "facts": [
+        "Source: GlobeNewswire - Stock Market News",
+        "Published: 2025-12-23T13:30:00.000Z"
+      ],
+      "entities": {
+        "name": "Vanguard Investments Canada Announces Final 2025 Annual Capital Gains Distributions for the Vanguard ETFs®",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-23T13:30:00.000Z",
+      "event_date": "2025-12-23T13:30:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/23/3209877/0/en/Vanguard-Investments-Canada-Announces-Final-2025-Annual-Capital-Gains-Distributions-for-the-Vanguard-ETFs-VBU-VBG-and-VGAB.html",
+          "domain": "www.globenewswire.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-23T13:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "9049c45b9bfb",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Cemtrex, Inc. Announces $2 Million Registered Direct Offering",
+      "summary": "Cemtrex Announces $2M Registered Direct Offering",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nCemtrex, Inc. Announces $2 Million Registered Direct Offering. Cemtrex Announces $2M Registered Direct Offering\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-23T12:35:00.000Z by GlobeNewswire - Prospectus / Announcement of Prospectus. Source: https://www.globenewswire.com/news-release/2025/12/23/3209811/0/en/Cemtrex-Inc-Announces-2-Million-Registered-Direct-Offering.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Cemtrex, Inc. Announces $2 Million Registered Direct Offering. Gatekeeper: GlobeNewswire - Prospectus / Announcement of Prospectus.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/23/3209811/0/en/Cemtrex-Inc-Announces-2-Million-Registered-Direct-Offering.html",
+      "source_name": "GlobeNewswire - Prospectus / Announcement of Prospectus",
+      "excerpt": "Cemtrex Announces $2M Registered Direct Offering",
+      "facts": [
+        "Source: GlobeNewswire - Prospectus / Announcement of Prospectus",
+        "Published: 2025-12-23T12:35:00.000Z"
+      ],
+      "entities": {
+        "name": "Cemtrex, Inc. Announces $2 Million Registered Direct Offering",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-23T12:35:00.000Z",
+      "event_date": "2025-12-23T12:35:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/23/3209811/0/en/Cemtrex-Inc-Announces-2-Million-Registered-Direct-Offering.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-23T12:35:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "2f9f91434e27",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Offentliggørelse af prospekt for Investeringsforeningen Nordea Invest",
+      "summary": "Med virkning fra den 23. december 2025 offentliggøres prospekt for Investeringsforeningen Nordea Invest.",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nOffentliggørelse af prospekt for Investeringsforeningen Nordea Invest. Med virkning fra den 23. december 2025 offentliggøres prospekt for Investeringsforeningen Nordea Invest.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-23T11:00:00.000Z by GlobeNewswire - Prospectus / Announcement of Prospectus. Source: https://www.globenewswire.com/news-release/2025/12/23/3209743/0/en/Offentligg%C3%B8relse-af-prospekt-for-Investeringsforeningen-Nordea-Invest.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Offentliggørelse af prospekt for Investeringsforeningen Nordea Invest. Gatekeeper: GlobeNewswire - Prospectus / Announcement of Prospectus.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/23/3209743/0/en/Offentligg%C3%B8relse-af-prospekt-for-Investeringsforeningen-Nordea-Invest.html",
+      "source_name": "GlobeNewswire - Prospectus / Announcement of Prospectus",
+      "excerpt": "Med virkning fra den 23. december 2025 offentliggøres prospekt for Investeringsforeningen Nordea Invest.",
+      "facts": [
+        "Source: GlobeNewswire - Prospectus / Announcement of Prospectus",
+        "Published: 2025-12-23T11:00:00.000Z"
+      ],
+      "entities": {
+        "name": "Offentliggørelse af prospekt for Investeringsforeningen Nordea Invest",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-23T11:00:00.000Z",
+      "event_date": "2025-12-23T11:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/23/3209743/0/en/Offentligg%C3%B8relse-af-prospekt-for-Investeringsforeningen-Nordea-Invest.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-23T11:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "a173e184ebdc",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Per Skovsted udpeget som ny formand",
+      "summary": "Bestyrelsen for Investeringsforeningen Nordea Invest har dags dato konstitueret sig ved Per Skovsted som formand. Dette sker på bagrund af, at Marianne Philip efter næsten 20 år i bestyrelsen, herunder 8 år som formand, har ønsket at fratræde sin post som formand. Marianne Philip vil forblive engageret i Nordea på anden vis.",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nPer Skovsted udpeget som ny formand. Bestyrelsen for Investeringsforeningen Nordea Invest har dags dato konstitueret sig ved Per Skovsted som formand. Dette sker på bagrund af, at Marianne Philip efter næsten 20 år i bestyrelsen, herunder 8 år som formand, har ønsket at fratræde sin post som formand. Marianne Philip vil forblive engageret i Nordea på anden vis.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-23T09:30:00.000Z by GlobeNewswire - Prospectus / Announcement of Prospectus. Source: https://www.globenewswire.com/news-release/2025/12/23/3209709/0/en/Per-Skovsted-udpeget-som-ny-formand.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Per Skovsted udpeget som ny formand. Gatekeeper: GlobeNewswire - Prospectus / Announcement of Prospectus.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/23/3209709/0/en/Per-Skovsted-udpeget-som-ny-formand.html",
+      "source_name": "GlobeNewswire - Prospectus / Announcement of Prospectus",
+      "excerpt": "Bestyrelsen for Investeringsforeningen Nordea Invest har dags dato konstitueret sig ved Per Skovsted som formand. Dette sker på bagrund af, at Marianne Philip efter næsten 20 år i bestyrelsen, herunde",
+      "facts": [
+        "Source: GlobeNewswire - Prospectus / Announcement of Prospectus",
+        "Published: 2025-12-23T09:30:00.000Z"
+      ],
+      "entities": {
+        "name": "Per Skovsted udpeget som ny formand",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-23T09:30:00.000Z",
+      "event_date": "2025-12-23T09:30:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/23/3209709/0/en/Per-Skovsted-udpeget-som-ny-formand.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-23T09:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c36cd41ad77b",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Investeringsforeningen Nykredit Invest Balance – offentliggørelse af prospekt",
+      "summary": "Med virkning fra den 23. december 2025 offentliggøres nyt prospekt for Investeringsforeningen Nykredit Invest Balance.",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nInvesteringsforeningen Nykredit Invest Balance – offentliggørelse af prospekt. Med virkning fra den 23. december 2025 offentliggøres nyt prospekt for Investeringsforeningen Nykredit Invest Balance.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-23T08:00:00.000Z by GlobeNewswire - Prospectus / Announcement of Prospectus. Source: https://www.globenewswire.com/news-release/2025/12/23/3209679/0/da/Investeringsforeningen-Nykredit-Invest-Balance-offentligg%C3%B8relse-af-prospekt.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Investeringsforeningen Nykredit Invest Balance – offentliggørelse af prospekt. Gatekeeper: GlobeNewswire - Prospectus / Announcement of Prospectus.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/23/3209679/0/da/Investeringsforeningen-Nykredit-Invest-Balance-offentligg%C3%B8relse-af-prospekt.html",
+      "source_name": "GlobeNewswire - Prospectus / Announcement of Prospectus",
+      "excerpt": "Med virkning fra den 23. december 2025 offentliggøres nyt prospekt for Investeringsforeningen Nykredit Invest Balance.",
+      "facts": [
+        "Source: GlobeNewswire - Prospectus / Announcement of Prospectus",
+        "Published: 2025-12-23T08:00:00.000Z"
+      ],
+      "entities": {
+        "name": "Investeringsforeningen Nykredit Invest Balance – offentliggørelse af prospekt",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-23T08:00:00.000Z",
+      "event_date": "2025-12-23T08:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/23/3209679/0/da/Investeringsforeningen-Nykredit-Invest-Balance-offentligg%C3%B8relse-af-prospekt.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-23T08:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "0f627373f43d",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "SEC Charges Three Purported Crypto Asset Trading Platforms and Four Investment Clubs with Scheme That Targeted Retail Investors on Social Media",
+      "summary": "The Securities and Exchange Commission today filed charges against purported crypto asset trading platforms Morocoin Tech Corp., Berge Blockchain Technology Co. Ltd., and Cirkor Inc. and investment clubs AI Wealth Inc., Lane Wealth Inc., AI Investment…",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nSEC Charges Three Purported Crypto Asset Trading Platforms and Four Investment Clubs with Scheme That Targeted Retail Investors on Social Media. The Securities and Exchange Commission today filed charges against purported crypto asset trading platforms Morocoin Tech Corp., Berge Blockchain Technology Co. Ltd., and Cirkor Inc. and investment clubs AI Wealth Inc., Lane Wealth Inc., AI Investment…\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-22T20:00:00.000Z by SEC - Press Releases. Source: https://www.sec.gov/newsroom/press-releases/2025-144-sec-charges-three-purported-crypto-asset-trading-platforms-four-investment-clubs-scheme-targeted.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: SEC Charges Three Purported Crypto Asset Trading Platforms and Four Investment Clubs with Scheme That Targeted Retail Investors on Social Media. Gatekeeper: SEC - Press Releases.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2025-144-sec-charges-three-purported-crypto-asset-trading-platforms-four-investment-clubs-scheme-targeted",
+      "source_name": "SEC - Press Releases",
+      "excerpt": "The Securities and Exchange Commission today filed charges against purported crypto asset trading platforms Morocoin Tech Corp., Berge Blockchain Technology Co. Ltd., and Cirkor Inc. and investment cl",
+      "facts": [
+        "Source: SEC - Press Releases",
+        "Published: 2025-12-22T20:00:00.000Z"
+      ],
+      "entities": {
+        "name": "SEC Charges Three Purported Crypto Asset Trading Platforms and Four Investment Clubs with Scheme That Targeted Retail Investors on Social Media",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-22T20:00:00.000Z",
+      "event_date": "2025-12-22T20:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2025-144-sec-charges-three-purported-crypto-asset-trading-platforms-four-investment-clubs-scheme-targeted",
+          "domain": "www.sec.gov",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-22T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1093066a3fbd",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Joshua T. White Named SEC Chief Economist",
+      "summary": "The Securities and Exchange Commission today announced that financial economist and academic scholar Dr. Joshua T. White will return to the agency beginning the week of Jan. 5, 2026, to serve as its Chief Economist and Director of the Division of…",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nJoshua T. White Named SEC Chief Economist. The Securities and Exchange Commission today announced that financial economist and academic scholar Dr. Joshua T. White will return to the agency beginning the week of Jan. 5, 2026, to serve as its Chief Economist and Director of the Division of…\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-17T20:00:00.000Z by SEC - Press Releases. Source: https://www.sec.gov/newsroom/press-releases/2025-143-joshua-t-white-named-sec-chief-economist.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Joshua T. White Named SEC Chief Economist. Gatekeeper: SEC - Press Releases.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2025-143-joshua-t-white-named-sec-chief-economist",
+      "source_name": "SEC - Press Releases",
+      "excerpt": "The Securities and Exchange Commission today announced that financial economist and academic scholar Dr. Joshua T. White will return to the agency beginning the week of Jan. 5, 2026, to serve as its C",
+      "facts": [
+        "Source: SEC - Press Releases",
+        "Published: 2025-12-17T20:00:00.000Z"
+      ],
+      "entities": {
+        "name": "Joshua T. White Named SEC Chief Economist",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-17T20:00:00.000Z",
+      "event_date": "2025-12-17T20:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2025-143-joshua-t-white-named-sec-chief-economist",
+          "domain": "www.sec.gov",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-17T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "6ffc8888d8ab",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "SEC Office of the Investor Advocate Delivers to Congress Report on Activities for Fiscal Year 2025",
+      "summary": "The Securities and Exchange Commission’s Office of the Investor Advocate today delivered its Report on Activities for the Fiscal Year 2025 to Congress, highlighting the initiatives and work of the office during the fiscal year.The report includes:An…",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nSEC Office of the Investor Advocate Delivers to Congress Report on Activities for Fiscal Year 2025. The Securities and Exchange Commission’s Office of the Investor Advocate today delivered its Report on Activities for the Fiscal Year 2025 to Congress, highlighting the initiatives and work of the office during the fiscal year.The report includes:An…\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-17T18:05:00.000Z by SEC - Press Releases. Source: https://www.sec.gov/newsroom/press-releases/2025-142-sec-office-investor-advocate-delivers-congress-report-activities-fiscal-year-2025.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: SEC Office of the Investor Advocate Delivers to Congress Report on Activities for Fiscal Year 2025. Gatekeeper: SEC - Press Releases.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2025-142-sec-office-investor-advocate-delivers-congress-report-activities-fiscal-year-2025",
+      "source_name": "SEC - Press Releases",
+      "excerpt": "The Securities and Exchange Commission’s Office of the Investor Advocate today delivered its Report on Activities for the Fiscal Year 2025 to Congress, highlighting the initiatives and work of the off",
+      "facts": [
+        "Source: SEC - Press Releases",
+        "Published: 2025-12-17T18:05:00.000Z"
+      ],
+      "entities": {
+        "name": "SEC Office of the Investor Advocate Delivers to Congress Report on Activities for Fiscal Year 2025",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-17T18:05:00.000Z",
+      "event_date": "2025-12-17T18:05:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2025-142-sec-office-investor-advocate-delivers-congress-report-activities-fiscal-year-2025",
+          "domain": "www.sec.gov",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-17T18:05:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e28ce9988dc7",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "3 Finance Stocks to Buy on Rising 10-Year Treasury Rates",
+      "summary": "The Federal Reserve gave investors an early Christmas present by lowering interest rates by 25 basis points (i.e., 0.25%) marking its third rate cut this year. In the past, a change like this in the &ldquo;long end&rdquo; of the interest rate yield curve has triggered a predictable, investa",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\n3 Finance Stocks to Buy on Rising 10-Year Treasury Rates. The Federal Reserve gave investors an early Christmas present by lowering interest rates by 25 basis points (i.e., 0.25%) marking its third rate cut this year. In the past, a change like this in the &ldquo;long end&rdquo; of the interest rate yield curve has triggered a predictable, investa\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-14T13:49:00.000Z by Nasdaq - IPOs (category feed). Source: https://www.nasdaq.com/articles/3-finance-stocks-buy-rising-10-year-treasury-rates.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: 3 Finance Stocks to Buy on Rising 10-Year Treasury Rates. Gatekeeper: Nasdaq - IPOs (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/3-finance-stocks-buy-rising-10-year-treasury-rates",
+      "source_name": "Nasdaq - IPOs (category feed)",
+      "excerpt": "The Federal Reserve gave investors an early Christmas present by lowering interest rates by 25 basis points (i.e., 0.25%) marking its third rate cut this year. In the past, a change like this in the &",
+      "facts": [
+        "Source: Nasdaq - IPOs (category feed)",
+        "Published: 2025-12-14T13:49:00.000Z"
+      ],
+      "entities": {
+        "name": "3 Finance Stocks to Buy on Rising 10-Year Treasury Rates",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-14T13:49:00.000Z",
+      "event_date": "2025-12-14T13:49:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/3-finance-stocks-buy-rising-10-year-treasury-rates",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-14T13:49:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "cdc0a1037978",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "SEC Charges Canadian Citizen With Fraud Schemes That Targeted Retail Investors on Discord",
+      "summary": "The Securities and Exchange Commission today charged Canadian citizen Nathan Gauvin and three entities he controls—Blackridge, LLC, Gray Digital Capital Management USA, LLC, and Gray Digital Technologies, LLC—with orchestrating two fraudulent securities…",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nSEC Charges Canadian Citizen With Fraud Schemes That Targeted Retail Investors on Discord. The Securities and Exchange Commission today charged Canadian citizen Nathan Gauvin and three entities he controls—Blackridge, LLC, Gray Digital Capital Management USA, LLC, and Gray Digital Technologies, LLC—with orchestrating two fraudulent securities…\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-10T19:27:31.000Z by SEC - Press Releases. Source: https://www.sec.gov/newsroom/press-releases/2025-141-sec-charges-canadian-citizen-fraud-schemes-targeted-retail-investors-discord.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: SEC Charges Canadian Citizen With Fraud Schemes That Targeted Retail Investors on Discord. Gatekeeper: SEC - Press Releases.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2025-141-sec-charges-canadian-citizen-fraud-schemes-targeted-retail-investors-discord",
+      "source_name": "SEC - Press Releases",
+      "excerpt": "The Securities and Exchange Commission today charged Canadian citizen Nathan Gauvin and three entities he controls—Blackridge, LLC, Gray Digital Capital Management USA, LLC, and Gray Digital Technolog",
+      "facts": [
+        "Source: SEC - Press Releases",
+        "Published: 2025-12-10T19:27:31.000Z"
+      ],
+      "entities": {
+        "name": "SEC Charges Canadian Citizen With Fraud Schemes That Targeted Retail Investors on Discord",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-10T19:27:31.000Z",
+      "event_date": "2025-12-10T19:27:31.000Z",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2025-141-sec-charges-canadian-citizen-fraud-schemes-targeted-retail-investors-discord",
+          "domain": "www.sec.gov",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-10T19:27:31.000Z"
+        }
+      ]
+    },
+    {
+      "id": "c59bcb63383e",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "SEC Announces Agenda and Panelists for Roundtable on Rule 611 of Regulation NMS",
+      "summary": "The Securities and Exchange Commission today announced the agenda and panelists for its Dec. 16, 2025, roundtable on Rule 611 of Regulation NMS and other associated rules and regulatory requirements.The roundtable will be held at the University of Austin…",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nSEC Announces Agenda and Panelists for Roundtable on Rule 611 of Regulation NMS. The Securities and Exchange Commission today announced the agenda and panelists for its Dec. 16, 2025, roundtable on Rule 611 of Regulation NMS and other associated rules and regulatory requirements.The roundtable will be held at the University of Austin…\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-10T18:21:00.000Z by SEC - Press Releases. Source: https://www.sec.gov/newsroom/press-releases/2025-140-sec-announces-agenda-panelists-roundtable-rule-611-regulation-nms.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: SEC Announces Agenda and Panelists for Roundtable on Rule 611 of Regulation NMS. Gatekeeper: SEC - Press Releases.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2025-140-sec-announces-agenda-panelists-roundtable-rule-611-regulation-nms",
+      "source_name": "SEC - Press Releases",
+      "excerpt": "The Securities and Exchange Commission today announced the agenda and panelists for its Dec. 16, 2025, roundtable on Rule 611 of Regulation NMS and other associated rules and regulatory requirements.T",
+      "facts": [
+        "Source: SEC - Press Releases",
+        "Published: 2025-12-10T18:21:00.000Z"
+      ],
+      "entities": {
+        "name": "SEC Announces Agenda and Panelists for Roundtable on Rule 611 of Regulation NMS",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-10T18:21:00.000Z",
+      "event_date": "2025-12-10T18:21:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2025-140-sec-announces-agenda-panelists-roundtable-rule-611-regulation-nms",
+          "domain": "www.sec.gov",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-10T18:21:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "82d9d3d9efcf",
+      "signal_type": "IPO",
+      "category_label": "IPO",
+      "title": "Nasdaq Chair and CEO Adena Friedman and SEC Chairman Paul S. Atkins Discuss How to Make IPOs Great Again",
+      "summary": "SEC Chairman Paul S. Atkins joined Nasdaq Chair and CEO Adena Friedman on Tuesday, December 2nd, 2025, to celebrate 250 years of the United States and to chart a course for the future of American economic growth, innovation, and capital formation.",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nNasdaq Chair and CEO Adena Friedman and SEC Chairman Paul S. Atkins Discuss How to Make IPOs Great Again. SEC Chairman Paul S. Atkins joined Nasdaq Chair and CEO Adena Friedman on Tuesday, December 2nd, 2025, to celebrate 250 years of the United States and to chart a course for the future of American economic growth, innovation, and capital formation.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-03T15:00:00.000Z by Nasdaq - IPOs (category feed). Source: https://www.nasdaq.com/newsroom/nasdaq-chair-and-ceo-adena-friedman-and-sec-chairman-paul-s-atkins-discuss-how-make-ipos.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Nasdaq Chair and CEO Adena Friedman and SEC Chairman Paul S. Atkins Discuss How to Make IPOs Great Again. Gatekeeper: Nasdaq - IPOs (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/newsroom/nasdaq-chair-and-ceo-adena-friedman-and-sec-chairman-paul-s-atkins-discuss-how-make-ipos",
+      "source_name": "Nasdaq - IPOs (category feed)",
+      "excerpt": "SEC Chairman Paul S. Atkins joined Nasdaq Chair and CEO Adena Friedman on Tuesday, December 2nd, 2025, to celebrate 250 years of the United States and to chart a course for the future of American econ",
+      "facts": [
+        "Source: Nasdaq - IPOs (category feed)",
+        "Published: 2025-12-03T15:00:00.000Z"
+      ],
+      "entities": {
+        "name": "Nasdaq Chair and CEO Adena Friedman and SEC Chairman Paul S. Atkins Discuss How to Make IPOs Great Again",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-03T15:00:00.000Z",
+      "event_date": "2025-12-03T15:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/newsroom/nasdaq-chair-and-ceo-adena-friedman-and-sec-chairman-paul-s-atkins-discuss-how-make-ipos",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-03T15:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "23e88901eb69",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "HIMS Has Been a Roller Coaster Ride. Should Investors Hop On?",
+      "summary": "Most of the health care sector's headlines are dominated by Big Pharma giants. Legacy companies, including AbbVie (NYSE: ABBV), Eli Lilly (NYSE: LLY), Pfizer (NYSE: PFE), and Merck (NYSE: MRK)&mdash;and their lineup of game-changing drugs&mdash;receive the lion&rsquo;s share of attention. But one",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nHIMS Has Been a Roller Coaster Ride. Should Investors Hop On?. Most of the health care sector's headlines are dominated by Big Pharma giants. Legacy companies, including AbbVie (NYSE: ABBV), Eli Lilly (NYSE: LLY), Pfizer (NYSE: PFE), and Merck (NYSE: MRK)&mdash;and their lineup of game-changing drugs&mdash;receive the lion&rsquo;s share of attention. But one\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-11-19T22:27:00.000Z by Nasdaq - IPOs (category feed). Source: https://www.nasdaq.com/articles/hims-has-been-roller-coaster-ride-should-investors-hop.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: HIMS Has Been a Roller Coaster Ride. Should Investors Hop On?. Gatekeeper: Nasdaq - IPOs (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/hims-has-been-roller-coaster-ride-should-investors-hop",
+      "source_name": "Nasdaq - IPOs (category feed)",
+      "excerpt": "Most of the health care sector's headlines are dominated by Big Pharma giants. Legacy companies, including AbbVie (NYSE: ABBV), Eli Lilly (NYSE: LLY), Pfizer (NYSE: PFE), and Merck (NYSE: MRK)&mdash;a",
+      "facts": [
+        "Source: Nasdaq - IPOs (category feed)",
+        "Published: 2025-11-19T22:27:00.000Z"
+      ],
+      "entities": {
+        "name": "HIMS Has Been a Roller Coaster Ride. Should Investors Hop On?",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-11-19T22:27:00.000Z",
+      "event_date": "2025-11-19T22:27:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/hims-has-been-roller-coaster-ride-should-investors-hop",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-11-19T22:27:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "b2cf0d393aea",
+      "signal_type": "IPO",
+      "category_label": "IPO",
+      "title": "Most Index Stock Floats Are Over 80%",
+      "summary": "Uncover float trends for recent IPOs, as well as the levels of float typical for major U.S. indexes.",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nMost Index Stock Floats Are Over 80%. Uncover float trends for recent IPOs, as well as the levels of float typical for major U.S. indexes.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-11-06T22:52:33.000Z by Nasdaq - IPOs (category feed). Source: https://www.nasdaq.com/articles/most-index-stock-floats-are-over-80.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Most Index Stock Floats Are Over 80%. Gatekeeper: Nasdaq - IPOs (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/most-index-stock-floats-are-over-80",
+      "source_name": "Nasdaq - IPOs (category feed)",
+      "excerpt": "Uncover float trends for recent IPOs, as well as the levels of float typical for major U.S. indexes.",
+      "facts": [
+        "Source: Nasdaq - IPOs (category feed)",
+        "Published: 2025-11-06T22:52:33.000Z"
+      ],
+      "entities": {
+        "name": "Most Index Stock Floats Are Over 80%",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-11-06T22:52:33.000Z",
+      "event_date": "2025-11-06T22:52:33.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/most-index-stock-floats-are-over-80",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-11-06T22:52:33.000Z"
+        }
+      ]
+    }
+  ]
+}

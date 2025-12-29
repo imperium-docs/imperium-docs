@@ -1,52 +1,31 @@
-# Imperium Atlas Ingest
+﻿# Imperium Atlas (RSS Cron)
 
-Pipeline automatizado para gerar:
-- Um artigo editorial em MDX
-- Um JSON de evento
-- Um JSON com 3 graficos
+Pipeline RSS-only para gerar `feed.json` e `state.json` (v3) para o renderer.
 
-## Requisitos
-- Node.js 18+ (fetch nativo)
-- `OPENAI_API_KEY` no ambiente (use `.env`)
+## Politica de LLM (OpenRouter somente)
+- Provider fixo: OpenRouter.
+- Modelo fixo: `meta-llama/llama-3.2-3b-instruct:free`.
+- Modelos pagos ou diferentes sao bloqueados.
+- LLM so roda se `ATLAS_LLM_ENABLED="true"`.
 
-## Instalar dependencias
-```bash
-npm install
-```
-
-## Rodar ingest manual
-```bash
-npm run ingest -- --category billionaire
-npm run ingest -- --category ipo
-npm run ingest -- --category revenue
-```
-
-## Saidas geradas
-- `content/news/<slug>.mdx` (quando status = verified)
-- `drafts/<slug>.mdx` (quando status = needs_review)
-- `data/events/<slug>.json`
-- `data/charts/<slug>.json`
-- `logs/ingest-YYYY-MM-DD.log`
-- `logs/_last_run.json` (quando status = needs_review)
-
-## Whitelist de fontes
-Edite `data/sources/whitelist.json` para controlar os dominios permitidos.
-- Use dominios raiz (ex: `sec.gov`, `reuters.com`)
-- Cada entrada possui `domain`, `kind`, `weight` e `tags`
-- A politica define `sources_per_article` e pesos minimos
-
-## Como adicionar fontes
-1. Adicione o dominio em `data/sources/whitelist.json`
-2. Rode o ingest novamente
-
-## Regras de publicacao
-- Deve existir pelo menos 1 fonte primaria
-- Sem fonte primaria, status = needs_review e o MDX vai para `drafts/`
-- Cada numero relevante exige quote curta (<= 25 palavras) e URL
+## Cron oficial
+O workflow `Atlas Cron` roda 3 vezes ao dia (UTC) e publica atualizacoes.
 
 ## Variaveis de ambiente
-Crie um `.env` em `atlas-site/`:
+Somente estas variaveis sao usadas:
+- `OPENROUTER_API_KEY`
+- `ATLAS_LLM_ENABLED`
+- `ATLAS_LLM_PROVIDER`
+
+## Rodar localmente
+```bash
+npm install
+npm run atlas:cron
 ```
-OPENAI_API_KEY=...
-OPENAI_MODEL=gpt-4.1
-```
+
+## Saidas
+- `content/atlas/feed.json` (v3)
+- `content/atlas/state.json` (v3)
+
+## Fontes RSS
+Edite `sources.whitelist.json` para controlar os feeds permitidos.

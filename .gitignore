@@ -4,6 +4,7 @@
 .env.*
 atlas-site/.env
 atlas-site/.env.*
+!atlas-site/.env.example
 
 
 # Node
@@ -12,9 +13,4 @@ atlas-site/node_modules/
 # Runtime outputs
 atlas-site/logs/
 atlas-site/out/
-# Local env
-.env
-.env.*
-atlas-site/.env
-atlas-site/.env.*
 
