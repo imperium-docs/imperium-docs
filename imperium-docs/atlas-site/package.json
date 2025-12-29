@@ -1,0 +1,12 @@
+﻿{
+  "name": "atlas-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Atlas RSS pipeline with OpenRouter LLM",
+  "scripts": {
+    "atlas:cron": "node scripts/atlas-cron.js"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.3.6"
+  }
+}
