@@ -1,37 +1,11 @@
-name: Atlas Ingest
+name: Atlas Ingest (Legacy Disabled)
 
 on:
   workflow_dispatch:
 
 jobs:
-  ingest:
+  legacy-disabled:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: atlas-site
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Install
-        run: npm install
-
-      - name: Ingest billionaire
-        run: npm run ingest -- --category billionaire --seed ${{ github.run_id }}-b
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-
-      - name: Ingest ipo
-        run: npm run ingest -- --category ipo --seed ${{ github.run_id }}-i
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-
-      - name: Ingest revenue
-        run: npm run ingest -- --category revenue --seed ${{ github.run_id }}-r
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      - name: Legacy workflow disabled
+        run: echo "Atlas Ingest is disabled. Use Atlas Cron."
