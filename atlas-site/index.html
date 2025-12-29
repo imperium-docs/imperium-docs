@@ -152,12 +152,12 @@
     }
 
     function sortByRecency(a, b) {
-      const dateA = safeParseDate(a.publishedAtISO || a.dateLocal || a.published_at);
-      const dateB = safeParseDate(b.publishedAtISO || b.dateLocal || b.published_at);
-      if (dateA && dateB) return dateB - dateA;
+      const dateA = safeParseDate(a.item.publishedAtISO || a.item.dateLocal || a.item.published_at);
+      const dateB = safeParseDate(b.item.publishedAtISO || b.item.dateLocal || b.item.published_at);
+      if (dateA && dateB) return dateB - dateA || a.index - b.index;
       if (dateA) return -1;
       if (dateB) return 1;
-      return 0;
+      return a.index - b.index;
     }
 
     function renderFeedItems(items) {
@@ -220,10 +220,13 @@
         const response = await fetch(`${FEED_URL}?t=${Date.now()}`, { cache: 'no-store' });
         if (!response.ok) return;
         const payload = await response.json();
-        const items = normalizeFeedItems(payload).slice().sort(sortByRecency);
+        const items = normalizeFeedItems(payload)
+          .map((item, index) => ({ item, index }))
+          .sort(sortByRecency)
+          .map((entry) => entry.item);
         renderFeedItems(items);
       } catch (error) {
-        console.warn('[atlas-feed] load skipped');
+        // Fail silently when feed is missing or malformed.
       }
     }
 
