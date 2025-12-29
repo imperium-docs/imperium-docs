@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2025-12-29T14:05:33.372Z",
+  "updated_at": "2025-12-29T15:44:41.398Z",
   "entries": [
     {
       "url": "https://www.sec.gov/newsroom/press-releases/2025-144-sec-charges-three-purported-crypto-asset-trading-platforms-four-investment-clubs-scheme-targeted",
@@ -271,6 +271,66 @@
       "id": "da88041055f2",
       "added_at": "2025-12-29T14:05:33.159Z",
       "published_at": "2025-12-29T13:35:00.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/interesting-ibm-put-and-call-options-november-2026",
+      "id": "fb5b3ddcd77e",
+      "added_at": "2025-12-29T15:44:32.767Z",
+      "published_at": "2025-12-29T15:38:58.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/mcd-november-2026-options-begin-trading",
+      "id": "e773ea4af132",
+      "added_at": "2025-12-29T15:44:39.823Z",
+      "published_at": "2025-12-29T15:38:54.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/november-2026-options-now-available-walt-disney-dis",
+      "id": "b01b8d36428b",
+      "added_at": "2025-12-29T15:44:39.974Z",
+      "published_at": "2025-12-29T15:38:52.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/first-week-february-2026-options-trading-dyne-therapeutics-dyn",
+      "id": "4e0e4c8a8b3f",
+      "added_at": "2025-12-29T15:44:40.176Z",
+      "published_at": "2025-12-29T15:38:43.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/interesting-gld-call-options-january-2026",
+      "id": "031226f7f29f",
+      "added_at": "2025-12-29T15:44:40.283Z",
+      "published_at": "2025-12-29T15:38:30.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/29/3211006/0/en/NAR-Pending-Home-Sales-Report-Shows-3-3-Increase-in-November.html",
+      "id": "274c89eb0a4a",
+      "added_at": "2025-12-29T15:44:40.629Z",
+      "published_at": "2025-12-29T15:00:00.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/29/3211001/0/en/HIZERO-Set-to-Start-the-New-Year-by-launching-our-Revolutionary-Handheld-Multi-Surface-cleaner-the-H100R.html",
+      "id": "54abc650e182",
+      "added_at": "2025-12-29T15:44:40.756Z",
+      "published_at": "2025-12-29T14:51:00.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/29/3210993/0/en/WORK-Medical-Grants-East-China-Exclusive-Distribution-Rights-for-AI-Automated-Blood-Cell-Morphology-Analyzer-Sets-RMB10-Million-Sales-Target-for-2026.html",
+      "id": "ce151c77b51b",
+      "added_at": "2025-12-29T15:44:40.883Z",
+      "published_at": "2025-12-29T14:35:00.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/29/3210989/0/en/Charging-Robotics-Revoltz-Successfully-Demonstrates-PORTO-Micro-EV-to-an-Israeli-Government-Entity-for-Potential-Urban-Applications.html",
+      "id": "6864fe91c497",
+      "added_at": "2025-12-29T15:44:41.025Z",
+      "published_at": "2025-12-29T14:25:00.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/29/3210982/0/en/Clean-Energy-Technologies-Affiliate-Vermont-Renewable-Gas-Advances-Regulatory-Review.html",
+      "id": "99c3ee6db874",
+      "added_at": "2025-12-29T15:44:41.146Z",
+      "published_at": "2025-12-29T14:15:00.000Z"
     }
   ]
 }
