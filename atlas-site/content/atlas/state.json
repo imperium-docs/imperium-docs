@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2025-12-29T18:33:08.814Z",
+  "updated_at": "2025-12-29T23:37:17.960Z",
   "entries": [
     {
       "url": "https://www.sec.gov/newsroom/press-releases/2025-144-sec-charges-three-purported-crypto-asset-trading-platforms-four-investment-clubs-scheme-targeted",
@@ -397,6 +397,66 @@
       "id": "e68552d010f2",
       "added_at": "2025-12-29T18:33:08.246Z",
       "published_at": "2025-12-29T16:10:00.000Z"
+    },
+    {
+      "url": "https://www.sec.gov/newsroom/press-releases/2025-146-deputy-director-enforcement-nekia-hackworth-jones-concludes-her-tenure-sec",
+      "id": "e00eebbe5b26",
+      "added_at": "2025-12-29T23:36:06.530Z",
+      "published_at": "2025-12-29T18:36:34.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/continued-consolidation-called-japan-stock-market-0",
+      "id": "b40a5ff4261c",
+      "added_at": "2025-12-29T23:36:13.249Z",
+      "published_at": "2025-12-29T23:17:23.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/carvana-stock-more-doubled-2025-can-it-keep-soaring-2026",
+      "id": "e32179bdb642",
+      "added_at": "2025-12-29T23:36:21.652Z",
+      "published_at": "2025-12-29T23:11:00.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/why-first-majestic-stock-sank-today",
+      "id": "5e7b3a2fd4c1",
+      "added_at": "2025-12-29T23:36:29.324Z",
+      "published_at": "2025-12-29T23:10:08.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/could-underrated-ai-stock-be-best-growth-story-2026-and-next-decade",
+      "id": "86b1756da642",
+      "added_at": "2025-12-29T23:36:33.528Z",
+      "published_at": "2025-12-29T23:06:00.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/rally-may-stall-south-korea-stock-market",
+      "id": "ef641b5b72c3",
+      "added_at": "2025-12-29T23:36:49.309Z",
+      "published_at": "2025-12-29T23:02:23.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/29/3211181/0/en/Credicorp-Ltd-Banco-de-Cr%C3%A9dito-del-Per%C3%BA-to-acquire-100-of-Helm-Bank-USA.html",
+      "id": "8db4b4be2e72",
+      "added_at": "2025-12-29T23:36:57.732Z",
+      "published_at": "2025-12-29T21:54:00.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/29/3211161/0/en/MKDWELL-Tech-Inc-Reports-First-Half-of-Fiscal-Year-2025-Unaudited-Financial-Results.html",
+      "id": "0a2e33be0db8",
+      "added_at": "2025-12-29T23:37:01.754Z",
+      "published_at": "2025-12-29T21:30:00.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/29/3211147/0/en/MILFAM-LLC-ANNOUNCES-ELECTION-OF-NOMINEES-TO-BOARD-OF-DIRECTORS-OF-SCULLY-ROYALTY-LTD.html",
+      "id": "179def649668",
+      "added_at": "2025-12-29T23:37:13.929Z",
+      "published_at": "2025-12-29T21:17:00.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/29/3211139/0/en/Fitness-Champs-Holdings-Limited-Reports-Unaudited-Financial-Results-for-the-First-Six-Months-of-Fiscal-Year-2025.html",
+      "id": "794c5f3a0c72",
+      "added_at": "2025-12-29T23:37:17.601Z",
+      "published_at": "2025-12-29T21:05:00.000Z"
     }
   ]
 }

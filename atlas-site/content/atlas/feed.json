@@ -1,7 +1,337 @@
 {
   "version": 3,
-  "generated_at": "2025-12-29T18:33:08.814Z",
+  "generated_at": "2025-12-29T23:37:17.960Z",
   "items": [
+    {
+      "id": "b40a5ff4261c",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Continued Consolidation Called For Japan Stock Market",
+      "summary": "(RTTNews) - The Japanese stock market on Tuesday ended the two-day winning streak in which it had advanced more than 400 points or 0.8 percent. The Nikkei 225 now sits just above the 50,525-point plateau and the losses may accelerate on Tuesday.",
+      "body": "## Opening Phenomenon <!-- Purpose: Establish the systemic transition using formal evidence without narrative. --> Continued Consolidation Called For Japan Stock Market\n## Historical Positioning <!-- Purpose: Place the record within a filing sequence and dated milestones. --> Published: 2025-12-29T23:17:23.000Z\n## Mechanism of Power <!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. --> Nasdaq - Markets (category feed)\n## Agents Involved <!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. --> Nasdaq\n## Structural Question <!-- Purpose: Close with an archival question that preserves institutional continuity. --> What are the implications of continued consolidation on the Japanese stock market's long-term performance?",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/continued-consolidation-called-japan-stock-market-0",
+      "source_name": "Nasdaq - Markets (category feed)",
+      "excerpt": "(RTTNews) - The Japanese stock market on Tuesday ended the two-day winning streak in which it had advanced more than 400 points or 0.8 percent. The Nikkei 225 now sits just above the 50,525-point plat",
+      "facts": [
+        "Source: Nasdaq - Markets (category feed)",
+        "Published: 2025-12-29T23:17:23.000Z"
+      ],
+      "entities": {
+        "name": "Continued Consolidation Called For Japan Stock Market",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T23:17:23.000Z",
+      "event_date": "2025-12-29T23:17:23.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/continued-consolidation-called-japan-stock-market-0",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-29T23:17:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e32179bdb642",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Carvana Stock More Than Doubled in 2025. Can It Keep Soaring In 2026?",
+      "summary": "Key PointsCarvana is growing quickly while staying profitable.",
+      "body": "## Opening Phenomenon <!-- Purpose: Establish the systemic transition using formal evidence without narrative. --> Carvana Stock More Than Doubled in 2025.\n## Historical Positioning <!-- Purpose: Place the record within a filing sequence and dated milestones. --> The record was published on 2025-12-29T23:11:00.000Z by Nasdaq - Markets (category feed).\n## Mechanism of Power <!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. --> The mechanism of power is the publicly traded stock market, with Carvana's stock being listed on Nasdaq.\n## Agents Involved <!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. --> The agents involved are Carvana, Nasdaq - Markets, and the category feed.\n## Structural Question <!-- Purpose: Close with an archival question that preserves institutional continuity. --> Will Carvana's stock continue to soar in 2026, maintaining its profitability and growth momentum?",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/carvana-stock-more-doubled-2025-can-it-keep-soaring-2026",
+      "source_name": "Nasdaq - Markets (category feed)",
+      "excerpt": "Key PointsCarvana is growing quickly while staying profitable.",
+      "facts": [
+        "Source: Nasdaq - Markets (category feed)",
+        "Published: 2025-12-29T23:11:00.000Z"
+      ],
+      "entities": {
+        "name": "Carvana Stock More Than Doubled in 2025. Can It Keep Soaring In 2026?",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T23:11:00.000Z",
+      "event_date": "2025-12-29T23:11:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/carvana-stock-more-doubled-2025-can-it-keep-soaring-2026",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-29T23:11:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "5e7b3a2fd4c1",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Why First Majestic Stock Sank Today",
+      "summary": "Key PointsGold and silver prices declined today.",
+      "body": "## Opening Phenomenon <!-- Purpose: Establish the systemic transition using formal evidence without narrative. --> Gold and silver prices declined today.\n## Historical Positioning <!-- Purpose: Place the record within a filing sequence and dated milestones. --> 2025-12-29T23:10:08.000Z\n## Mechanism of Power <!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. --> Nasdaq - Markets (category feed)\n## Agents Involved <!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. --> Nasdaq\n## Structural Question <!-- Purpose: Close with an archival question that preserves institutional continuity. --> What are the implications of declining gold and silver prices on the market's overall sentiment?",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/why-first-majestic-stock-sank-today",
+      "source_name": "Nasdaq - Markets (category feed)",
+      "excerpt": "Key PointsGold and silver prices declined today.",
+      "facts": [
+        "Source: Nasdaq - Markets (category feed)",
+        "Published: 2025-12-29T23:10:08.000Z"
+      ],
+      "entities": {
+        "name": "Why First Majestic Stock Sank Today",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T23:10:08.000Z",
+      "event_date": "2025-12-29T23:10:08.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/why-first-majestic-stock-sank-today",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-29T23:10:08.000Z"
+        }
+      ]
+    },
+    {
+      "id": "86b1756da642",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Could This Underrated AI Stock Be the Best Growth Story of 2026 and the Next Decade?",
+      "summary": "Key PointsThe mainstream introduction of AI and increased competition was one of the best things to happen to Alphabet.",
+      "body": "## Opening Phenomenon <!-- Purpose: Establish the systemic transition using formal evidence without narrative. --> AI Stock Market Trends\n\n## Historical Positioning <!-- Purpose: Place the record within a filing sequence and dated milestones. --> The article was published on Nasdaq on December 29, 2025, as part of their category feed.\n\n## Mechanism of Power <!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. --> The mechanism of power is the mainstream introduction of AI and increased competition, which is driving growth in the AI stock market.\n\n## Agents Involved <!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. --> The agents involved are Alphabet and Nasdaq, as well as the authors and editors of the article.\n\n## Structural Question <!-- Purpose: Close with an archival question that preserves institutional continuity. --> Will the trend of AI-driven growth continue in 2026 and beyond?",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/could-underrated-ai-stock-be-best-growth-story-2026-and-next-decade",
+      "source_name": "Nasdaq - Markets (category feed)",
+      "excerpt": "Key PointsThe mainstream introduction of AI and increased competition was one of the best things to happen to Alphabet.",
+      "facts": [
+        "Source: Nasdaq - Markets (category feed)",
+        "Published: 2025-12-29T23:06:00.000Z"
+      ],
+      "entities": {
+        "name": "Could This Underrated AI Stock Be the Best Growth Story of 2026 and the Next Decade?",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T23:06:00.000Z",
+      "event_date": "2025-12-29T23:06:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/could-underrated-ai-stock-be-best-growth-story-2026-and-next-decade",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-29T23:06:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ef641b5b72c3",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Rally May Stall For South Korea Stock Market",
+      "summary": "(RTTNews) - The South Korea stock market has tracked higher in back-to-back sessions, rallying more than 110 points or 2.8 percent along the way. The KOSPI now rests just above the 4,220-point plateau although it may run out of steam on Tuesday.",
+      "body": "## Opening Phenomenon <!-- Purpose: Establish the systemic transition using formal evidence without narrative. --> South Korea stock market rallies more than 110 points or 2.8 percent.\n## Historical Positioning <!-- Purpose: Place the record within a filing sequence and dated milestones. --> The South Korea stock market has tracked higher in back-to-back sessions, with the KOSPI now resting just above the 4,220-point plateau.\n## Mechanism of Power <!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. --> The KOSPI's movement is influenced by institutional mechanisms and disclosure regimes governing the South Korean stock market.\n## Agents Involved <!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. --> Nasdaq - Markets (category feed) and the South Korea stock market are involved.\n## Structural Question <!-- Purpose: Close with an archival question that preserves institutional continuity. --> Will the South Korea stock market maintain its upward trend in the coming sessions?",
+      "sector": "finance",
+      "canonical_url": "https://www.nasdaq.com/articles/rally-may-stall-south-korea-stock-market",
+      "source_name": "Nasdaq - Markets (category feed)",
+      "excerpt": "(RTTNews) - The South Korea stock market has tracked higher in back-to-back sessions, rallying more than 110 points or 2.8 percent along the way. The KOSPI now rests just above the 4,220-point plateau",
+      "facts": [
+        "Source: Nasdaq - Markets (category feed)",
+        "Published: 2025-12-29T23:02:23.000Z"
+      ],
+      "entities": {
+        "name": "Rally May Stall For South Korea Stock Market",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T23:02:23.000Z",
+      "event_date": "2025-12-29T23:02:23.000Z",
+      "sources": [
+        {
+          "url": "https://www.nasdaq.com/articles/rally-may-stall-south-korea-stock-market",
+          "domain": "www.nasdaq.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-29T23:02:23.000Z"
+        }
+      ]
+    },
+    {
+      "id": "8db4b4be2e72",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Credicorp Ltd.: Banco de Crédito del Perú to acquire 100% of Helm Bank USA",
+      "summary": "Acquisition strengthens cross-border capabilities and reinforces Credicorp’s commitment to serving internationally active clients Acquisition strengthens cross-border capabilities and reinforces Credicorp’s commitment to serving internationally active clients",
+      "body": "## Opening Phenomenon <!-- Purpose: Establish the systemic transition using formal evidence without narrative. --> Credicorp Ltd.: Banco de Crédito del Perú to acquire 100% of Helm Bank USA\n\n## Historical Positioning <!-- Purpose: Place the record within a filing sequence and dated milestones. --> 2025-12-29T21:54:00.000Z\n\n## Mechanism of Power <!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. --> Acquisition strengthens cross-border capabilities and reinforces Credicorp’s commitment to serving internationally active clients\n\n## Agents Involved <!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. --> Credicorp Ltd., Banco de Crédito del Perú\n\n## Structural Question <!-- Purpose: Close with an archival question that preserves institutional continuity. --> How will this acquisition impact Credicorp's global financial operations?",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3211181/0/en/Credicorp-Ltd-Banco-de-Cr%C3%A9dito-del-Per%C3%BA-to-acquire-100-of-Helm-Bank-USA.html",
+      "source_name": "GlobeNewswire - Press Releases",
+      "excerpt": "Acquisition strengthens cross-border capabilities and reinforces Credicorp’s commitment to serving internationally active clients Acquisition strengthens cross-border capabilities and reinforces Credi",
+      "facts": [
+        "Source: GlobeNewswire - Press Releases",
+        "Published: 2025-12-29T21:54:00.000Z"
+      ],
+      "entities": {
+        "name": "Credicorp Ltd.: Banco de Crédito del Perú to acquire 100% of Helm Bank USA",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T21:54:00.000Z",
+      "event_date": "2025-12-29T21:54:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/29/3211181/0/en/Credicorp-Ltd-Banco-de-Cr%C3%A9dito-del-Per%C3%BA-to-acquire-100-of-Helm-Bank-USA.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-29T21:54:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "0a2e33be0db8",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "MKDWELL Tech Inc. Reports First Half of Fiscal Year 2025 Unaudited Financial Results",
+      "summary": "New York, Dec. 29, 2025 (GLOBE NEWSWIRE) -- MKDWELL Tech Inc. (the “Company”, “we”, “our”, or “us”) (Nasdaq: MKDW), a business company incorporated in the British Virgin Islands (“BVI”) with operations in Mainland China and Taiwan, today announced its unaudited financial results for the six months ended June 30, 2025.",
+      "body": "## Opening Phenomenon <!-- Purpose: Establish the systemic transition using formal evidence without narrative. --> MKDWELL Tech Inc. Reports First Half of Fiscal Year 2025 Unaudited Financial Results\n\n## Historical Positioning <!-- Purpose: Place the record within a filing sequence and dated milestones. --> MKDWELL Tech Inc. Reports First Half of Fiscal Year 2025 Unaudited Financial Results, published on 2025-12-29T21:30:00.000Z, via GlobeNewswire - Press Releases\n\n## Mechanism of Power <!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. --> Unaudited financial reporting and public disclosure through GlobeNewswire - Press Releases\n\n## Agents Involved <!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. --> MKDWELL Tech Inc., GlobeNewswire - Press Releases\n\n## Structural Question <!-- Purpose: Close with an archival question that preserves institutional continuity. --> How will MKDWELL Tech Inc. maintain transparency and compliance with regulatory requirements in its future financial reporting and disclosure practices?",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3211161/0/en/MKDWELL-Tech-Inc-Reports-First-Half-of-Fiscal-Year-2025-Unaudited-Financial-Results.html",
+      "source_name": "GlobeNewswire - Press Releases",
+      "excerpt": "New York, Dec. 29, 2025 (GLOBE NEWSWIRE) -- MKDWELL Tech Inc. (the “Company”, “we”, “our”, or “us”) (Nasdaq: MKDW), a business company incorporated in the British Virgin Islands (“BVI”) with operation",
+      "facts": [
+        "Source: GlobeNewswire - Press Releases",
+        "Published: 2025-12-29T21:30:00.000Z"
+      ],
+      "entities": {
+        "name": "MKDWELL Tech Inc. Reports First Half of Fiscal Year 2025 Unaudited Financial Results",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T21:30:00.000Z",
+      "event_date": "2025-12-29T21:30:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/29/3211161/0/en/MKDWELL-Tech-Inc-Reports-First-Half-of-Fiscal-Year-2025-Unaudited-Financial-Results.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-29T21:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "179def649668",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "MILFAM LLC ANNOUNCES ELECTION OF NOMINEES TO BOARD OF DIRECTORS OF SCULLY ROYALTY LTD.",
+      "summary": "Stuart, Florida , Dec. 29, 2025 (GLOBE NEWSWIRE) -- MILFAM LLC (“MILFAM”), a large shareholder of Scully Royalty Ltd. (NYSE:SRL) (the “Company”), has announced that all of its nominees for the Board of Directors (the “Board”) of the Company were elected at the Annual General Meeting of Shareholders of the Company (the “Annual Meeting”) on December 27, 2025. MILFAM’s nominees of Jerrod Freund, Mark Holliday, Alan Howe, Nimesh Patel, and Skyler Wichers each received a majority of the votes cast at the Annual Meeting. The Company’s nominees failed to receive such a majority and therefore were not re-elected.",
+      "body": "## Opening Phenomenon <!-- Purpose: Establish the systemic transition using formal evidence without narrative. --> Election of Board Members\n## Historical Positioning <!-- Purpose: Place the record within a filing sequence and dated milestones. --> 2025-12-27: Annual General Meeting of Shareholders of Scully Royalty Ltd.\n## Mechanism of Power <!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. --> Majority vote of shareholders\n## Agents Involved <!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. --> MILFAM LLC, Scully Royalty Ltd.\n## Structural Question <!-- Purpose: Close with an archival question that preserves institutional continuity. --> How will the composition of the Board of Directors impact the strategic direction of Scully Royalty Ltd.?",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3211147/0/en/MILFAM-LLC-ANNOUNCES-ELECTION-OF-NOMINEES-TO-BOARD-OF-DIRECTORS-OF-SCULLY-ROYALTY-LTD.html",
+      "source_name": "GlobeNewswire - Press Releases",
+      "excerpt": "Stuart, Florida , Dec. 29, 2025 (GLOBE NEWSWIRE) -- MILFAM LLC (“MILFAM”), a large shareholder of Scully Royalty Ltd. (NYSE:SRL) (the “Company”), has announced that all of its nominees for the Board o",
+      "facts": [
+        "Source: GlobeNewswire - Press Releases",
+        "Published: 2025-12-29T21:17:00.000Z"
+      ],
+      "entities": {
+        "name": "MILFAM LLC ANNOUNCES ELECTION OF NOMINEES TO BOARD OF DIRECTORS OF SCULLY ROYALTY LTD.",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T21:17:00.000Z",
+      "event_date": "2025-12-29T21:17:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/29/3211147/0/en/MILFAM-LLC-ANNOUNCES-ELECTION-OF-NOMINEES-TO-BOARD-OF-DIRECTORS-OF-SCULLY-ROYALTY-LTD.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-29T21:17:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "794c5f3a0c72",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Fitness Champs Holdings Limited Reports Unaudited Financial Results for the First Six Months of Fiscal Year 2025",
+      "summary": "SINGAPORE, Dec. 29, 2025 (GLOBE NEWSWIRE) -- Fitness Champs Holdings Limited (“Fitness Champs” or the “Company”) (Nasdaq: FCHL), a distinguished aquatic sports education provider in Singapore, today announced its unaudited financial results for the six months ended June 30, 2025.",
+      "body": "## Opening Phenomenon <!-- Purpose: Establish the systemic transition using formal evidence without narrative. --> Fitness Champs Holdings Limited Reports Unaudited Financial Results for the First Six Months of Fiscal Year 2025\n\n## Historical Positioning <!-- Purpose: Place the record within a filing sequence and dated milestones. --> The Company announced its unaudited financial results for the six months ended June 30, 2025.\n\n## Mechanism of Power <!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. --> The Company is governed by the Nasdaq listing requirements and Singaporean accounting standards.\n\n## Agents Involved <!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. --> Fitness Champs Holdings Limited, a distinguished aquatic sports education provider in Singapore, and its subsidiaries.\n\n## Structural Question <!-- Purpose: Close with an archival question that preserves institutional continuity. --> What are the implications of the Company's unaudited financial results for its long-term growth strategy?",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3211139/0/en/Fitness-Champs-Holdings-Limited-Reports-Unaudited-Financial-Results-for-the-First-Six-Months-of-Fiscal-Year-2025.html",
+      "source_name": "GlobeNewswire - Press Releases",
+      "excerpt": "SINGAPORE, Dec. 29, 2025 (GLOBE NEWSWIRE) -- Fitness Champs Holdings Limited (“Fitness Champs” or the “Company”) (Nasdaq: FCHL), a distinguished aquatic sports education provider in Singapore, today a",
+      "facts": [
+        "Source: GlobeNewswire - Press Releases",
+        "Published: 2025-12-29T21:05:00.000Z"
+      ],
+      "entities": {
+        "name": "Fitness Champs Holdings Limited Reports Unaudited Financial Results for the First Six Months of Fiscal Year 2025",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T21:05:00.000Z",
+      "event_date": "2025-12-29T21:05:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/29/3211139/0/en/Fitness-Champs-Holdings-Limited-Reports-Unaudited-Financial-Results-for-the-First-Six-Months-of-Fiscal-Year-2025.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-29T21:05:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "e00eebbe5b26",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Deputy Director of Enforcement Nekia Hackworth Jones Concludes Her Tenure at the SEC",
+      "summary": "The Securities and Exchange Commission today announced that Nekia Hackworth Jones, Deputy Director of the Division of Enforcement (Southeast), concluded her tenure with the agency on December 26, 2025.“I am thankful to Nekia for answering the call to…",
+      "body": "## Opening Phenomenon <!-- Purpose: Establish the systemic transition using formal evidence without narrative. --> Nekia Hackworth Jones concludes her tenure at the SEC.\n\n## Historical Positioning <!-- Purpose: Place the record within a filing sequence and dated milestones. --> The record falls under the filing sequence of SEC Press Releases, dated December 26, 2025.\n\n## Mechanism of Power <!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. --> The governing force is the Securities and Exchange Commission (SEC), a regulatory agency responsible for enforcing securities laws.\n\n## Agents Involved <!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. --> Nekia Hackworth Jones, Deputy Director of the Division of Enforcement (Southeast), and the SEC.\n\n## Structural Question <!-- Purpose: Close with an archival question that preserves institutional continuity. --> What implications will Nekia Hackworth Jones' departure have on the SEC's enforcement mechanisms?",
+      "sector": "finance",
+      "canonical_url": "https://www.sec.gov/newsroom/press-releases/2025-146-deputy-director-enforcement-nekia-hackworth-jones-concludes-her-tenure-sec",
+      "source_name": "SEC - Press Releases",
+      "excerpt": "The Securities and Exchange Commission today announced that Nekia Hackworth Jones, Deputy Director of the Division of Enforcement (Southeast), concluded her tenure with the agency on December 26, 2025",
+      "facts": [
+        "Source: SEC - Press Releases",
+        "Published: 2025-12-29T18:36:34.000Z"
+      ],
+      "entities": {
+        "name": "Deputy Director of Enforcement Nekia Hackworth Jones Concludes Her Tenure at the SEC",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T18:36:34.000Z",
+      "event_date": "2025-12-29T18:36:34.000Z",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2025-146-deputy-director-enforcement-nekia-hackworth-jones-concludes-her-tenure-sec",
+          "domain": "www.sec.gov",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-29T18:36:34.000Z"
+        }
+      ]
+    },
     {
       "id": "4fdec36c9461",
       "signal_type": "REVENUE_RECORD",
@@ -202,39 +532,6 @@
       ]
     },
     {
-      "id": "08e0ff10f8dd",
-      "signal_type": "REVENUE_RECORD",
-      "category_label": "Revenue",
-      "title": "ULTRAPEX Trading Center Upgrades Core Trading Architecture to Enhance Platform Stability",
-      "summary": "ULTRAPEX Trading Center Upgrades Core Trading Architecture to Enhance Platform Stability",
-      "body": "## Opening Phenomenon <!-- Purpose: Establish the systemic transition using formal evidence without narrative. --> ULTRAPEX Trading Center Upgrades Core Trading Architecture to Enhance Platform Stability\n## Historical Positioning <!-- Purpose: Place the record within a filing sequence and dated milestones. --> The upgrade was announced on December 29, 2025, and published on GlobeNewswire - Press Releases\n## Mechanism of Power <!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. --> The upgrade was facilitated by the ULTRAPEX Trading Center, a financial institution that operates a trading platform\n## Agents Involved <!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. --> ULTRAPEX Trading Center, GlobeNewswire - Press Releases\n## Structural Question <!-- Purpose: Close with an archival question that preserves institutional continuity. --> What implications will this upgrade have on the stability and security of the trading platform?",
-      "sector": "finance",
-      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3211073/0/en/ULTRAPEX-Trading-Center-Upgrades-Core-Trading-Architecture-to-Enhance-Platform-Stability.html",
-      "source_name": "GlobeNewswire - Press Releases",
-      "excerpt": "ULTRAPEX Trading Center Upgrades Core Trading Architecture to Enhance Platform Stability",
-      "facts": [
-        "Source: GlobeNewswire - Press Releases",
-        "Published: 2025-12-29T17:00:00.000Z"
-      ],
-      "entities": {
-        "name": "ULTRAPEX Trading Center Upgrades Core Trading Architecture to Enhance Platform Stability",
-        "type": "company",
-        "sector": "finance"
-      },
-      "metrics": {},
-      "published_at": "2025-12-29T17:00:00.000Z",
-      "event_date": "2025-12-29T17:00:00.000Z",
-      "sources": [
-        {
-          "url": "https://www.globenewswire.com/news-release/2025/12/29/3211073/0/en/ULTRAPEX-Trading-Center-Upgrades-Core-Trading-Architecture-to-Enhance-Platform-Stability.html",
-          "domain": "www.globenewswire.com",
-          "kind": "primary",
-          "weight": 1,
-          "published_at": "2025-12-29T17:00:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "85c05980fa17",
       "signal_type": "REVENUE_RECORD",
       "category_label": "Revenue",
@@ -260,6 +557,39 @@
       "sources": [
         {
           "url": "https://www.globenewswire.com/news-release/2025/12/29/3211070/0/en/QAT-Community-Expands-Professional-User-Service-Support-for-QuantumTrade-5-0-Under-Ethan-Caldwell.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-29T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "08e0ff10f8dd",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "ULTRAPEX Trading Center Upgrades Core Trading Architecture to Enhance Platform Stability",
+      "summary": "ULTRAPEX Trading Center Upgrades Core Trading Architecture to Enhance Platform Stability",
+      "body": "## Opening Phenomenon <!-- Purpose: Establish the systemic transition using formal evidence without narrative. --> ULTRAPEX Trading Center Upgrades Core Trading Architecture to Enhance Platform Stability\n## Historical Positioning <!-- Purpose: Place the record within a filing sequence and dated milestones. --> The upgrade was announced on December 29, 2025, and published on GlobeNewswire - Press Releases\n## Mechanism of Power <!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. --> The upgrade was facilitated by the ULTRAPEX Trading Center, a financial institution that operates a trading platform\n## Agents Involved <!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. --> ULTRAPEX Trading Center, GlobeNewswire - Press Releases\n## Structural Question <!-- Purpose: Close with an archival question that preserves institutional continuity. --> What implications will this upgrade have on the stability and security of the trading platform?",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3211073/0/en/ULTRAPEX-Trading-Center-Upgrades-Core-Trading-Architecture-to-Enhance-Platform-Stability.html",
+      "source_name": "GlobeNewswire - Press Releases",
+      "excerpt": "ULTRAPEX Trading Center Upgrades Core Trading Architecture to Enhance Platform Stability",
+      "facts": [
+        "Source: GlobeNewswire - Press Releases",
+        "Published: 2025-12-29T17:00:00.000Z"
+      ],
+      "entities": {
+        "name": "ULTRAPEX Trading Center Upgrades Core Trading Architecture to Enhance Platform Stability",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T17:00:00.000Z",
+      "event_date": "2025-12-29T17:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/29/3211073/0/en/ULTRAPEX-Trading-Center-Upgrades-Core-Trading-Architecture-to-Enhance-Platform-Stability.html",
           "domain": "www.globenewswire.com",
           "kind": "primary",
           "weight": 1,
@@ -697,6 +1027,39 @@
       ]
     },
     {
+      "id": "1c841eeee0d2",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "WORK Medical Technology Group LTD Subsidiary Obtains Manufacturing Approval for Its AI-Automated Blood Cell Morphology Analyzer",
+      "summary": "Hangzhou, China, Dec. 29, 2025 (GLOBE NEWSWIRE) -- WORK Medical Technology Group LTD (Nasdaq: WOK) (“WORK Medical” or the “Company”), a supplier of medical devices in China, through its subsidiary, Work (Hangzhou) Medical Treatment Equipment Co., Ltd. and its subsidiaries in China, today announced that its subsidiary, Hunan Saitumofei Co., Ltd., has received manufacturing approval from the Hunan Provincial Medical Products Administration for its Class II medical device, the Artificial Intelligence (“AI”)-Automated Human Blood Cell Morphology Analyzer. This regulatory approval represents a milestone in WORK Medical’s research and development strategy and is expected to position the Company’s new AI-driven device as a key growth catalyst.",
+      "body": "## Opening Phenomenon <!-- Purpose: Establish the systemic transition using formal evidence without narrative. --> WORK Medical Technology Group LTD subsidiary obtains manufacturing approval for its AI-Automated Blood Cell Morphology Analyzer\n\n## Historical Positioning <!-- Purpose: Place the record within a filing sequence and dated milestones. --> WORK Medical Technology Group LTD, a supplier of medical devices in China, received manufacturing approval for its AI-Automated Blood Cell Morphology Analyzer on December 29, 2025.\n\n## Mechanism of Power <!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. --> Regulatory approval from the Hunan Provincial Medical Products Administration\n\n## Agents Involved <!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. --> WORK Medical Technology Group LTD, Hunan Saitumofei Co., Ltd., Hunan Provincial Medical Products Administration\n\n## Structural Question <!-- Purpose: Close with an archival question that preserves institutional continuity. --> How will this approval impact the development and deployment of AI-driven medical devices in China?",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3210961/0/en/WORK-Medical-Technology-Group-LTD-Subsidiary-Obtains-Manufacturing-Approval-for-Its-AI-Automated-Blood-Cell-Morphology-Analyzer.html",
+      "source_name": "GlobeNewswire - Press Releases",
+      "excerpt": "Hangzhou, China, Dec. 29, 2025 (GLOBE NEWSWIRE) -- WORK Medical Technology Group LTD (Nasdaq: WOK) (“WORK Medical” or the “Company”), a supplier of medical devices in China, through its subsidiary, Wo",
+      "facts": [
+        "Source: GlobeNewswire - Press Releases",
+        "Published: 2025-12-29T14:00:00.000Z"
+      ],
+      "entities": {
+        "name": "WORK Medical Technology Group LTD Subsidiary Obtains Manufacturing Approval for Its AI-Automated Blood Cell Morphology Analyzer",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T14:00:00.000Z",
+      "event_date": "2025-12-29T14:00:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/29/3210961/0/en/WORK-Medical-Technology-Group-LTD-Subsidiary-Obtains-Manufacturing-Approval-for-Its-AI-Automated-Blood-Cell-Morphology-Analyzer.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-29T14:00:00.000Z"
+        }
+      ]
+    },
+    {
       "id": "87e922120c2e",
       "signal_type": "REVENUE_RECORD",
       "category_label": "Revenue",
@@ -723,39 +1086,6 @@
       "sources": [
         {
           "url": "https://www.globenewswire.com/news-release/2025/12/29/3210964/0/en/Dermatologic-Surgery-Journal-Releases-Special-Issue-on-Facial-Assessment-in-a-Diverse-World.html",
-          "domain": "www.globenewswire.com",
-          "kind": "primary",
-          "weight": 1,
-          "published_at": "2025-12-29T14:00:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "1c841eeee0d2",
-      "signal_type": "REVENUE_RECORD",
-      "category_label": "Revenue",
-      "title": "WORK Medical Technology Group LTD Subsidiary Obtains Manufacturing Approval for Its AI-Automated Blood Cell Morphology Analyzer",
-      "summary": "Hangzhou, China, Dec. 29, 2025 (GLOBE NEWSWIRE) -- WORK Medical Technology Group LTD (Nasdaq: WOK) (“WORK Medical” or the “Company”), a supplier of medical devices in China, through its subsidiary, Work (Hangzhou) Medical Treatment Equipment Co., Ltd. and its subsidiaries in China, today announced that its subsidiary, Hunan Saitumofei Co., Ltd., has received manufacturing approval from the Hunan Provincial Medical Products Administration for its Class II medical device, the Artificial Intelligence (“AI”)-Automated Human Blood Cell Morphology Analyzer. This regulatory approval represents a milestone in WORK Medical’s research and development strategy and is expected to position the Company’s new AI-driven device as a key growth catalyst.",
-      "body": "## Opening Phenomenon <!-- Purpose: Establish the systemic transition using formal evidence without narrative. --> WORK Medical Technology Group LTD subsidiary obtains manufacturing approval for its AI-Automated Blood Cell Morphology Analyzer\n\n## Historical Positioning <!-- Purpose: Place the record within a filing sequence and dated milestones. --> WORK Medical Technology Group LTD, a supplier of medical devices in China, received manufacturing approval for its AI-Automated Blood Cell Morphology Analyzer on December 29, 2025.\n\n## Mechanism of Power <!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. --> Regulatory approval from the Hunan Provincial Medical Products Administration\n\n## Agents Involved <!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. --> WORK Medical Technology Group LTD, Hunan Saitumofei Co., Ltd., Hunan Provincial Medical Products Administration\n\n## Structural Question <!-- Purpose: Close with an archival question that preserves institutional continuity. --> How will this approval impact the development and deployment of AI-driven medical devices in China?",
-      "sector": "finance",
-      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3210961/0/en/WORK-Medical-Technology-Group-LTD-Subsidiary-Obtains-Manufacturing-Approval-for-Its-AI-Automated-Blood-Cell-Morphology-Analyzer.html",
-      "source_name": "GlobeNewswire - Press Releases",
-      "excerpt": "Hangzhou, China, Dec. 29, 2025 (GLOBE NEWSWIRE) -- WORK Medical Technology Group LTD (Nasdaq: WOK) (“WORK Medical” or the “Company”), a supplier of medical devices in China, through its subsidiary, Wo",
-      "facts": [
-        "Source: GlobeNewswire - Press Releases",
-        "Published: 2025-12-29T14:00:00.000Z"
-      ],
-      "entities": {
-        "name": "WORK Medical Technology Group LTD Subsidiary Obtains Manufacturing Approval for Its AI-Automated Blood Cell Morphology Analyzer",
-        "type": "company",
-        "sector": "finance"
-      },
-      "metrics": {},
-      "published_at": "2025-12-29T14:00:00.000Z",
-      "event_date": "2025-12-29T14:00:00.000Z",
-      "sources": [
-        {
-          "url": "https://www.globenewswire.com/news-release/2025/12/29/3210961/0/en/WORK-Medical-Technology-Group-LTD-Subsidiary-Obtains-Manufacturing-Approval-for-Its-AI-Automated-Blood-Cell-Morphology-Analyzer.html",
           "domain": "www.globenewswire.com",
           "kind": "primary",
           "weight": 1,
@@ -962,39 +1292,6 @@
       ]
     },
     {
-      "id": "da88041055f2",
-      "signal_type": "REVENUE_RECORD",
-      "category_label": "Revenue",
-      "title": "VivoPower’s Tembo Achieves Key Business Combination Milestone for Nasdaq Listing: Submission of F-4 Registration to SEC on Confidential Basis as Revenue and Global Delivery Momentum Accelerates",
-      "summary": "Target closing date in March 2026, subject to SEC and Nasdaq review and approval",
-      "body": "## Opening Phenomenon <!-- Purpose: Establish the systemic transition using formal evidence without narrative. --> VivoPower’s Tembo Achieves Key Business Combination Milestone for Nasdaq Listing: Submission of F-4 Registration to SEC on Confidential Basis as Revenue and Global Delivery Momentum Accelerates\n\n## Historical Positioning <!-- Purpose: Place the record within a filing sequence and dated milestones. --> Submission of F-4 Registration to SEC on Confidential Basis as Revenue and Global Delivery Momentum Accelerates, Target closing date in March 2026, subject to SEC and Nasdaq review and approval\n\n## Mechanism of Power <!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. --> Confidential basis, SEC review and approval\n\n## Agents Involved <!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. --> VivoPower, SEC, Nasdaq\n\n## Structural Question <!-- Purpose: Close with an archival question that preserves institutional continuity. --> How will VivoPower’s Tembo navigate the post-listing phase and maintain its momentum in the global market?",
-      "sector": "finance",
-      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3210925/0/en/VivoPower-s-Tembo-Achieves-Key-Business-Combination-Milestone-for-Nasdaq-Listing-Submission-of-F-4-Registration-to-SEC-on-Confidential-Basis-as-Revenue-and-Global-Delivery-Momentum.html",
-      "source_name": "GlobeNewswire - Press Releases",
-      "excerpt": "Target closing date in March 2026, subject to SEC and Nasdaq review and approval",
-      "facts": [
-        "Source: GlobeNewswire - Press Releases",
-        "Published: 2025-12-29T13:35:00.000Z"
-      ],
-      "entities": {
-        "name": "VivoPower’s Tembo Achieves Key Business Combination Milestone for Nasdaq Listing: Submission of F-4 Registration to SEC on Confidential Basis as Revenue and Global Delivery Momentum Accelerates",
-        "type": "company",
-        "sector": "finance"
-      },
-      "metrics": {},
-      "published_at": "2025-12-29T13:35:00.000Z",
-      "event_date": "2025-12-29T13:35:00.000Z",
-      "sources": [
-        {
-          "url": "https://www.globenewswire.com/news-release/2025/12/29/3210925/0/en/VivoPower-s-Tembo-Achieves-Key-Business-Combination-Milestone-for-Nasdaq-Listing-Submission-of-F-4-Registration-to-SEC-on-Confidential-Basis-as-Revenue-and-Global-Delivery-Momentum.html",
-          "domain": "www.globenewswire.com",
-          "kind": "primary",
-          "weight": 1,
-          "published_at": "2025-12-29T13:35:00.000Z"
-        }
-      ]
-    },
-    {
       "id": "af951144022b",
       "signal_type": "IPO",
       "category_label": "IPO",
@@ -1028,35 +1325,35 @@
       ]
     },
     {
-      "id": "1d1e965a7187",
+      "id": "da88041055f2",
       "signal_type": "REVENUE_RECORD",
       "category_label": "Revenue",
-      "title": "Digital Brands Group Added to S&P Total Market Index (TMI)",
-      "summary": "Austin, Texas, Dec. 29, 2025 (GLOBE NEWSWIRE) -- Digital Brands Group, Inc. (NASDAQ:DBGI) (the “Company,” “Digital Brands Group” or “DBG”) today announced he company has been added to the S&amp;P Total Market Index (TMI) , effective December 21, 2025 .",
-      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nDigital Brands Group Added to S&P Total Market Index (TMI). Austin, Texas, Dec. 29, 2025 (GLOBE NEWSWIRE) -- Digital Brands Group, Inc. (NASDAQ:DBGI) (the “Company,” “Digital Brands Group” or “DBG”) today announced he company has been added to the S&amp;P Total Market Index (TMI) , effective December 21, 2025 .\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:30:00.000Z by GlobeNewswire - Press Releases. Source: https://www.globenewswire.com/news-release/2025/12/29/3210914/0/en/Digital-Brands-Group-Added-to-S-P-Total-Market-Index-TMI.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Digital Brands Group Added to S&P Total Market Index (TMI). Gatekeeper: GlobeNewswire - Press Releases.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "title": "VivoPower’s Tembo Achieves Key Business Combination Milestone for Nasdaq Listing: Submission of F-4 Registration to SEC on Confidential Basis as Revenue and Global Delivery Momentum Accelerates",
+      "summary": "Target closing date in March 2026, subject to SEC and Nasdaq review and approval",
+      "body": "## Opening Phenomenon <!-- Purpose: Establish the systemic transition using formal evidence without narrative. --> VivoPower’s Tembo Achieves Key Business Combination Milestone for Nasdaq Listing: Submission of F-4 Registration to SEC on Confidential Basis as Revenue and Global Delivery Momentum Accelerates\n\n## Historical Positioning <!-- Purpose: Place the record within a filing sequence and dated milestones. --> Submission of F-4 Registration to SEC on Confidential Basis as Revenue and Global Delivery Momentum Accelerates, Target closing date in March 2026, subject to SEC and Nasdaq review and approval\n\n## Mechanism of Power <!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. --> Confidential basis, SEC review and approval\n\n## Agents Involved <!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. --> VivoPower, SEC, Nasdaq\n\n## Structural Question <!-- Purpose: Close with an archival question that preserves institutional continuity. --> How will VivoPower’s Tembo navigate the post-listing phase and maintain its momentum in the global market?",
       "sector": "finance",
-      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3210914/0/en/Digital-Brands-Group-Added-to-S-P-Total-Market-Index-TMI.html",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3210925/0/en/VivoPower-s-Tembo-Achieves-Key-Business-Combination-Milestone-for-Nasdaq-Listing-Submission-of-F-4-Registration-to-SEC-on-Confidential-Basis-as-Revenue-and-Global-Delivery-Momentum.html",
       "source_name": "GlobeNewswire - Press Releases",
-      "excerpt": "Austin, Texas, Dec. 29, 2025 (GLOBE NEWSWIRE) -- Digital Brands Group, Inc. (NASDAQ:DBGI) (the “Company,” “Digital Brands Group” or “DBG”) today announced he company has been added to the S&amp;P Tota",
+      "excerpt": "Target closing date in March 2026, subject to SEC and Nasdaq review and approval",
       "facts": [
         "Source: GlobeNewswire - Press Releases",
-        "Published: 2025-12-29T13:30:00.000Z"
+        "Published: 2025-12-29T13:35:00.000Z"
       ],
       "entities": {
-        "name": "Digital Brands Group Added to S&P Total Market Index (TMI)",
+        "name": "VivoPower’s Tembo Achieves Key Business Combination Milestone for Nasdaq Listing: Submission of F-4 Registration to SEC on Confidential Basis as Revenue and Global Delivery Momentum Accelerates",
         "type": "company",
         "sector": "finance"
       },
       "metrics": {},
-      "published_at": "2025-12-29T13:30:00.000Z",
-      "event_date": "2025-12-29T13:30:00.000Z",
+      "published_at": "2025-12-29T13:35:00.000Z",
+      "event_date": "2025-12-29T13:35:00.000Z",
       "sources": [
         {
-          "url": "https://www.globenewswire.com/news-release/2025/12/29/3210914/0/en/Digital-Brands-Group-Added-to-S-P-Total-Market-Index-TMI.html",
+          "url": "https://www.globenewswire.com/news-release/2025/12/29/3210925/0/en/VivoPower-s-Tembo-Achieves-Key-Business-Combination-Milestone-for-Nasdaq-Listing-Submission-of-F-4-Registration-to-SEC-on-Confidential-Basis-as-Revenue-and-Global-Delivery-Momentum.html",
           "domain": "www.globenewswire.com",
           "kind": "primary",
           "weight": 1,
-          "published_at": "2025-12-29T13:30:00.000Z"
+          "published_at": "2025-12-29T13:35:00.000Z"
         }
       ]
     },
@@ -1086,6 +1383,39 @@
       "sources": [
         {
           "url": "https://www.globenewswire.com/news-release/2025/12/29/3210915/0/en/QHSLab-Inc-OTCQB-USAQ-Completes-500K-Private-Placement-Enters-2026-With-Clean-Capital-Structure.html",
+          "domain": "www.globenewswire.com",
+          "kind": "primary",
+          "weight": 1,
+          "published_at": "2025-12-29T13:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "1d1e965a7187",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Digital Brands Group Added to S&P Total Market Index (TMI)",
+      "summary": "Austin, Texas, Dec. 29, 2025 (GLOBE NEWSWIRE) -- Digital Brands Group, Inc. (NASDAQ:DBGI) (the “Company,” “Digital Brands Group” or “DBG”) today announced he company has been added to the S&amp;P Total Market Index (TMI) , effective December 21, 2025 .",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nDigital Brands Group Added to S&P Total Market Index (TMI). Austin, Texas, Dec. 29, 2025 (GLOBE NEWSWIRE) -- Digital Brands Group, Inc. (NASDAQ:DBGI) (the “Company,” “Digital Brands Group” or “DBG”) today announced he company has been added to the S&amp;P Total Market Index (TMI) , effective December 21, 2025 .\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:30:00.000Z by GlobeNewswire - Press Releases. Source: https://www.globenewswire.com/news-release/2025/12/29/3210914/0/en/Digital-Brands-Group-Added-to-S-P-Total-Market-Index-TMI.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Digital Brands Group Added to S&P Total Market Index (TMI). Gatekeeper: GlobeNewswire - Press Releases.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3210914/0/en/Digital-Brands-Group-Added-to-S-P-Total-Market-Index-TMI.html",
+      "source_name": "GlobeNewswire - Press Releases",
+      "excerpt": "Austin, Texas, Dec. 29, 2025 (GLOBE NEWSWIRE) -- Digital Brands Group, Inc. (NASDAQ:DBGI) (the “Company,” “Digital Brands Group” or “DBG”) today announced he company has been added to the S&amp;P Tota",
+      "facts": [
+        "Source: GlobeNewswire - Press Releases",
+        "Published: 2025-12-29T13:30:00.000Z"
+      ],
+      "entities": {
+        "name": "Digital Brands Group Added to S&P Total Market Index (TMI)",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-29T13:30:00.000Z",
+      "event_date": "2025-12-29T13:30:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/29/3210914/0/en/Digital-Brands-Group-Added-to-S-P-Total-Market-Index-TMI.html",
           "domain": "www.globenewswire.com",
           "kind": "primary",
           "weight": 1,
@@ -1292,22 +1622,22 @@
       ]
     },
     {
-      "id": "f9f3c3c2675f",
+      "id": "571c89bedbb6",
       "signal_type": "REVENUE_RECORD",
       "category_label": "Revenue",
-      "title": "Validea Detailed Fundamental Analysis - DASH",
-      "summary": "Below is Validea's guru fundamental report for DOORDASH INC (DASH). Of the 22 guru strategies we follow, DASH rates highest using our P/B Growth Investor model based on the published strategy of Partha Mohanram. This growth model looks for low book-to-market stocks that exhibit",
-      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nValidea Detailed Fundamental Analysis - DASH. Below is Validea's guru fundamental report for DOORDASH INC (DASH). Of the 22 guru strategies we follow, DASH rates highest using our P/B Growth Investor model based on the published strategy of Partha Mohanram. This growth model looks for low book-to-market stocks that exhibit\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:00:00.000Z by Nasdaq - Markets (category feed). Source: https://www.nasdaq.com/articles/validea-detailed-fundamental-analysis-dash.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Validea Detailed Fundamental Analysis. Gatekeeper: Nasdaq - Markets (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "title": "BiomX Announces $3.0 Million Private Placement",
+      "summary": "Proceeds to Support the Company’s Assessment of Opportunities to Advance BX011 and Ongoing Evaluation of Strategic Alternatives Proceeds to Support the Company’s Assessment of Opportunities to Advance BX011 and Ongoing Evaluation of Strategic Alternatives",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nBiomX Announces $3.0 Million Private Placement. Proceeds to Support the Company’s Assessment of Opportunities to Advance BX011 and Ongoing Evaluation of Strategic Alternatives Proceeds to Support the Company’s Assessment of Opportunities to Advance BX011 and Ongoing Evaluation of Strategic Alternatives\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:00:00.000Z by GlobeNewswire - Stock Market News. Source: https://www.globenewswire.com/news-release/2025/12/29/3210881/0/en/BiomX-Announces-3-0-Million-Private-Placement.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: BiomX Announces $3.0 Million Private Placement. Gatekeeper: GlobeNewswire - Stock Market News.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
       "sector": "finance",
-      "canonical_url": "https://www.nasdaq.com/articles/validea-detailed-fundamental-analysis-dash",
-      "source_name": "Nasdaq - Markets (category feed)",
-      "excerpt": "Below is Validea's guru fundamental report for DOORDASH INC (DASH). Of the 22 guru strategies we follow, DASH rates highest using our P/B Growth Investor model based on the published strategy of Parth",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3210881/0/en/BiomX-Announces-3-0-Million-Private-Placement.html",
+      "source_name": "GlobeNewswire - Stock Market News",
+      "excerpt": "Proceeds to Support the Company’s Assessment of Opportunities to Advance BX011 and Ongoing Evaluation of Strategic Alternatives Proceeds to Support the Company’s Assessment of Opportunities to Advance",
       "facts": [
-        "Source: Nasdaq - Markets (category feed)",
+        "Source: GlobeNewswire - Stock Market News",
         "Published: 2025-12-29T13:00:00.000Z"
       ],
       "entities": {
-        "name": "Validea Detailed Fundamental Analysis",
+        "name": "BiomX Announces $3.0 Million Private Placement",
         "type": "company",
         "sector": "finance"
       },
@@ -1316,8 +1646,8 @@
       "event_date": "2025-12-29T13:00:00.000Z",
       "sources": [
         {
-          "url": "https://www.nasdaq.com/articles/validea-detailed-fundamental-analysis-dash",
-          "domain": "www.nasdaq.com",
+          "url": "https://www.globenewswire.com/news-release/2025/12/29/3210881/0/en/BiomX-Announces-3-0-Million-Private-Placement.html",
+          "domain": "www.globenewswire.com",
           "kind": "secondary",
           "weight": 0.6,
           "published_at": "2025-12-29T13:00:00.000Z"
@@ -1358,22 +1688,22 @@
       ]
     },
     {
-      "id": "571c89bedbb6",
+      "id": "f9f3c3c2675f",
       "signal_type": "REVENUE_RECORD",
       "category_label": "Revenue",
-      "title": "BiomX Announces $3.0 Million Private Placement",
-      "summary": "Proceeds to Support the Company’s Assessment of Opportunities to Advance BX011 and Ongoing Evaluation of Strategic Alternatives Proceeds to Support the Company’s Assessment of Opportunities to Advance BX011 and Ongoing Evaluation of Strategic Alternatives",
-      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nBiomX Announces $3.0 Million Private Placement. Proceeds to Support the Company’s Assessment of Opportunities to Advance BX011 and Ongoing Evaluation of Strategic Alternatives Proceeds to Support the Company’s Assessment of Opportunities to Advance BX011 and Ongoing Evaluation of Strategic Alternatives\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:00:00.000Z by GlobeNewswire - Stock Market News. Source: https://www.globenewswire.com/news-release/2025/12/29/3210881/0/en/BiomX-Announces-3-0-Million-Private-Placement.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: BiomX Announces $3.0 Million Private Placement. Gatekeeper: GlobeNewswire - Stock Market News.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "title": "Validea Detailed Fundamental Analysis - DASH",
+      "summary": "Below is Validea's guru fundamental report for DOORDASH INC (DASH). Of the 22 guru strategies we follow, DASH rates highest using our P/B Growth Investor model based on the published strategy of Partha Mohanram. This growth model looks for low book-to-market stocks that exhibit",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nValidea Detailed Fundamental Analysis - DASH. Below is Validea's guru fundamental report for DOORDASH INC (DASH). Of the 22 guru strategies we follow, DASH rates highest using our P/B Growth Investor model based on the published strategy of Partha Mohanram. This growth model looks for low book-to-market stocks that exhibit\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-29T13:00:00.000Z by Nasdaq - Markets (category feed). Source: https://www.nasdaq.com/articles/validea-detailed-fundamental-analysis-dash.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Validea Detailed Fundamental Analysis. Gatekeeper: Nasdaq - Markets (category feed).\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
       "sector": "finance",
-      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/29/3210881/0/en/BiomX-Announces-3-0-Million-Private-Placement.html",
-      "source_name": "GlobeNewswire - Stock Market News",
-      "excerpt": "Proceeds to Support the Company’s Assessment of Opportunities to Advance BX011 and Ongoing Evaluation of Strategic Alternatives Proceeds to Support the Company’s Assessment of Opportunities to Advance",
+      "canonical_url": "https://www.nasdaq.com/articles/validea-detailed-fundamental-analysis-dash",
+      "source_name": "Nasdaq - Markets (category feed)",
+      "excerpt": "Below is Validea's guru fundamental report for DOORDASH INC (DASH). Of the 22 guru strategies we follow, DASH rates highest using our P/B Growth Investor model based on the published strategy of Parth",
       "facts": [
-        "Source: GlobeNewswire - Stock Market News",
+        "Source: Nasdaq - Markets (category feed)",
         "Published: 2025-12-29T13:00:00.000Z"
       ],
       "entities": {
-        "name": "BiomX Announces $3.0 Million Private Placement",
+        "name": "Validea Detailed Fundamental Analysis",
         "type": "company",
         "sector": "finance"
       },
@@ -1382,8 +1712,8 @@
       "event_date": "2025-12-29T13:00:00.000Z",
       "sources": [
         {
-          "url": "https://www.globenewswire.com/news-release/2025/12/29/3210881/0/en/BiomX-Announces-3-0-Million-Private-Placement.html",
-          "domain": "www.globenewswire.com",
+          "url": "https://www.nasdaq.com/articles/validea-detailed-fundamental-analysis-dash",
+          "domain": "www.nasdaq.com",
           "kind": "secondary",
           "weight": 0.6,
           "published_at": "2025-12-29T13:00:00.000Z"
@@ -1622,22 +1952,22 @@
       ]
     },
     {
-      "id": "824b446c8fd6",
+      "id": "d78fcf6c6f53",
       "signal_type": "REVENUE_RECORD",
       "category_label": "Revenue",
-      "title": "Vanguard Investments Canada Announces Final 2025 Annual Capital Gains Distributions for the Vanguard ETFs® - VBU, VBG and VGAB",
-      "summary": "TORONTO, Dec. 23, 2025 (GLOBE NEWSWIRE) -- Vanguard Investments Canada Inc. today announced the final annual capital gains distributions for the Vanguard ETFs listed below for the 2025 tax year. This is an update to the estimated annual capital gains distributions announced on November 18, 2025 and December 17, 2025.",
-      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nVanguard Investments Canada Announces Final 2025 Annual Capital Gains Distributions for the Vanguard ETFs® - VBU, VBG and VGAB. TORONTO, Dec. 23, 2025 (GLOBE NEWSWIRE) -- Vanguard Investments Canada Inc. today announced the final annual capital gains distributions for the Vanguard ETFs listed below for the 2025 tax year. This is an update to the estimated annual capital gains distributions announced on November 18, 2025 and December 17, 2025.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-23T13:30:00.000Z by GlobeNewswire - Stock Market News. Source: https://www.globenewswire.com/news-release/2025/12/23/3209877/0/en/Vanguard-Investments-Canada-Announces-Final-2025-Annual-Capital-Gains-Distributions-for-the-Vanguard-ETFs-VBU-VBG-and-VGAB.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Vanguard Investments Canada Announces Final 2025 Annual Capital Gains Distributions for the Vanguard ETFs®. Gatekeeper: GlobeNewswire - Stock Market News.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "title": "Inspira Technologies Reaffirms $49.5 Million in Binding Purchase Orders and Aligns Execution with 2026 Regulatory and Deployment Milestones",
+      "summary": "Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026 Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nInspira Technologies Reaffirms $49.5 Million in Binding Purchase Orders and Aligns Execution with 2026 Regulatory and Deployment Milestones. Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026 Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-23T13:30:00.000Z by GlobeNewswire - Stock Market News. Source: https://www.globenewswire.com/news-release/2025/12/23/3209873/0/en/Inspira-Technologies-Reaffirms-49-5-Million-in-Binding-Purchase-Orders-and-Aligns-Execution-with-2026-Regulatory-and-Deployment-Milestones.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Inspira Technologies Reaffirms $49.5 Million in Binding Purchase Orders and Aligns Execution with 2026 Regulatory and Deployment Milestones. Gatekeeper: GlobeNewswire - Stock Market News.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
       "sector": "finance",
-      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/23/3209877/0/en/Vanguard-Investments-Canada-Announces-Final-2025-Annual-Capital-Gains-Distributions-for-the-Vanguard-ETFs-VBU-VBG-and-VGAB.html",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/23/3209873/0/en/Inspira-Technologies-Reaffirms-49-5-Million-in-Binding-Purchase-Orders-and-Aligns-Execution-with-2026-Regulatory-and-Deployment-Milestones.html",
       "source_name": "GlobeNewswire - Stock Market News",
-      "excerpt": "TORONTO, Dec. 23, 2025 (GLOBE NEWSWIRE) -- Vanguard Investments Canada Inc. today announced the final annual capital gains distributions for the Vanguard ETFs listed below for the 2025 tax year. This ",
+      "excerpt": "Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026 Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026",
       "facts": [
         "Source: GlobeNewswire - Stock Market News",
         "Published: 2025-12-23T13:30:00.000Z"
       ],
       "entities": {
-        "name": "Vanguard Investments Canada Announces Final 2025 Annual Capital Gains Distributions for the Vanguard ETFs®",
+        "name": "Inspira Technologies Reaffirms $49.5 Million in Binding Purchase Orders and Aligns Execution with 2026 Regulatory and Deployment Milestones",
         "type": "company",
         "sector": "finance"
       },
@@ -1646,40 +1976,7 @@
       "event_date": "2025-12-23T13:30:00.000Z",
       "sources": [
         {
-          "url": "https://www.globenewswire.com/news-release/2025/12/23/3209877/0/en/Vanguard-Investments-Canada-Announces-Final-2025-Annual-Capital-Gains-Distributions-for-the-Vanguard-ETFs-VBU-VBG-and-VGAB.html",
-          "domain": "www.globenewswire.com",
-          "kind": "secondary",
-          "weight": 0.6,
-          "published_at": "2025-12-23T13:30:00.000Z"
-        }
-      ]
-    },
-    {
-      "id": "37929ea5af4e",
-      "signal_type": "REVENUE_RECORD",
-      "category_label": "Revenue",
-      "title": "Placements Vanguard Canada annonce les distributions annuelles définitives des gains en capital des FNB Vanguard(MC) VBU, VBG et VGAB pour 2025",
-      "summary": "TORONTO, 23 d&#233;c. 2025 (GLOBE NEWSWIRE) -- Placements Vanguard Canada Inc. a annoncé aujourd’hui les distributions annuelles définitives de gains en capital des FNB Vanguard énumérés ci-dessous pour l’année d’imposition 2025. Il s’agit d’une mise à jour des distributions annuelles estimatives de gains en capital annoncées le 18 novembre 2025 et le 17 décembre 2025.",
-      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nPlacements Vanguard Canada annonce les distributions annuelles définitives des gains en capital des FNB Vanguard(MC) VBU, VBG et VGAB pour 2025. TORONTO, 23 d&#233;c. 2025 (GLOBE NEWSWIRE) -- Placements Vanguard Canada Inc. a annoncé aujourd’hui les distributions annuelles définitives de gains en capital des FNB Vanguard énumérés ci-dessous pour l’année d’imposition 2025. Il s’agit d’une mise à jour des distributions annuelles estimatives de gains en capital annoncées le 18 novembre 2025 et le 17 décembre 2025.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-23T13:30:00.000Z by GlobeNewswire - Stock Market News. Source: https://www.globenewswire.com/news-release/2025/12/23/3209877/0/fr/Placements-Vanguard-Canada-annonce-les-distributions-annuelles-d%C3%A9finitives-des-gains-en-capital-des-FNB-Vanguard-MC-VBU-VBG-et-VGAB-pour-2025.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Placements Vanguard Canada annonce les distributions annuelles définitives des gains en capital des FNB Vanguard(MC) VBU, VBG et VGAB pour 2025. Gatekeeper: GlobeNewswire - Stock Market News.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
-      "sector": "finance",
-      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/23/3209877/0/fr/Placements-Vanguard-Canada-annonce-les-distributions-annuelles-d%C3%A9finitives-des-gains-en-capital-des-FNB-Vanguard-MC-VBU-VBG-et-VGAB-pour-2025.html",
-      "source_name": "GlobeNewswire - Stock Market News",
-      "excerpt": "TORONTO, 23 d&#233;c. 2025 (GLOBE NEWSWIRE) -- Placements Vanguard Canada Inc. a annoncé aujourd’hui les distributions annuelles définitives de gains en capital des FNB Vanguard énumérés ci-dessous po",
-      "facts": [
-        "Source: GlobeNewswire - Stock Market News",
-        "Published: 2025-12-23T13:30:00.000Z"
-      ],
-      "entities": {
-        "name": "Placements Vanguard Canada annonce les distributions annuelles définitives des gains en capital des FNB Vanguard(MC) VBU, VBG et VGAB pour 2025",
-        "type": "company",
-        "sector": "finance"
-      },
-      "metrics": {},
-      "published_at": "2025-12-23T13:30:00.000Z",
-      "event_date": "2025-12-23T13:30:00.000Z",
-      "sources": [
-        {
-          "url": "https://www.globenewswire.com/news-release/2025/12/23/3209877/0/fr/Placements-Vanguard-Canada-annonce-les-distributions-annuelles-d%C3%A9finitives-des-gains-en-capital-des-FNB-Vanguard-MC-VBU-VBG-et-VGAB-pour-2025.html",
+          "url": "https://www.globenewswire.com/news-release/2025/12/23/3209873/0/en/Inspira-Technologies-Reaffirms-49-5-Million-in-Binding-Purchase-Orders-and-Aligns-Execution-with-2026-Regulatory-and-Deployment-Milestones.html",
           "domain": "www.globenewswire.com",
           "kind": "secondary",
           "weight": 0.6,
@@ -1721,22 +2018,22 @@
       ]
     },
     {
-      "id": "d78fcf6c6f53",
+      "id": "37929ea5af4e",
       "signal_type": "REVENUE_RECORD",
       "category_label": "Revenue",
-      "title": "Inspira Technologies Reaffirms $49.5 Million in Binding Purchase Orders and Aligns Execution with 2026 Regulatory and Deployment Milestones",
-      "summary": "Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026 Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026",
-      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nInspira Technologies Reaffirms $49.5 Million in Binding Purchase Orders and Aligns Execution with 2026 Regulatory and Deployment Milestones. Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026 Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-23T13:30:00.000Z by GlobeNewswire - Stock Market News. Source: https://www.globenewswire.com/news-release/2025/12/23/3209873/0/en/Inspira-Technologies-Reaffirms-49-5-Million-in-Binding-Purchase-Orders-and-Aligns-Execution-with-2026-Regulatory-and-Deployment-Milestones.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Inspira Technologies Reaffirms $49.5 Million in Binding Purchase Orders and Aligns Execution with 2026 Regulatory and Deployment Milestones. Gatekeeper: GlobeNewswire - Stock Market News.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "title": "Placements Vanguard Canada annonce les distributions annuelles définitives des gains en capital des FNB Vanguard(MC) VBU, VBG et VGAB pour 2025",
+      "summary": "TORONTO, 23 d&#233;c. 2025 (GLOBE NEWSWIRE) -- Placements Vanguard Canada Inc. a annoncé aujourd’hui les distributions annuelles définitives de gains en capital des FNB Vanguard énumérés ci-dessous pour l’année d’imposition 2025. Il s’agit d’une mise à jour des distributions annuelles estimatives de gains en capital annoncées le 18 novembre 2025 et le 17 décembre 2025.",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nPlacements Vanguard Canada annonce les distributions annuelles définitives des gains en capital des FNB Vanguard(MC) VBU, VBG et VGAB pour 2025. TORONTO, 23 d&#233;c. 2025 (GLOBE NEWSWIRE) -- Placements Vanguard Canada Inc. a annoncé aujourd’hui les distributions annuelles définitives de gains en capital des FNB Vanguard énumérés ci-dessous pour l’année d’imposition 2025. Il s’agit d’une mise à jour des distributions annuelles estimatives de gains en capital annoncées le 18 novembre 2025 et le 17 décembre 2025.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-23T13:30:00.000Z by GlobeNewswire - Stock Market News. Source: https://www.globenewswire.com/news-release/2025/12/23/3209877/0/fr/Placements-Vanguard-Canada-annonce-les-distributions-annuelles-d%C3%A9finitives-des-gains-en-capital-des-FNB-Vanguard-MC-VBU-VBG-et-VGAB-pour-2025.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Placements Vanguard Canada annonce les distributions annuelles définitives des gains en capital des FNB Vanguard(MC) VBU, VBG et VGAB pour 2025. Gatekeeper: GlobeNewswire - Stock Market News.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
       "sector": "finance",
-      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/23/3209873/0/en/Inspira-Technologies-Reaffirms-49-5-Million-in-Binding-Purchase-Orders-and-Aligns-Execution-with-2026-Regulatory-and-Deployment-Milestones.html",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/23/3209877/0/fr/Placements-Vanguard-Canada-annonce-les-distributions-annuelles-d%C3%A9finitives-des-gains-en-capital-des-FNB-Vanguard-MC-VBU-VBG-et-VGAB-pour-2025.html",
       "source_name": "GlobeNewswire - Stock Market News",
-      "excerpt": "Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026 Revenues Relating to the Binding Purchase Orders Expected to be Received and Recognized in 2026",
+      "excerpt": "TORONTO, 23 d&#233;c. 2025 (GLOBE NEWSWIRE) -- Placements Vanguard Canada Inc. a annoncé aujourd’hui les distributions annuelles définitives de gains en capital des FNB Vanguard énumérés ci-dessous po",
       "facts": [
         "Source: GlobeNewswire - Stock Market News",
         "Published: 2025-12-23T13:30:00.000Z"
       ],
       "entities": {
-        "name": "Inspira Technologies Reaffirms $49.5 Million in Binding Purchase Orders and Aligns Execution with 2026 Regulatory and Deployment Milestones",
+        "name": "Placements Vanguard Canada annonce les distributions annuelles définitives des gains en capital des FNB Vanguard(MC) VBU, VBG et VGAB pour 2025",
         "type": "company",
         "sector": "finance"
       },
@@ -1745,7 +2042,40 @@
       "event_date": "2025-12-23T13:30:00.000Z",
       "sources": [
         {
-          "url": "https://www.globenewswire.com/news-release/2025/12/23/3209873/0/en/Inspira-Technologies-Reaffirms-49-5-Million-in-Binding-Purchase-Orders-and-Aligns-Execution-with-2026-Regulatory-and-Deployment-Milestones.html",
+          "url": "https://www.globenewswire.com/news-release/2025/12/23/3209877/0/fr/Placements-Vanguard-Canada-annonce-les-distributions-annuelles-d%C3%A9finitives-des-gains-en-capital-des-FNB-Vanguard-MC-VBU-VBG-et-VGAB-pour-2025.html",
+          "domain": "www.globenewswire.com",
+          "kind": "secondary",
+          "weight": 0.6,
+          "published_at": "2025-12-23T13:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "824b446c8fd6",
+      "signal_type": "REVENUE_RECORD",
+      "category_label": "Revenue",
+      "title": "Vanguard Investments Canada Announces Final 2025 Annual Capital Gains Distributions for the Vanguard ETFs® - VBU, VBG and VGAB",
+      "summary": "TORONTO, Dec. 23, 2025 (GLOBE NEWSWIRE) -- Vanguard Investments Canada Inc. today announced the final annual capital gains distributions for the Vanguard ETFs listed below for the 2025 tax year. This is an update to the estimated annual capital gains distributions announced on November 18, 2025 and December 17, 2025.",
+      "body": "## Opening Phenomenon\r\n<!-- Purpose: Establish the systemic transition using formal evidence without narrative. -->\r\nVanguard Investments Canada Announces Final 2025 Annual Capital Gains Distributions for the Vanguard ETFs® - VBU, VBG and VGAB. TORONTO, Dec. 23, 2025 (GLOBE NEWSWIRE) -- Vanguard Investments Canada Inc. today announced the final annual capital gains distributions for the Vanguard ETFs listed below for the 2025 tax year. This is an update to the estimated annual capital gains distributions announced on November 18, 2025 and December 17, 2025.\r\n\r\n## Historical Positioning\r\n<!-- Purpose: Place the record within a filing sequence and dated milestones. -->\r\nPublished on 2025-12-23T13:30:00.000Z by GlobeNewswire - Stock Market News. Source: https://www.globenewswire.com/news-release/2025/12/23/3209877/0/en/Vanguard-Investments-Canada-Announces-Final-2025-Annual-Capital-Gains-Distributions-for-the-Vanguard-ETFs-VBU-VBG-and-VGAB.html.\r\n\r\n## Mechanism of Power\r\n<!-- Purpose: Describe the institutional mechanism and disclosure regime as the governing force. -->\r\nThe record reflects institutional disclosure through formal release channels.\r\n\r\n## Agents Involved\r\n<!-- Purpose: Identify formal agents and gatekeepers as they appear in the record. -->\r\nPrimary agent: Vanguard Investments Canada Announces Final 2025 Annual Capital Gains Distributions for the Vanguard ETFs®. Gatekeeper: GlobeNewswire - Stock Market News.\r\n\r\n## Structural Question\r\n<!-- Purpose: Close with an archival question that preserves institutional continuity. -->\r\nWhat institutional sequence does this disclosure continue to shape?\r\n",
+      "sector": "finance",
+      "canonical_url": "https://www.globenewswire.com/news-release/2025/12/23/3209877/0/en/Vanguard-Investments-Canada-Announces-Final-2025-Annual-Capital-Gains-Distributions-for-the-Vanguard-ETFs-VBU-VBG-and-VGAB.html",
+      "source_name": "GlobeNewswire - Stock Market News",
+      "excerpt": "TORONTO, Dec. 23, 2025 (GLOBE NEWSWIRE) -- Vanguard Investments Canada Inc. today announced the final annual capital gains distributions for the Vanguard ETFs listed below for the 2025 tax year. This ",
+      "facts": [
+        "Source: GlobeNewswire - Stock Market News",
+        "Published: 2025-12-23T13:30:00.000Z"
+      ],
+      "entities": {
+        "name": "Vanguard Investments Canada Announces Final 2025 Annual Capital Gains Distributions for the Vanguard ETFs®",
+        "type": "company",
+        "sector": "finance"
+      },
+      "metrics": {},
+      "published_at": "2025-12-23T13:30:00.000Z",
+      "event_date": "2025-12-23T13:30:00.000Z",
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2025/12/23/3209877/0/en/Vanguard-Investments-Canada-Announces-Final-2025-Annual-Capital-Gains-Distributions-for-the-Vanguard-ETFs-VBU-VBG-and-VGAB.html",
           "domain": "www.globenewswire.com",
           "kind": "secondary",
           "weight": 0.6,
