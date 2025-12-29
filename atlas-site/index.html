@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8" />
@@ -19,7 +19,7 @@
 
     <nav class="main-tabs" aria-label="Principal">
       <a class="tab active">Atlas</a>
-      <a class="tab">Academia</a>
+      <a class="tab" href="academia.html">Academia</a>
       <a class="tab">Ordem</a>
       <a class="tab">Alexandria</a>
     </nav>
@@ -37,43 +37,7 @@
       <h1 class="main-title" data-text="Atlas">Atlas</h1>
       <h2 class="main-subtitle" data-text="Mapa vivo do mundo">Mapa vivo do mundo</h2>
     </div>
-
-    <section class="orbital-feed top-feed">
-      <article class="orb-item">
-        <div class="orb-meta">Criação de Bilionários em Dólares • 2025</div>
-        <h3 class="orb-title">Recorde global de novos bilionários em 2025 — 287 nomes entram para a elite</h3>
-        <img class="orb-media" src="assets/news/2025 new bilionaires grafic darkmode.webp" alt="New billionaires chart 2022-2025" width="400" height="300" loading="lazy">
-        <p class="orb-summary">Registro sistêmico da dinâmica de riqueza global em 2025, apontando expansão extraordinária da elite bilionária e consolidando o pano de fundo histórico do ano. EY</p>
-      </article>
-      <article class="orb-item">
-        <div class="orb-meta">Abertura de IPO Relevante · Tecnologia & Infraestrutura de IA • Mar 2025</div>
-        <h3 class="orb-title">IPO de destaque — CoreWeave: nuvem de IA levanta US$ 1,5 bilhão em oferta pública</h3>
-        <p class="orb-summary">A CoreWeave, provedora de infraestrutura de computação em nuvem com contratos robustos vinculados a IA generativa e com apoio institucional, realizou seu IPO em março de 2025, arrecadando US$ 1,5 bilhão em uma das maiores ofertas de tecnologia daquele ano, sinalizando renovado apetite por capital em tecnologia de base. Wikipedia</p>
-      </article>
-      <article class="orb-item">
-        <div class="orb-meta">Recorde de Faturamento · Mercado Financeiro Global • Q2 2025</div>
-        <h3 class="orb-title">Recorde de faturamento setorial — Cboe Global Markets registra receita líquida recorde em Q2 2025</h3>
-        <p class="orb-summary">A operadora de bolsa Cboe Global Markets anunciou receita líquida recorde de US$ 587 milhões no segundo trimestre de 2025, um aumento de 14% em relação ao ano anterior, refletindo expansão de atividade e intensidade de negociação em mercados de derivados e opções, consolidando seu papel estrutural nas finanças globais.</p>
-      </article>
-    </section>
-<section class="orbital-feed bottom-feed">
-      <article class="orb-item">
-        <div class="orb-meta">Criação de Bilionários em Dólares • 2025</div>
-        <h3 class="orb-title">Recorde global de novos bilionários em 2025 — 287 nomes entram para a elite</h3>
-        <img class="orb-media" src="assets/news/2025 new bilionaires grafic darkmode.webp" alt="New billionaires chart 2022-2025" width="400" height="300" loading="lazy">
-        <p class="orb-summary">Registro sistêmico da dinâmica de riqueza global em 2025, apontando expansão extraordinária da elite bilionária e consolidando o pano de fundo histórico do ano. EY</p>
-      </article>
-      <article class="orb-item">
-        <div class="orb-meta">Abertura de IPO Relevante · Tecnologia & Infraestrutura de IA • Mar 2025</div>
-        <h3 class="orb-title">IPO de destaque — CoreWeave: nuvem de IA levanta US$ 1,5 bilhão em oferta pública</h3>
-        <p class="orb-summary">A CoreWeave, provedora de infraestrutura de computação em nuvem com contratos robustos vinculados a IA generativa e com apoio institucional, realizou seu IPO em março de 2025, arrecadando US$ 1,5 bilhão em uma das maiores ofertas de tecnologia daquele ano, sinalizando renovado apetite por capital em tecnologia de base. Wikipedia</p>
-      </article>
-      <article class="orb-item">
-        <div class="orb-meta">Recorde de Faturamento · Mercado Financeiro Global • Q2 2025</div>
-        <h3 class="orb-title">Recorde de faturamento setorial — Cboe Global Markets registra receita líquida recorde em Q2 2025</h3>
-        <p class="orb-summary">A operadora de bolsa Cboe Global Markets anunciou receita líquida recorde de US$ 587 milhões no segundo trimestre de 2025, um aumento de 14% em relação ao ano anterior, refletindo expansão de atividade e intensidade de negociação em mercados de derivados e opções, consolidando seu papel estrutural nas finanças globais.</p>
-      </article>
-    </section>
+    <div id="atlas-feed" class="atlas-feed" aria-live="polite"></div>
   </main>
 
   <footer class="site-footer">
@@ -97,6 +61,7 @@
       <a>Contato</a>
     </nav>
   </footer>
+  <div class="page-tail" aria-hidden="true"></div>
 
   <script>
     // Parallax effect for background
@@ -156,6 +121,113 @@
       document.documentElement.style.setProperty('--cursor-x', '-100%');
       document.documentElement.style.setProperty('--cursor-y', '-100%');
     });
+
+    const feedRoot = document.getElementById('atlas-feed');
+    const FEED_URL = 'content/atlas/feed.json';
+
+    function safeParseDate(value) {
+      if (!value) return null;
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return null;
+      return date;
+    }
+
+    function formatDate(item) {
+      if (item.dateLocal) return item.dateLocal;
+      const date = safeParseDate(item.publishedAtISO || item.published_at);
+      if (!date) return '';
+      return date.toLocaleDateString('pt-BR', { year: 'numeric', month: 'short', day: '2-digit' });
+    }
+
+    function getItemLink(item) {
+      const recordPath = item.recordCardPath;
+      if (recordPath && typeof recordPath === 'string') return recordPath;
+      return item.canonicalUrl || item.canonical_url || '#';
+    }
+
+    function normalizeFeedItems(payload) {
+      if (Array.isArray(payload)) return payload;
+      if (payload && Array.isArray(payload.items)) return payload.items;
+      return [];
+    }
+
+    function sortByRecency(a, b) {
+      const dateA = safeParseDate(a.publishedAtISO || a.dateLocal || a.published_at);
+      const dateB = safeParseDate(b.publishedAtISO || b.dateLocal || b.published_at);
+      if (dateA && dateB) return dateB - dateA;
+      if (dateA) return -1;
+      if (dateB) return 1;
+      return 0;
+    }
+
+    function renderFeedItems(items) {
+      if (!feedRoot || !items.length) return;
+      const fragment = document.createDocumentFragment();
+
+      items.forEach((item) => {
+        const entry = document.createElement('article');
+        entry.className = 'atlas-feed-item';
+
+        const titleLink = document.createElement('a');
+        titleLink.className = 'atlas-feed-title';
+        titleLink.href = getItemLink(item);
+        titleLink.textContent = item.title || 'Sem titulo';
+        if (!titleLink.href || titleLink.href === '#') {
+          titleLink.removeAttribute('href');
+        }
+
+        const meta = document.createElement('div');
+        meta.className = 'atlas-feed-meta';
+
+        const tags = [];
+        if (item.signal_type || item.signalType) tags.push(item.signal_type || item.signalType);
+        if (item.theme) tags.push(item.theme);
+        if (item.slot) tags.push(item.slot);
+
+        if (tags.length) {
+          const tagEl = document.createElement('span');
+          tagEl.className = 'atlas-feed-tags';
+          tagEl.textContent = tags.join(' · ');
+          meta.appendChild(tagEl);
+        }
+
+        const dateText = formatDate(item);
+        if (dateText) {
+          const dateEl = document.createElement('span');
+          dateEl.className = 'atlas-feed-date';
+          dateEl.textContent = dateText;
+          meta.appendChild(dateEl);
+        }
+
+        if (item.docStatus) {
+          const statusEl = document.createElement('span');
+          statusEl.className = 'atlas-feed-status';
+          statusEl.textContent = item.docStatus;
+          meta.appendChild(statusEl);
+        }
+
+        entry.appendChild(titleLink);
+        if (meta.childNodes.length) entry.appendChild(meta);
+        fragment.appendChild(entry);
+      });
+
+      feedRoot.appendChild(fragment);
+    }
+
+    async function loadFeed() {
+      if (!feedRoot) return;
+      try {
+        const response = await fetch(`${FEED_URL}?t=${Date.now()}`, { cache: 'no-store' });
+        if (!response.ok) return;
+        const payload = await response.json();
+        const items = normalizeFeedItems(payload).slice().sort(sortByRecency);
+        renderFeedItems(items);
+      } catch (error) {
+        console.warn('[atlas-feed] load skipped');
+      }
+    }
+
+    loadFeed();
   </script>
 
 </body>
