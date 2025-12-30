@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2025-12-29T23:37:17.960Z",
+  "updated_at": "2025-12-30T09:04:34.050Z",
   "entries": [
     {
       "url": "https://www.sec.gov/newsroom/press-releases/2025-144-sec-charges-three-purported-crypto-asset-trading-platforms-four-investment-clubs-scheme-targeted",
@@ -457,6 +457,60 @@
       "id": "794c5f3a0c72",
       "added_at": "2025-12-29T23:37:17.601Z",
       "published_at": "2025-12-29T21:05:00.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/heres-great-reason-claim-social-security-long-age-70",
+      "id": "33f9a744d378",
+      "added_at": "2025-12-30T09:03:17.213Z",
+      "published_at": "2025-12-30T08:28:00.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/prediction-3-stocks-will-be-worth-more-newsmax-5-years-now",
+      "id": "92fcfc149036",
+      "added_at": "2025-12-30T09:03:29.442Z",
+      "published_at": "2025-12-30T08:07:00.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/where-will-ares-capital-be-3-years",
+      "id": "535ad7d7b9cb",
+      "added_at": "2025-12-30T09:03:37.940Z",
+      "published_at": "2025-12-30T08:05:00.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/dof-wins-150-mln-four-year-rsv-contract-petrobras-brazil",
+      "id": "de0bdb63d6ee",
+      "added_at": "2025-12-30T09:03:44.769Z",
+      "published_at": "2025-12-30T07:28:16.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/montana-aerospace-appoints-patrick-maurer-cfo-names-kai-arndt-ceo",
+      "id": "ee8bb7a44bb5",
+      "added_at": "2025-12-30T09:03:59.663Z",
+      "published_at": "2025-12-30T07:14:49.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/30/3211260/0/en/David-Whitcombe-Chief-Market-Strategist-at-LINK-FOREX-Analyzes-The-Structural-Shift-in-the-US-Stock-Market.html",
+      "id": "afb04b01bbe4",
+      "added_at": "2025-12-30T09:03:59.978Z",
+      "published_at": "2025-12-30T08:38:00.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/30/3211259/0/en/XORKETS-FX-Establishes-Compliance-Driven-Multi-Layered-Secure-Financial-Service-System-with-US-MSB-License-at-its-Core.html",
+      "id": "c07b63d6cabb",
+      "added_at": "2025-12-30T09:04:17.204Z",
+      "published_at": "2025-12-30T08:37:00.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/30/3211255/0/en/Casino-online-is-the-First-Nominee-of-BWiGA-2026-The-Nomination-is-Affiliate-Branding-of-the-Year.html",
+      "id": "b4bf8cf78e7a",
+      "added_at": "2025-12-30T09:04:27.662Z",
+      "published_at": "2025-12-30T07:08:00.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/30/3211232/0/en/Yarbo-Set-to-Unveil-Its-New-M-Series-Yard-Robot-at-CES-2026.html",
+      "id": "ea1bee7d4285",
+      "added_at": "2025-12-30T09:04:33.865Z",
+      "published_at": "2025-12-30T03:18:00.000Z"
     }
   ]
 }
