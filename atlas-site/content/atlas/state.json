@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated_at": "2025-12-30T09:04:34.050Z",
+  "updated_at": "2025-12-30T15:44:33.951Z",
   "entries": [
     {
       "url": "https://www.sec.gov/newsroom/press-releases/2025-144-sec-charges-three-purported-crypto-asset-trading-platforms-four-investment-clubs-scheme-targeted",
@@ -511,6 +511,78 @@
       "id": "ea1bee7d4285",
       "added_at": "2025-12-30T09:04:33.865Z",
       "published_at": "2025-12-30T03:18:00.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/eaton-stock-buy-now-0",
+      "id": "af428a5b21d9",
+      "added_at": "2025-12-30T15:43:37.862Z",
+      "published_at": "2025-12-30T15:35:00.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/nasdaq-100-movers-shop-intc",
+      "id": "8aec8a85df3d",
+      "added_at": "2025-12-30T15:43:42.571Z",
+      "published_at": "2025-12-30T15:23:09.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/want-decades-passive-income-buy-index-fund-and-hold-it-forever",
+      "id": "bdbfea8efe00",
+      "added_at": "2025-12-30T15:43:46.440Z",
+      "published_at": "2025-12-30T15:20:00.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/sp-500-movers-app-moh",
+      "id": "69b14a6c3775",
+      "added_at": "2025-12-30T15:43:53.724Z",
+      "published_at": "2025-12-30T15:17:40.000Z"
+    },
+    {
+      "url": "https://www.nasdaq.com/articles/air-china-buy-60-airbus-a320neo-series-aircraft-increase-fleet-capacity",
+      "id": "cee836d36fed",
+      "added_at": "2025-12-30T15:43:59.330Z",
+      "published_at": "2025-12-30T15:17:17.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/30/3211454/0/en/Advanced-Biomed-Inc-Announces-Disposal-of-its-Hong-Kong-Subsidiary.html",
+      "id": "9d672fe6af16",
+      "added_at": "2025-12-30T15:43:59.900Z",
+      "published_at": "2025-12-30T15:17:00.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/30/3211453/0/en/ILLR-Remains-Confident-in-Nasdaq-Appeal-and-Imminent-Filing-Compliance.html",
+      "id": "17b5a4485b70",
+      "added_at": "2025-12-30T15:44:04.632Z",
+      "published_at": "2025-12-30T15:16:00.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/30/3211452/0/en/Christie-s-International-Real-Estate-Builds-its-Luxury-Network-in-2025-with-Strategic-Affiliate-Growth-and-Record-Sales.html",
+      "id": "c1a3dca012d2",
+      "added_at": "2025-12-30T15:44:09.224Z",
+      "published_at": "2025-12-30T15:14:00.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/30/3211422/0/en/Green-Steel-to-Hit-USD-189-82-Billion-by-2032-at-a-CAGR-of-60-4-says-Coherent-Market-Insights.html",
+      "id": "0685a63b338d",
+      "added_at": "2025-12-30T15:44:13.170Z",
+      "published_at": "2025-12-30T14:19:00.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/30/3211419/0/en/Indocia-Announces-INDO-Token-Sale-Framework-Ahead-of-First-Presale-of-2026.html",
+      "id": "4ca18e925294",
+      "added_at": "2025-12-30T15:44:16.840Z",
+      "published_at": "2025-12-30T14:13:00.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/30/3211382/0/en/Truth-Social-ETFs-Launch-Today.html",
+      "id": "d9e329bbe032",
+      "added_at": "2025-12-30T15:44:20.795Z",
+      "published_at": "2025-12-30T13:30:00.000Z"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2025/12/30/3211436/0/en/REE-Automotive-Receives-Nasdaq-Extension-to-Regain-Compliance.html",
+      "id": "4919df050336",
+      "added_at": "2025-12-30T15:44:33.951Z",
+      "published_at": "2025-12-30T14:58:00.000Z"
     }
   ]
 }
