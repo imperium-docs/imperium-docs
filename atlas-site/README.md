@@ -1,6 +1,6 @@
-﻿# Imperium Atlas (RSS Cron)
+# Imperium Atlas (Python Judge + Memory)
 
-Pipeline RSS-only para gerar `feed.json` e `state.json` (v3) para o renderer.
+Pipeline unico (Python) com juiz deterministico + memoria para gerar `feed.json` e `state.json`.
 
 ## Politica de LLM (OpenRouter somente)
 - Provider fixo: OpenRouter.
@@ -19,13 +19,15 @@ Somente estas variaveis sao usadas:
 
 ## Rodar localmente
 ```bash
-npm install
-npm run atlas:cron
+python -m pip install -r ../atlas-pipeline/requirements.txt
+python ../atlas-pipeline/src/main.py
 ```
 
 ## Saidas
-- `content/atlas/feed.json` (v3)
-- `content/atlas/state.json` (v3)
+- `feed.json` (v4)
+- `state.json` (v4)
+- `content/atlas/feed.json` (v4)
+- `content/atlas/state.json` (v4)
 
 ## Fontes RSS
 Edite `sources.whitelist.json` para controlar os feeds permitidos.
