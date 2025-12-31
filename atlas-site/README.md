@@ -2,6 +2,12 @@
 
 Pipeline unico (Python) com juiz deterministico + memoria para gerar `feed.json` e `state.json`.
 
+## Politica editorial (whitelist canonica)
+- Apenas fontes oficiais, institucionais e jornalismo financeiro profissional.
+- PR wires, agregadores genericos, blogs e fontes promocionais sao proibidos.
+- Descoberta RSS-only (feeds oficiais ou sitemaps institucionais).
+- Zero noticias em um ciclo e aceitavel se nao houver evidencias suficientes.
+
 ## Politica de LLM (OpenRouter somente)
 - Provider fixo: OpenRouter.
 - Modelo fixo: `meta-llama/llama-3.2-3b-instruct:free`.

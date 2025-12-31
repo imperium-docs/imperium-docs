@@ -13,7 +13,7 @@ from config import (
 )
 from dedup import filter_new_entries
 from ingest import ingest_sources
-from judge import cluster_events, judge_clusters
+from judge import apply_thematic_filter, cluster_events, judge_clusters
 from normalize import normalize_entry
 from rank import rank_events
 from render import render_event
@@ -41,7 +41,8 @@ def main() -> int:
 
     state = load_state()
     fresh = filter_new_entries(normalized, state)
-    clusters = cluster_events(fresh)
+    themed, theme_rejected = apply_thematic_filter(fresh)
+    clusters = cluster_events(themed)
     approved, rejected = judge_clusters(clusters)
     ranked = rank_events(approved)
 
@@ -50,13 +51,17 @@ def main() -> int:
         len(normalized),
         "fresh:",
         len(fresh),
+        "themed:",
+        len(themed),
         "clusters:",
         len(clusters),
         "approved:",
         len(approved),
         "rejected:",
-        len(rejected),
+        len(rejected) + len(theme_rejected),
     )
+    for decision in theme_rejected:
+        print(f"[atlas] reject {decision.get('event_id')}: {decision.get('rejection_reason')}")
     for decision in rejected:
         print(f"[atlas] reject {decision['event_id']}: {decision.get('rejection_reason')}")
 

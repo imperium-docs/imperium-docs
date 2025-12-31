@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
 
-from config import SOURCES_PATH
+from config import CANONICAL_DOMAINS, SOURCES_PATH
 
 
 @dataclass(frozen=True)
@@ -21,7 +21,10 @@ class SourceConfig:
 
 def _domain_from_url(value: str) -> str:
     try:
-        return urlparse(value).hostname or ""
+        hostname = urlparse(value).hostname or ""
+        if hostname.startswith("www."):
+            hostname = hostname[4:]
+        return hostname
     except Exception:
         return ""
 
@@ -35,6 +38,10 @@ def load_sources(path: Path | None = None) -> list[SourceConfig]:
         if not isinstance(item, dict):
             continue
         feed_url = str(item.get("feed_url") or "")
+        domain = _domain_from_url(feed_url)
+        if domain and domain not in CANONICAL_DOMAINS:
+            print(f"[sources] skipping non-canonical domain: {domain}")
+            continue
         sources.append(
             SourceConfig(
                 id=str(item.get("id") or feed_url),
@@ -42,7 +49,7 @@ def load_sources(path: Path | None = None) -> list[SourceConfig]:
                 tier=str(item.get("tier") or "secondary"),
                 method=str(item.get("method") or "rss"),
                 feed_url=feed_url,
-                domain=_domain_from_url(feed_url),
+                domain=domain,
             )
         )
     return sources

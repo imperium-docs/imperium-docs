@@ -79,3 +79,31 @@ def generate(event: dict[str, Any]) -> LlmResult | None:
         )
     except Exception as exc:
         raise RuntimeError(f"LLM output invalid: {exc}") from exc
+
+
+def verify_theme(event: dict[str, Any], theme: str) -> bool | None:
+    if not LLM_ENABLED:
+        return None
+    if LLM_PROVIDER != "openrouter":
+        raise RuntimeError("LLM provider must be openrouter")
+    system_prompt = (
+        "You are a strict verifier. Reply only with 'SIM' or 'NAO'. "
+        "Answer SIM only if the event is unequivocally about the specified theme."
+    )
+    user_prompt = json.dumps(
+        {
+            "theme": theme.upper(),
+            "title": event.get("title"),
+            "summary": event.get("summary"),
+            "content": event.get("content"),
+            "link": event.get("link"),
+        },
+        ensure_ascii=True,
+    )
+    raw = _call_openrouter(
+        [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ]
+    )
+    return raw.strip().lower().startswith("sim")

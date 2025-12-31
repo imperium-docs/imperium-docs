@@ -2,9 +2,6 @@ from __future__ import annotations
 
 from typing import Any
 
-from llm import generate
-
-
 def _safe(value: Any) -> str:
     if value is None:
         return ""
@@ -25,31 +22,25 @@ def _deterministic_body(event: dict[str, Any]) -> tuple[str, str, str, list[str]
 
 
 def render_event(event: dict[str, Any]) -> dict[str, Any]:
-    try:
-        llm_payload = generate(event)
-    except Exception as exc:
-        print(f"[llm] fallback to deterministic output ({exc})")
-        llm_payload = None
-    if llm_payload and llm_payload.title and llm_payload.body:
-        title = llm_payload.title
-        summary = llm_payload.dek or event["items"][0]["summary"]
-        body = llm_payload.body
-        checklist = llm_payload.checklist
-    else:
-        title, summary, body, checklist = _deterministic_body(event)
-
+    title, summary, body, checklist = _deterministic_body(event)
     main_item = event["items"][0]
+    theme = event["event_type"].upper()
     return {
         "id": event["event_id"],
         "signal_type": event["event_type"],
+        "theme": theme,
         "category_label": main_item["category_label"],
         "title": _safe(title),
         "summary": _safe(summary),
         "body": _safe(body),
         "sector": "finance",
         "canonical_url": _safe(main_item["link"]),
+        "source": main_item["source"].name,
+        "date": main_item["published_at"],
+        "link": _safe(main_item["link"]),
         "source_name": main_item["source"].name,
         "facts": [item["title"] for item in event["items"]][:5],
+        "evidences": event.get("evidences", []),
         "entities": {
             "name": event["entity"],
             "type": "company",

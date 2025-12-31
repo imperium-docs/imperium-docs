@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "purpose": "atlas-scan-smoke-test",
+  "version": 2,
+  "purpose": "atlas-canonical-whitelist",
   "sources": [
     {
       "id": "sec_press_releases",
@@ -11,52 +11,308 @@
       "homepage": "https://www.sec.gov/about/rss-feeds"
     },
     {
-      "id": "nasdaq_rss_ipos",
-      "name": "Nasdaq - IPOs (category feed)",
-      "tier": "secondary",
+      "id": "fca_news",
+      "name": "FCA - News",
+      "tier": "primary",
+      "method": "rss",
+      "feed_url": "https://www.fca.org.uk/news/rss.xml",
+      "homepage": "https://www.fca.org.uk/news"
+    },
+    {
+      "id": "esma_news",
+      "name": "ESMA - News",
+      "tier": "primary",
+      "method": "rss",
+      "feed_url": "https://www.esma.europa.eu/press-news/esma-news/rss.xml",
+      "homepage": "https://www.esma.europa.eu/press-news/esma-news"
+    },
+    {
+      "id": "bafin_news",
+      "name": "BaFin - News",
+      "tier": "primary",
+      "method": "rss",
+      "feed_url": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/EN/News/rss.xml",
+      "homepage": "https://www.bafin.de/EN/PublikationenDaten/News/News_node.html"
+    },
+    {
+      "id": "amf_news",
+      "name": "AMF - News",
+      "tier": "primary",
+      "method": "rss",
+      "feed_url": "https://www.amf-france.org/en/rss.xml",
+      "homepage": "https://www.amf-france.org/en/news-publications"
+    },
+    {
+      "id": "cvm_news",
+      "name": "CVM - Noticias",
+      "tier": "primary",
+      "method": "rss",
+      "feed_url": "https://www.cvm.gov.br/Noticias/rss/",
+      "homepage": "https://www.cvm.gov.br/"
+    },
+    {
+      "id": "sebi_news",
+      "name": "SEBI - Sitemap",
+      "tier": "primary",
+      "method": "sitemap",
+      "feed_url": "https://www.sebi.gov.in/sitemap.xml",
+      "homepage": "https://www.sebi.gov.in/"
+    },
+    {
+      "id": "asic_news",
+      "name": "ASIC - Sitemap",
+      "tier": "primary",
+      "method": "sitemap",
+      "feed_url": "https://asic.gov.au/sitemap.xml",
+      "homepage": "https://asic.gov.au/"
+    },
+    {
+      "id": "mas_news",
+      "name": "MAS - News",
+      "tier": "primary",
+      "method": "rss",
+      "feed_url": "https://www.mas.gov.sg/rss/NewsAndAnnouncements",
+      "homepage": "https://www.mas.gov.sg/news"
+    },
+    {
+      "id": "nyse_news",
+      "name": "NYSE - Sitemap",
+      "tier": "primary",
+      "method": "sitemap",
+      "feed_url": "https://www.nyse.com/sitemap.xml",
+      "homepage": "https://www.nyse.com/"
+    },
+    {
+      "id": "nasdaq_ipos",
+      "name": "Nasdaq - IPOs",
+      "tier": "primary",
       "method": "rss",
       "feed_url": "https://www.nasdaq.com/feed/rssoutbound?category=IPOs",
-      "homepage": "https://www.nasdaq.com/nasdaq-RSS-Feeds"
+      "homepage": "https://www.nasdaq.com/nasdaq-rss-feeds"
     },
     {
-      "id": "nasdaq_rss_earnings",
-      "name": "Nasdaq - Earnings (category feed)",
-      "tier": "secondary",
+      "id": "nasdaq_earnings",
+      "name": "Nasdaq - Earnings",
+      "tier": "primary",
       "method": "rss",
       "feed_url": "https://www.nasdaq.com/feed/rssoutbound?category=Earnings",
-      "homepage": "https://www.nasdaq.com/nasdaq-RSS-Feeds"
+      "homepage": "https://www.nasdaq.com/nasdaq-rss-feeds"
     },
     {
-      "id": "nasdaq_rss_markets",
-      "name": "Nasdaq - Markets (category feed)",
+      "id": "lseg_news",
+      "name": "LSEG - Sitemap",
+      "tier": "primary",
+      "method": "sitemap",
+      "feed_url": "https://www.lseg.com/sitemap.xml",
+      "homepage": "https://www.lseg.com/"
+    },
+    {
+      "id": "euronext_news",
+      "name": "Euronext - Sitemap",
+      "tier": "primary",
+      "method": "sitemap",
+      "feed_url": "https://www.euronext.com/sitemap.xml",
+      "homepage": "https://www.euronext.com/"
+    },
+    {
+      "id": "jpx_news",
+      "name": "JPX - Sitemap",
+      "tier": "primary",
+      "method": "sitemap",
+      "feed_url": "https://www.jpx.co.jp/english/sitemap.xml",
+      "homepage": "https://www.jpx.co.jp/english/"
+    },
+    {
+      "id": "hkex_news",
+      "name": "HKEX - Sitemap",
+      "tier": "primary",
+      "method": "sitemap",
+      "feed_url": "https://www.hkex.com.hk/sitemap.xml",
+      "homepage": "https://www.hkex.com.hk/"
+    },
+    {
+      "id": "b3_news",
+      "name": "B3 - Sitemap",
+      "tier": "primary",
+      "method": "sitemap",
+      "feed_url": "https://www.b3.com.br/en_us/site-map.xml",
+      "homepage": "https://www.b3.com.br/"
+    },
+    {
+      "id": "tsx_news",
+      "name": "TSX - Sitemap",
+      "tier": "primary",
+      "method": "sitemap",
+      "feed_url": "https://www.tsx.com/sitemap.xml",
+      "homepage": "https://www.tsx.com/"
+    },
+    {
+      "id": "asx_news",
+      "name": "ASX - Sitemap",
+      "tier": "primary",
+      "method": "sitemap",
+      "feed_url": "https://www.asx.com.au/sitemap.xml",
+      "homepage": "https://www.asx.com.au/"
+    },
+    {
+      "id": "nse_news",
+      "name": "NSE - Sitemap",
+      "tier": "primary",
+      "method": "sitemap",
+      "feed_url": "https://www.nseindia.com/sitemap.xml",
+      "homepage": "https://www.nseindia.com/"
+    },
+    {
+      "id": "reuters_top",
+      "name": "Reuters - Top News",
       "tier": "secondary",
       "method": "rss",
-      "feed_url": "https://www.nasdaq.com/feed/rssoutbound?category=Markets",
-      "homepage": "https://www.nasdaq.com/nasdaq-RSS-Feeds"
+      "feed_url": "https://www.reuters.com/rssFeed/topNews",
+      "homepage": "https://www.reuters.com/"
     },
     {
-      "id": "globenewswire_press_releases",
-      "name": "GlobeNewswire - Press Releases",
-      "tier": "primary",
-      "method": "rss",
-      "feed_url": "https://www.globenewswire.com/RssFeed/subjectcode/72-Press%20Releases/feedTitle/GlobeNewswire%20-%20Press%20Releases",
-      "homepage": "https://www.globenewswire.com/rss/list"
+      "id": "bloomberg_news",
+      "name": "Bloomberg - Sitemap",
+      "tier": "secondary",
+      "method": "sitemap",
+      "feed_url": "https://www.bloomberg.com/feeds/sitemap.xml",
+      "homepage": "https://www.bloomberg.com/"
     },
     {
-      "id": "globenewswire_prospectus",
-      "name": "GlobeNewswire - Prospectus / Announcement of Prospectus",
-      "tier": "primary",
-      "method": "rss",
-      "feed_url": "https://www.globenewswire.com/RssFeed/subjectcode/63-Prospectus%202fAnnouncement%20Of%20Prospectus/feedTitle/GlobeNewswire%20-%20Prospectus%2C%20Announcement%20Of%20Prospectus",
-      "homepage": "https://www.globenewswire.com/rss/list"
-    },
-    {
-      "id": "globenewswire_stock_market_news",
-      "name": "GlobeNewswire - Stock Market News",
+      "id": "ap_top",
+      "name": "AP - Top News",
       "tier": "secondary",
       "method": "rss",
-      "feed_url": "https://www.globenewswire.com/RssFeed/subjectcode/39-Stock%20Market%20News/feedTitle/GlobeNewswire%20-%20Stock%20Market%20News",
-      "homepage": "https://www.globenewswire.com/rss/list"
+      "feed_url": "https://apnews.com/apf-topnews?output=feed",
+      "homepage": "https://apnews.com/"
+    },
+    {
+      "id": "afp_news",
+      "name": "AFP - RSS",
+      "tier": "secondary",
+      "method": "rss",
+      "feed_url": "https://www.afp.com/en/rss",
+      "homepage": "https://www.afp.com/"
+    },
+    {
+      "id": "ft_news",
+      "name": "FT - RSS",
+      "tier": "secondary",
+      "method": "rss",
+      "feed_url": "https://www.ft.com/?format=rss",
+      "homepage": "https://www.ft.com/"
+    },
+    {
+      "id": "wsj_news",
+      "name": "WSJ - Sitemap",
+      "tier": "secondary",
+      "method": "sitemap",
+      "feed_url": "https://www.wsj.com/sitemap.xml",
+      "homepage": "https://www.wsj.com/"
+    },
+    {
+      "id": "economist_latest",
+      "name": "Economist - Latest",
+      "tier": "secondary",
+      "method": "rss",
+      "feed_url": "https://www.economist.com/latest/rss.xml",
+      "homepage": "https://www.economist.com/"
+    },
+    {
+      "id": "barrons_news",
+      "name": "Barrons - Sitemap",
+      "tier": "secondary",
+      "method": "sitemap",
+      "feed_url": "https://www.barrons.com/sitemap.xml",
+      "homepage": "https://www.barrons.com/"
+    },
+    {
+      "id": "marketwatch_news",
+      "name": "MarketWatch - Sitemap",
+      "tier": "secondary",
+      "method": "sitemap",
+      "feed_url": "https://www.marketwatch.com/sitemap.xml",
+      "homepage": "https://www.marketwatch.com/"
+    },
+    {
+      "id": "handelsblatt_finance",
+      "name": "Handelsblatt - Finanzen",
+      "tier": "secondary",
+      "method": "rss",
+      "feed_url": "https://www.handelsblatt.com/contentexport/feed/finanzen",
+      "homepage": "https://www.handelsblatt.com/"
+    },
+    {
+      "id": "lesechos_news",
+      "name": "Les Echos - RSS",
+      "tier": "secondary",
+      "method": "rss",
+      "feed_url": "https://www.lesechos.fr/rss/lesechos-actualites",
+      "homepage": "https://www.lesechos.fr/"
+    },
+    {
+      "id": "ilsole24ore_news",
+      "name": "Il Sole 24 Ore - RSS",
+      "tier": "secondary",
+      "method": "rss",
+      "feed_url": "https://www.ilsole24ore.com/rss/",
+      "homepage": "https://www.ilsole24ore.com/"
+    },
+    {
+      "id": "forbes_billionaires",
+      "name": "Forbes - Billionaires",
+      "tier": "secondary",
+      "method": "rss",
+      "feed_url": "https://www.forbes.com/billionaires/feed/",
+      "homepage": "https://www.forbes.com/billionaires/"
+    },
+    {
+      "id": "bloomberg_billionaires",
+      "name": "Bloomberg - Billionaires Sitemap",
+      "tier": "secondary",
+      "method": "sitemap",
+      "feed_url": "https://www.bloomberg.com/feeds/billionaires/sitemap.xml",
+      "homepage": "https://www.bloomberg.com/billionaires/"
+    },
+    {
+      "id": "sundaytimes_richlist",
+      "name": "Sunday Times - Sitemap",
+      "tier": "secondary",
+      "method": "sitemap",
+      "feed_url": "https://www.thesundaytimes.co.uk/sitemap.xml",
+      "homepage": "https://www.thesundaytimes.co.uk/"
+    },
+    {
+      "id": "spglobal_data",
+      "name": "S&P Global - Sitemap",
+      "tier": "research",
+      "method": "sitemap",
+      "feed_url": "https://www.spglobal.com/sitemap.xml",
+      "homepage": "https://www.spglobal.com/"
+    },
+    {
+      "id": "morningstar_data",
+      "name": "Morningstar - Sitemap",
+      "tier": "research",
+      "method": "sitemap",
+      "feed_url": "https://www.morningstar.com/sitemap.xml",
+      "homepage": "https://www.morningstar.com/"
+    },
+    {
+      "id": "factset_data",
+      "name": "FactSet - Sitemap",
+      "tier": "research",
+      "method": "sitemap",
+      "feed_url": "https://www.factset.com/sitemap.xml",
+      "homepage": "https://www.factset.com/"
+    },
+    {
+      "id": "pitchbook_data",
+      "name": "PitchBook - Sitemap",
+      "tier": "research",
+      "method": "sitemap",
+      "feed_url": "https://pitchbook.com/sitemap.xml",
+      "homepage": "https://pitchbook.com/"
     }
   ]
 }

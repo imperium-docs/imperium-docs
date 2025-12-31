@@ -92,6 +92,7 @@ def normalize_entry(payload: dict[str, Any]) -> dict[str, Any]:
     entry = payload["entry"]
     title = _safe_text(entry.get("title"))
     summary = _safe_text(entry.get("summary"))
+    content = _safe_text(entry.get("content"))
     published_at = parse_date(_safe_text(entry.get("published"))).isoformat()
     event_type = classify_event(f"{title} {summary}")
     if event_type not in ALLOWED_EVENT_TYPES:
@@ -107,6 +108,7 @@ def normalize_entry(payload: dict[str, Any]) -> dict[str, Any]:
         "entity": entity,
         "title": title or entity,
         "summary": summary or title or entity,
+        "content": content,
         "published_at": published_at,
         "event_date": event_date,
         "key_value_usd": key_value,

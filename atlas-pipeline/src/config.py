@@ -15,6 +15,46 @@ SOURCES_PATH = ATLAS_SITE_DIR / "sources.whitelist.json"
 
 ALLOWED_EVENT_TYPES = {"billionaire", "ipo", "revenue_record"}
 
+CANONICAL_DOMAINS = {
+    "sec.gov",
+    "fca.org.uk",
+    "esma.europa.eu",
+    "bafin.de",
+    "amf-france.org",
+    "cvm.gov.br",
+    "sebi.gov.in",
+    "asic.gov.au",
+    "mas.gov.sg",
+    "nyse.com",
+    "nasdaq.com",
+    "lseg.com",
+    "euronext.com",
+    "jpx.co.jp",
+    "hkex.com.hk",
+    "b3.com.br",
+    "tsx.com",
+    "asx.com.au",
+    "nseindia.com",
+    "reuters.com",
+    "bloomberg.com",
+    "apnews.com",
+    "afp.com",
+    "ft.com",
+    "wsj.com",
+    "economist.com",
+    "barrons.com",
+    "marketwatch.com",
+    "handelsblatt.com",
+    "lesechos.fr",
+    "ilsole24ore.com",
+    "forbes.com",
+    "thesundaytimes.co.uk",
+    "spglobal.com",
+    "morningstar.com",
+    "factset.com",
+    "pitchbook.com",
+}
+
 MAX_ITEMS = int(os.getenv("ATLAS_MAX_ITEMS", "200"))
 MAX_PER_SOURCE = int(os.getenv("ATLAS_MAX_PER_SOURCE", "8"))
 
