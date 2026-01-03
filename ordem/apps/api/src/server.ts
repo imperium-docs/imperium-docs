@@ -1,14 +1,14 @@
-﻿import Fastify from "fastify";
+import Fastify, { type FastifyInstance } from "fastify";
 import cors from "@fastify/cors";
 import jwt from "@fastify/jwt";
 import cookie from "@fastify/cookie";
-import { telegramRoutes } from "./routes/telegram";
-import { ordemRoutes } from "./routes/ordem";
-import { devRoutes } from "./routes/dev";
-import { loadEnv } from "./config";
-import { runMigrations } from "./db";
+import { telegramRoutes } from "./routes/telegram.js";
+import { ordemRoutes } from "./routes/ordem.js";
+import { devRoutes } from "./routes/dev.js";
+import { loadEnv } from "./config.js";
+import { runMigrations } from "./db/index.js";
 
-export async function buildServer() {
+export async function buildServer(): Promise<FastifyInstance> {
   const env = loadEnv();
   const app = Fastify({ logger: true });
 
@@ -62,7 +62,12 @@ export async function buildServer() {
           return reply.status(401).send({ message: "Unauthorized" });
         }
 
-        await request.jwtVerify({ token });
+        try {
+          const payload = app.jwt.verify(token);
+          request.user = payload as typeof request.user;
+        } catch {
+          return reply.status(401).send({ message: "Unauthorized" });
+        }
       });
       scope.register(ordemRoutes);
     },

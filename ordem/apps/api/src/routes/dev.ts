@@ -1,6 +1,6 @@
-﻿import { FastifyInstance } from "fastify";
-import { db } from "../db";
-import { users } from "../db/schema";
+import { FastifyInstance } from "fastify";
+import { db } from "../db/index.js";
+import { users } from "../db/schema.js";
 
 export async function devRoutes(app: FastifyInstance) {
   app.post("/dev/mock-users", async () => {

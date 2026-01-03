@@ -1,18 +1,23 @@
-﻿import { FastifyInstance } from "fastify";
+import { FastifyInstance } from "fastify";
 import { z } from "zod";
 import { and, desc, eq, gt, inArray, or } from "drizzle-orm";
-import { db } from "../db";
+import { db } from "../db/index.js";
 import {
   conversationRequests,
   conversations,
   messages,
   users
-} from "../db/schema";
-import { InMemoryRateLimiter, RateLimitResult } from "../lib/rate-limit";
-import { sendRequestNotification } from "../lib/bot-notify";
+} from "../db/schema.js";
+import { InMemoryRateLimiter, RateLimitResult } from "../lib/rate-limit.js";
+import { sendRequestNotification } from "../lib/bot-notify.js";
 
 const MAX_MESSAGE_LENGTH = 1000;
 const MAX_REQUEST_LENGTH = 280;
+
+type ConversationRow = typeof conversations.$inferSelect;
+type MessageRow = typeof messages.$inferSelect;
+type UserRow = typeof users.$inferSelect;
+type RequestRow = typeof conversationRequests.$inferSelect;
 
 const hasObviousSpam = (value: string) => {
   if (/(.)\1{6,}/.test(value)) return true;
@@ -68,13 +73,15 @@ export async function ordemRoutes(app: FastifyInstance) {
     const convs = db
       .select()
       .from(conversations)
-      .where(or(eq(conversations.userAId, userId), eq(conversations.userBId, userId)))
+      .where(
+        or(eq(conversations.userAId, userId), eq(conversations.userBId, userId))
+      )
       .orderBy(desc(conversations.lastMessageAt))
       .all();
 
     if (!convs.length) return [];
 
-    const counterpartIds = convs.map((conv) =>
+    const counterpartIds = convs.map((conv: ConversationRow) =>
       conv.userAId === userId ? conv.userBId : conv.userAId
     );
     const counterpartUsers = db
@@ -86,7 +93,12 @@ export async function ordemRoutes(app: FastifyInstance) {
     const latestMessages = db
       .select()
       .from(messages)
-      .where(inArray(messages.conversationId, convs.map((conv) => conv.id)))
+      .where(
+        inArray(
+          messages.conversationId,
+          convs.map((conv: ConversationRow) => conv.id)
+        )
+      )
       .orderBy(desc(messages.createdAt))
       .all();
 
@@ -100,9 +112,10 @@ export async function ordemRoutes(app: FastifyInstance) {
       }
     }
 
-    return convs.map((conv) => {
-      const counterpart = counterpartUsers.find((user) =>
-        user.id === (conv.userAId === userId ? conv.userBId : conv.userAId)
+    return convs.map((conv: ConversationRow) => {
+      const counterpart = counterpartUsers.find(
+        (user: UserRow) =>
+          user.id === (conv.userAId === userId ? conv.userBId : conv.userAId)
       );
       const preview = latestMap.get(conv.id);
       return {
@@ -148,7 +161,7 @@ export async function ordemRoutes(app: FastifyInstance) {
       .limit(limit)
       .all();
 
-    return results.map((message) => ({
+    return results.map((message: MessageRow) => ({
       id: message.id,
       conversationId: message.conversationId,
       senderUserId: message.senderUserId,
@@ -309,15 +322,15 @@ export async function ordemRoutes(app: FastifyInstance) {
 
     if (!inbox.length) return [];
 
-    const senderIds = inbox.map((req) => req.fromUserId);
+    const senderIds = inbox.map((req: RequestRow) => req.fromUserId);
     const senders = db
       .select()
       .from(users)
       .where(inArray(users.id, senderIds))
       .all();
 
-    return inbox.map((req) => {
-      const from = senders.find((user) => user.id === req.fromUserId);
+    return inbox.map((req: RequestRow) => {
+      const from = senders.find((user: UserRow) => user.id === req.fromUserId);
       return {
         id: req.id,
         from: {

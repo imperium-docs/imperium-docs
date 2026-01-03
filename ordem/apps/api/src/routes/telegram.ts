@@ -1,10 +1,10 @@
-﻿import { FastifyInstance } from "fastify";
+import { FastifyInstance } from "fastify";
 import { z } from "zod";
-import { validateInitData } from "../lib/telegram";
-import { db } from "../db";
-import { users } from "../db/schema";
+import { validateInitData } from "../lib/telegram.js";
+import { db } from "../db/index.js";
+import { users } from "../db/schema.js";
 import { eq } from "drizzle-orm";
-import { loadEnv } from "../config";
+import { loadEnv } from "../config.js";
 
 const env = loadEnv();
 
