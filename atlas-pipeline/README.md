@@ -1,13 +1,13 @@
 # Atlas Pipeline
 
-Pipeline unico em Python com juiz deterministico + memoria. Gera `atlas-site/feed.json` e `atlas-site/state.json`
-e sincroniza `atlas-site/content/atlas/`.
+Pipeline unico em Python (Judge Core) com descoberta multi-metodo, extracao de URL e evidencias reais.
+Gera `atlas-site/feed.json` (v4) e `atlas-site/state.json` (v4) como fontes canonicas.
 
 ## Politica editorial
 - Apenas fontes oficiais, institucionais e jornalismo financeiro profissional.
 - PR wires, agregadores genericos, blogs e fontes promocionais sao proibidos.
-- Descoberta RSS-only (feeds oficiais ou sitemaps institucionais).
-- Zero noticias em um ciclo e aceitavel quando nao ha evidencias.
+- Descoberta multi-metodo: rss, sitemap e html (press releases / newsrooms).
+- Zero noticias em um ciclo e aceitavel quando nao ha evidencias suficientes.
 
 ## Rodar localmente
 ```bash
@@ -19,5 +19,5 @@ python src/main.py
 O workflow `Atlas Cron` executa:
 1) testes (`pytest`)
 2) pipeline (`python src/main.py`)
-3) autopublish (Node)
+3) autopublish (Node, consumer/validator)
 4) commit/push se houver mudancas

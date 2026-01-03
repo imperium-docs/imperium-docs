@@ -1,11 +1,11 @@
-# Imperium Atlas (Python Judge + Memory)
+# Imperium Atlas (Python Judge Core)
 
-Pipeline unico (Python) com juiz deterministico + memoria para gerar `feed.json` e `state.json`.
+Pipeline unico (Python) com juiz deterministico + extracao por URL para gerar `feed.json` e `state.json`.
 
 ## Politica editorial (whitelist canonica)
 - Apenas fontes oficiais, institucionais e jornalismo financeiro profissional.
 - PR wires, agregadores genericos, blogs e fontes promocionais sao proibidos.
-- Descoberta RSS-only (feeds oficiais ou sitemaps institucionais).
+- Descoberta multi-metodo (rss, sitemap, html).
 - Zero noticias em um ciclo e aceitavel se nao houver evidencias suficientes.
 
 ## Politica de LLM (OpenRouter somente)
@@ -29,11 +29,15 @@ python -m pip install -r ../atlas-pipeline/requirements.txt
 python ../atlas-pipeline/src/main.py
 ```
 
+## Autopublish (Node)
+`npm run autopublish:ci` valida o feed v4 e gera cards em `content/atlas/records/` a partir do feed canonico.
+
 ## Saidas
-- `feed.json` (v4)
-- `state.json` (v4)
-- `content/atlas/feed.json` (v4)
-- `content/atlas/state.json` (v4)
+- `feed.json` (v4 canonico)
+- `state.json` (v4 canonico)
 
 ## Fontes RSS
-Edite `sources.whitelist.json` para controlar os feeds permitidos.
+Edite `sources.whitelist.json` para controlar os metodos e fontes permitidas.
+
+Schema recomendado por source: `name`, `domain`, `method` (rss|sitemap|html), `url`/`feed_url`, `selectors` (html),
+`priority`, `is_primary`, `category_hints`.

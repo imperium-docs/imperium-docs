@@ -8,8 +8,6 @@ ATLAS_SITE_DIR = REPO_ROOT / "atlas-site"
 
 FEED_PATH = ATLAS_SITE_DIR / "feed.json"
 STATE_PATH = ATLAS_SITE_DIR / "state.json"
-CONTENT_FEED_PATH = ATLAS_SITE_DIR / "content" / "atlas" / "feed.json"
-CONTENT_STATE_PATH = ATLAS_SITE_DIR / "content" / "atlas" / "state.json"
 
 SOURCES_PATH = ATLAS_SITE_DIR / "sources.whitelist.json"
 
@@ -55,10 +53,21 @@ CANONICAL_DOMAINS = {
     "pitchbook.com",
 }
 
-MAX_ITEMS = int(os.getenv("ATLAS_MAX_ITEMS", "200"))
-MAX_PER_SOURCE = int(os.getenv("ATLAS_MAX_PER_SOURCE", "8"))
+FEED_VERSION = int(os.getenv("ATLAS_FEED_VERSION", "4"))
+STATE_VERSION = int(os.getenv("ATLAS_STATE_VERSION", "4"))
 
-SYNC_CONTENT_ATLAS = os.getenv("ATLAS_SYNC_CONTENT_ATLAS", "true").lower() == "true"
+MAX_ITEMS = int(os.getenv("ATLAS_MAX_ITEMS", "3"))
+MAX_PER_SOURCE = int(os.getenv("ATLAS_MAX_PER_SOURCE", "12"))
+HTML_MAX_LINKS = int(os.getenv("ATLAS_HTML_MAX_LINKS", "50"))
+SITEMAP_MAX_LINKS = int(os.getenv("ATLAS_SITEMAP_MAX_LINKS", "100"))
+
+SYNC_CONTENT_ATLAS = os.getenv("ATLAS_SYNC_CONTENT_ATLAS", "false").lower() == "true"
+
+WINDOW_HOURS = [48, 24 * 7, 24 * 30]
+LONG_WINDOW_MIN_SCORE = float(os.getenv("ATLAS_LONG_WINDOW_MIN_SCORE", "2.5"))
+MIN_BODY_LENGTH = int(os.getenv("ATLAS_MIN_BODY_LENGTH", "500"))
+
+LOG_DIR = REPO_ROOT / "atlas-pipeline" / "logs"
 
 LLM_ENABLED = os.getenv("ATLAS_LLM_ENABLED", "false").lower() == "true"
 LLM_PROVIDER = (os.getenv("ATLAS_LLM_PROVIDER") or "openrouter").lower()

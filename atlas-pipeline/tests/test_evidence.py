@@ -1,27 +1,29 @@
 from __future__ import annotations
 
-from evidence import evidence_passes, summarize_evidence
+from evidence import build_evidence_pack
 
 
 class Source:
-    def __init__(self, tier: str):
-        self.tier = tier
+    def __init__(self, domain: str, is_primary: bool):
+        self.domain = domain
+        self.is_primary = is_primary
 
 
-def test_evidence_total_sources_rule():
-    items = [{"source": Source("secondary")} for _ in range(5)]
-    summary = summarize_evidence(items)
-    assert summary.total == 5
-    assert evidence_passes(summary)
+def _item(domain: str, is_primary: bool, text: str):
+    return {
+        "link": f"https://{domain}/a",
+        "title": "Example IPO filed",
+        "published_at": "2025-01-01T00:00:00Z",
+        "content": text,
+        "source": Source(domain, is_primary),
+    }
 
 
-def test_evidence_primary_secondary_rule():
+def test_evidence_distinct_domains_rule():
     items = [
-        {"source": Source("primary")},
-        {"source": Source("primary")},
-        {"source": Source("secondary")},
-        {"source": Source("secondary")},
-        {"source": Source("secondary")},
+        _item("sec.gov", True, "Company filed for an IPO in 2025 with the SEC registration statement."),
+        _item("nasdaq.com", False, "The issuer filed for an IPO and outlined a 2025 listing plan."),
+        _item("reuters.com", False, "Reuters reports the IPO filing and exchange listing timeline."),
     ]
-    summary = summarize_evidence(items)
-    assert evidence_passes(summary)
+    summary = build_evidence_pack(items, event_type="ipo", key_value_usd=None, period=None, ticker=None)
+    assert summary.passes

@@ -13,6 +13,9 @@ IPO_KEYWORDS = [
     r"prospectus",
     r"began trading",
     r"listed on",
+    r"pricing of its ipo",
+    r"priced its ipo",
+    r"public listing",
 ]
 
 BILLIONAIRE_KEYWORDS = [
@@ -20,6 +23,7 @@ BILLIONAIRE_KEYWORDS = [
     r"joined the billionaires",
     r"net worth reached \$?1\s*billion",
     r"entered the billionaire ranking",
+    r"billionaires index",
 ]
 
 REVENUE_KEYWORDS = [
@@ -27,6 +31,8 @@ REVENUE_KEYWORDS = [
     r"highest revenue ever",
     r"all[- ]time high revenue",
     r"largest revenue in its history",
+    r"record-breaking revenue",
+    r"highest quarterly revenue",
 ]
 
 HTML_RE = re.compile(r"<[^>]+>")

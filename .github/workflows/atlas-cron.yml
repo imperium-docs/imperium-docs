@@ -48,7 +48,7 @@ jobs:
         run: |
           git config user.name "atlas-bot"
           git config user.email "atlas-bot@users.noreply.github.com"
-          git add atlas-site/feed.json atlas-site/state.json atlas-site/content/atlas/feed.json atlas-site/content/atlas/state.json atlas-site/content/atlas/records
+          git add atlas-site/feed.json atlas-site/state.json atlas-site/content/atlas/records
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

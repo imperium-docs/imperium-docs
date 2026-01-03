@@ -11,6 +11,23 @@
       "homepage": "https://www.sec.gov/about/rss-feeds"
     },
     {
+      "id": "sec_press_releases_html",
+      "name": "SEC - Press Releases (HTML)",
+      "tier": "primary",
+      "is_primary": true,
+      "method": "html",
+      "url": "https://www.sec.gov/newsroom/press-releases",
+      "domain": "sec.gov",
+      "priority": 10,
+      "category_hints": ["ipo", "revenue_record", "billionaire"],
+      "selectors": {
+        "item": ".press-releases-item, .views-row, .card",
+        "link": "a",
+        "date": "time, .date"
+      },
+      "homepage": "https://www.sec.gov/newsroom/press-releases"
+    },
+    {
       "id": "fca_news",
       "name": "FCA - News",
       "tier": "primary",

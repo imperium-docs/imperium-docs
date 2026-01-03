@@ -4,8 +4,9 @@ from typing import Any
 
 
 def filter_new_entries(items: list[dict[str, Any]], state: dict[str, Any]) -> list[dict[str, Any]]:
-    known_urls = {entry.get("url") for entry in state.get("entries", []) if entry.get("url")}
-    known_ids = {entry.get("id") for entry in state.get("entries", []) if entry.get("id")}
+    known_events = state.get("events", state.get("entries", []))
+    known_urls = {entry.get("url") for entry in known_events if entry.get("url")}
+    known_ids = {entry.get("event_id") or entry.get("id") for entry in known_events if entry.get("event_id") or entry.get("id")}
     fresh: list[dict[str, Any]] = []
     for item in items:
         link = item.get("link")

@@ -23,12 +23,25 @@ def validate_feed_payload(payload: dict[str, Any]) -> list[str]:
         if not isinstance(item, dict):
             errors.append(f"item {idx} not a dict")
             continue
-        for field in ("id", "signal_type", "title", "summary", "canonical_url", "published_at"):
+        for field in (
+            "id",
+            "signal_type",
+            "event_type",
+            "entity",
+            "title",
+            "summary",
+            "canonical_url",
+            "published_at",
+            "event_at",
+        ):
             if not _is_str(item.get(field)):
                 errors.append(f"item {idx} missing {field}")
         sources = item.get("sources")
         if not isinstance(sources, list):
             errors.append(f"item {idx} sources not list")
+        evidence_pack = item.get("evidence_pack")
+        if not isinstance(evidence_pack, dict):
+            errors.append(f"item {idx} evidence_pack missing")
     return errors
 
 
@@ -40,15 +53,15 @@ def validate_state_payload(payload: dict[str, Any]) -> list[str]:
         errors.append("missing version")
     if not _is_str(payload.get("updated_at")):
         errors.append("missing updated_at")
-    entries = payload.get("entries")
+    entries = payload.get("events")
     if not isinstance(entries, list):
-        errors.append("entries is not a list")
+        errors.append("events is not a list")
         return errors
     for idx, entry in enumerate(entries):
         if not isinstance(entry, dict):
             errors.append(f"entry {idx} not dict")
             continue
-        for field in ("url", "id", "added_at"):
+        for field in ("url", "event_id", "added_at"):
             if not _is_str(entry.get(field)):
                 errors.append(f"entry {idx} missing {field}")
     return errors

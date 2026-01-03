@@ -3,7 +3,7 @@ from __future__ import annotations
 from typing import Any
 
 from config import ALLOWED_EVENT_TYPES
-from evidence import evidence_passes, summarize_evidence
+from evidence import build_evidence_pack
 from llm import verify_theme
 from normalize import classify_label, stable_event_id
 from theme_filter import evaluate_theme
@@ -30,8 +30,10 @@ def apply_thematic_filter(items: list[dict[str, Any]]) -> tuple[list[dict[str, A
         item["event_id"] = stable_event_id(
             decision.theme,
             item.get("entity", ""),
-            item.get("event_date", ""),
+            item.get("event_at", "")[:10],
             item.get("key_value_usd"),
+            item.get("period"),
+            item.get("ticker"),
         )
         llm_result = verify_theme(item, decision.theme)
         if llm_result is False:
@@ -61,7 +63,13 @@ def judge_clusters(clusters: dict[str, list[dict[str, Any]]]) -> tuple[list[dict
     rejected: list[dict[str, Any]] = []
     for event_id, items in clusters.items():
         event_type = items[0]["event_type"]
-        summary = summarize_evidence(items)
+        summary = build_evidence_pack(
+            items,
+            event_type=event_type,
+            key_value_usd=items[0].get("key_value_usd"),
+            period=items[0].get("period"),
+            ticker=items[0].get("ticker"),
+        )
         decision = {
             "event_id": event_id,
             "event_type": event_type,
@@ -74,7 +82,7 @@ def judge_clusters(clusters: dict[str, list[dict[str, Any]]]) -> tuple[list[dict
             decision["rejection_reason"] = "unsupported_type"
             rejected.append(decision)
             continue
-        if not evidence_passes(summary):
+        if not summary.passes or not summary.excerpts or not summary.sources:
             decision["rejection_reason"] = "insufficient_evidence"
             rejected.append(decision)
             continue
