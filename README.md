@@ -1,5 +1,7 @@
 # Imperium Project Documentation
 
+Nota: o diretorio `imperium-docs/` dentro deste repo e apenas archival/legado e nao participa do deploy.
+
 ## Visão Geral do Projeto
 
 Imperium é um projeto institucional que visa organizar e padronizar documentações, processos e conhecimentos para acelerar o desenvolvimento e a colaboração. O foco é criar uma base de conhecimento acessível que apoie equipes, parceiros e sistemas de inteligência artificial.
@@ -19,3 +21,9 @@ Este repositório serve como base documental institucional do projeto Imperium. 
 ## Contribuições
 
 Para contribuir com a documentação, abra uma *pull request* ou issue. A colaboração é incentivada para manter a documentação atualizada e abrangente.
+
+
+## Produtos
+
+- ordem/ - Telegram Mini App para conversas Imperium.
+
