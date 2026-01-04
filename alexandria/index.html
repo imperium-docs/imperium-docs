@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SCRINIUM | IMPERIUM</title>
+  <link rel="stylesheet" href="alexandria.css" />
+</head>
+<body class="alexandria">
+  <header class="site-header">
+    <div class="brand">
+      <svg class="eagle" viewBox="0 0 64 64" aria-hidden focusable="false">
+        <path d="M32 4c-4 6-12 10-16 18 6-2 10-2 16 0 6-2 10-2 16 0-4-8-12-12-16-18z" fill="currentColor" />
+      </svg>
+      <div class="title">IMPERIUM</div>
+    </div>
+
+    <nav class="main-tabs" aria-label="Principal">
+      <a class="tab" href="../atlas-site/index.html">Atlas</a>
+      <a class="tab" href="http://localhost:5173/">Academia</a>
+      <a class="tab" href="../atlas-site/ordem/">Ordem</a>
+      <a class="tab active" href="index.html">Scrinium</a>
+    </nav>
+
+    <nav class="admin-links" aria-label="Institucional">
+      <a>Sobre</a>
+      <a>Manifesto</a>
+      <a>Metodologia</a>
+      <a>Arquivo</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <main class="scrinium-main">
+      <header class="header">
+        <div class="header__container">
+          <h1 class="header__container-heading">Scrinium</h1>
+          <button class="header__container-btnPlay">
+            <span class="header__container-btnMyList-play">></span>
+            Play
+          </button>
+
+          <button class="header__container-btnMyList">
+            <span class="header__container-btnMyList-add">+</span>
+            My List
+          </button>
+          <p class="header__container-overview">
+            Scrinium Originals. A curated library of signals, dossiers and cinematic briefs,
+            rebuilt for commanders of a new era.
+          </p>
+        </div>
+        <div class="header--fadeBottom"></div>
+      </header>
+
+      <section class="movieShowcase" id="scrinium-rails" aria-live="polite"></section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__copyright">Copyright 2025 Scrinium Archive.</div>
+    </footer>
+  </div>
+
+  <div class="scrinium-modal" id="scrinium-modal" aria-hidden="true">
+    <div class="scrinium-modal__backdrop" id="scrinium-modal-backdrop" aria-hidden="true"></div>
+    <div class="scrinium-modal__dialog" role="dialog" aria-modal="true" aria-label="Scrinium player">
+      <button class="scrinium-modal__close" id="scrinium-modal-close" type="button" aria-label="Fechar">x</button>
+      <div class="scrinium-modal__player">
+        <div class="scrinium-player-shell" id="scrinium-player-shell"></div>
+      </div>
+      <div class="scrinium-modal__info">
+        <div class="scrinium-modal__header">
+          <div>
+            <h2 class="scrinium-modal__title" id="scrinium-modal-title"></h2>
+            <div class="scrinium-modal__subtitle" id="scrinium-modal-subtitle"></div>
+          </div>
+          <button class="scrinium-modal__play" id="scrinium-modal-play" type="button">Play</button>
+        </div>
+        <div class="scrinium-modal__meta" id="scrinium-modal-meta"></div>
+        <p class="scrinium-modal__synopsis" id="scrinium-modal-synopsis"></p>
+        <div class="scrinium-modal__tags" id="scrinium-modal-tags"></div>
+        <div class="scrinium-modal__actions">
+          <button type="button">Adicionar a lista</button>
+          <button type="button">Detalhes</button>
+        </div>
+        <div class="scrinium-modal__episodes" id="scrinium-episodes"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scrinium-data.js"></script>
+  <script src="scrinium.js" defer></script>
+</body>
+</html>

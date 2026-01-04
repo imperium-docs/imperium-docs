@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@property --spotlight-inner {
+  syntax: "<number>";
+  inherits: true;
+  initial-value: 0.5;
+}
+
+@property --spotlight-outer {
+  syntax: "<number>";
+  inherits: true;
+  initial-value: 0.5;
+}
+
+body {
+  --spotlight-x: 50%;
+  --spotlight-y: 30%;
+  --spotlight-inner: 0.6;
+  --spotlight-outer: 0.6;
+  background-color: #0b0b0c;
+  background-image:
+    radial-gradient(
+      504px 504px at var(--spotlight-x) var(--spotlight-y),
+      rgba(0, 0, 0, var(--spotlight-inner)) 0%,
+      rgba(0, 0, 0, var(--spotlight-inner)) 20%,
+      rgba(0, 0, 0, var(--spotlight-outer)) 70%,
+      rgba(0, 0, 0, var(--spotlight-outer)) 100%
+    ),
+    url("../assets/bg-modulo-1.webp");
+  background-size: 100% auto;
+  background-position: center top;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+body.spotlight-active {
+  --spotlight-outer: 0.6;
+  animation: spotlight-breathe 4.5s ease-in-out infinite;
+}
+
+@keyframes spotlight-breathe {
+  0%,
+  100% {
+    --spotlight-inner: 0.336;
+  }
+  50% {
+    --spotlight-inner: 0.168;
+  }
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 48px;
+  background: rgba(6, 7, 10, 0.65);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #ffffff;
+}
+
+.brand .eagle {
+  width: 34px;
+  height: 34px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.brand .title {
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.main-tabs {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.main-tabs .tab {
+  color: #ffffff;
+  opacity: 0.9;
+  padding: 6px 0;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.main-tabs .tab.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.3));
+  bottom: -8px;
+}
+
+.admin-links {
+  display: flex;
+  gap: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.admin-links a {
+  opacity: 0.9;
+  text-decoration: none;
+  color: inherit;
+}
+
+.glass-panel {
+  background: rgba(12, 14, 18, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.glass-card {
+  background: rgba(12, 14, 18, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+}
+
+.glass-card a,
+.glass-card button,
+.glass-card h2,
+.glass-card h3,
+.glass-card h4,
+.glass-card p,
+.glass-card span {
+  color: inherit;
+}
+
+.glass-card .text-gray-400,
+.glass-card .text-gray-500,
+.glass-card .text-gray-600,
+.glass-card .text-gray-700 {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.duo-leftbar,
+.duo-rightbar {
+  color: #ffffff;
+}
+
+.duo-leftbar .text-gray-400,
+.duo-leftbar .text-gray-500,
+.duo-leftbar .text-gray-600,
+.duo-leftbar .text-gray-700,
+.duo-rightbar .text-gray-400,
+.duo-rightbar .text-gray-500,
+.duo-rightbar .text-gray-600,
+.duo-rightbar .text-gray-700 {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.duo-rightbar .text-orange-500,
+.duo-rightbar .text-red-500,
+.duo-rightbar .text-blue-400,
+.duo-leftbar .text-blue-400 {
+  color: #ffffff !important;
+}
+
+.duo-rightbar .text-black {
+  color: #ffffff !important;
+}
+
+.lesson-trail {
+  position: relative;
+}
+
+.trail-path {
+  stroke: rgba(255, 255, 255, 0.9);
+  stroke-width: 3;
+  stroke-dasharray: 6 10;
+  stroke-linecap: round;
+  fill: none;
+}
