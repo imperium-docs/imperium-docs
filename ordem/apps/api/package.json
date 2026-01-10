@@ -8,22 +8,33 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "lint": "tsc --noEmit",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "analytics:migrate": "tsx src/analytics/migrate.ts",
+    "analytics:seed": "RUN_ANALYTICS_SEED=true tsx src/analytics/seed.ts",
+    "test": "node --test --import tsx"
   },
   "dependencies": {
     "@fastify/cookie": "^9.3.0",
     "@fastify/cors": "^9.0.1",
     "@fastify/jwt": "^8.0.1",
+    "@aws-sdk/client-s3": "^3.623.0",
+    "@aws-sdk/s3-request-presigner": "^3.623.0",
     "@ordem/shared": "workspace:*",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "argon2": "^0.31.2",
     "better-sqlite3": "^9.4.3",
     "dotenv": "^16.4.5",
     "drizzle-orm": "^0.30.10",
     "fastify": "^4.26.2",
+    "jose": "^5.9.4",
+    "pg": "^8.13.3",
     "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.9",
     "@types/node": "^20.11.30",
+    "@types/pg": "^8.11.10",
     "tsx": "^4.7.0",
     "typescript": "^5.5.4"
   }

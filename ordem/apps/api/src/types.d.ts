@@ -14,3 +14,14 @@ declare module "@fastify/jwt" {
     };
   }
 }
+
+declare module "fastify" {
+  interface FastifyRequest {
+    adminUser?: {
+      userId: string;
+      email: string;
+      role: "admin" | "analyst" | "support";
+      workspaceId: string;
+    };
+  }
+}

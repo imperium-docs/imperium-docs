@@ -5,8 +5,11 @@ import cookie from "@fastify/cookie";
 import { telegramRoutes } from "./routes/telegram.js";
 import { ordemRoutes } from "./routes/ordem.js";
 import { devRoutes } from "./routes/dev.js";
+import { analyticsRoutes } from "./routes/analytics.js";
 import { loadEnv } from "./config.js";
 import { runMigrations } from "./db/index.js";
+import { runAnalyticsMigrations } from "./analytics/migrations.js";
+import { startAnalyticsScheduler } from "./analytics/scheduler.js";
 
 export async function buildServer(): Promise<FastifyInstance> {
   const env = loadEnv();
@@ -21,7 +24,11 @@ export async function buildServer(): Promise<FastifyInstance> {
     }
   });
 
-  const allowedOrigins = [env.ORDEM_WEB_ORIGIN, env.TELEGRAM_WEBAPP_URL]
+  const allowedOrigins = [
+    env.ORDEM_WEB_ORIGIN,
+    env.TELEGRAM_WEBAPP_URL,
+    env.ADMIN_WEB_ORIGIN
+  ]
     .filter(Boolean)
     .map((value) => {
       try {
@@ -43,8 +50,12 @@ export async function buildServer(): Promise<FastifyInstance> {
   });
 
   runMigrations();
+  if (env.NODE_ENV === "development" && env.ANALYTICS_MIGRATE_ON_BOOT) {
+    await runAnalyticsMigrations();
+  }
 
   app.register(telegramRoutes);
+  app.register(analyticsRoutes);
 
   app.register(
     async (scope) => {
@@ -77,6 +88,8 @@ export async function buildServer(): Promise<FastifyInstance> {
   if (env.NODE_ENV === "development") {
     app.register(devRoutes);
   }
+
+  startAnalyticsScheduler();
 
   return app;
 }
