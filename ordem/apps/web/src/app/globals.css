@@ -340,6 +340,29 @@ a {
   color: var(--accent);
 }
 
+.ordem-consent {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(14, 18, 22, 0.95);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  z-index: 30;
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.4);
+  width: min(680px, 92vw);
+}
+
+.ordem-consent p {
+  margin: 6px 0 0;
+  color: var(--ink-2);
+  font-size: 12px;
+}
+
 @keyframes fadeUp {
   from {
     opacity: 0;

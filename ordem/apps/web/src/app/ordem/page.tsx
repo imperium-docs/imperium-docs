@@ -7,6 +7,7 @@ import type {
   Message,
   User
 } from "@ordem/shared";
+import { initTracker } from "../../lib/tracker";
 
 const API_BASE =
   process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
@@ -72,11 +73,15 @@ export default function OrdemPage() {
   const [newRequestTarget, setNewRequestTarget] = useState("");
   const [newRequestMessage, setNewRequestMessage] = useState("");
   const [composer, setComposer] = useState("");
+  const [showConsent, setShowConsent] = useState(false);
+  const [consentLoading, setConsentLoading] = useState(false);
+  const [consentVersion, setConsentVersion] = useState<string | null>(null);
   const [status, setStatus] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const pollingRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const lastMessageAtRef = useRef<number>(0);
   const startTargetRef = useRef<StartTarget>(getStartTarget());
+  const trackerRef = useRef<ReturnType<typeof initTracker> | null>(null);
 
   const filteredConversations = useMemo(() => {
     const term = search.toLowerCase();
@@ -84,6 +89,22 @@ export default function OrdemPage() {
       conv.title.toLowerCase().includes(term)
     );
   }, [conversations, search]);
+
+  const trackEvent = (event_name: string, properties?: Record<string, unknown>) => {
+    trackerRef.current?.track({ event_name, properties }).catch(() => null);
+  };
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const tracker = initTracker({ apiBase: API_BASE, source: "web" });
+    trackerRef.current = tracker;
+    const consent = tracker.getConsent();
+    setShowConsent(!consent?.granted);
+    fetch(`${API_BASE}/api/consent/version/current`)
+      .then((res) => (res.ok ? res.json() : null))
+      .then((payload) => setConsentVersion(payload?.version ?? null))
+      .catch(() => null);
+  }, []);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -107,6 +128,11 @@ export default function OrdemPage() {
         .then((payload) => {
           setAuthToken(payload.token);
           setMe(payload.user);
+          trackEvent("auth.session_started", {
+            method: "telegram",
+            is_new_user: false
+          });
+          trackEvent("auth.login_completed", { method: "telegram" });
         })
         .catch((err) => setError(err.message));
     }
@@ -146,6 +172,10 @@ export default function OrdemPage() {
     if (pollingRef.current) clearInterval(pollingRef.current);
     setMessages([]);
     lastMessageAtRef.current = 0;
+    trackEvent("ordem.room_viewed", {
+      room_id: String(activeConversationId),
+      required_rank: "standard"
+    });
 
     const loadInitial = async () => {
       const initial = await apiFetch<Message[]>(
@@ -221,6 +251,11 @@ export default function OrdemPage() {
         lastMessageAtRef.current = created.createdAt;
         return next;
       });
+      trackEvent("ordem.post_created", {
+        room_id: String(activeConversationId),
+        post_id: String(created.id),
+        length: body.length
+      });
     } catch (err: any) {
       setError(err.message);
     }
@@ -247,6 +282,20 @@ export default function OrdemPage() {
       setStatus("Request sent");
     } catch (err: any) {
       setError(err.message);
+    }
+  };
+
+  const handleConsent = async (granted: boolean) => {
+    if (!trackerRef.current) return;
+    setConsentLoading(true);
+    try {
+      await trackerRef.current.submitConsent(
+        granted,
+        granted ? ["analytics"] : []
+      );
+      setShowConsent(false);
+    } finally {
+      setConsentLoading(false);
     }
   };
 
@@ -527,6 +576,34 @@ export default function OrdemPage() {
             <p>{error}</p>
             <button className="ordem-button" onClick={() => setError(null)}>
               Close
+            </button>
+          </div>
+        </div>
+      )}
+
+      {showConsent && (
+        <div className="ordem-consent">
+          <div>
+            <strong>Analytics consent</strong>
+            <p>
+              Autorize analytics para melhorar a experiencia. Version:{" "}
+              {consentVersion || "current"}
+            </p>
+          </div>
+          <div className="ordem-request-actions">
+            <button
+              className="ordem-button"
+              disabled={consentLoading}
+              onClick={() => handleConsent(true)}
+            >
+              Accept
+            </button>
+            <button
+              className="ordem-button-outline"
+              disabled={consentLoading}
+              onClick={() => handleConsent(false)}
+            >
+              Decline
             </button>
           </div>
         </div>
