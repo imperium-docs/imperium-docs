@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ATLAS Newswire</title>
+  <meta name="description" content="ATLAS news page with curated signals and live pipeline data." />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600&display=swap');
+
+    :root {
+      --bg: #0b0f14;
+      --bg-soft: #121826;
+      --bg-glow: radial-gradient(1200px 700px at 15% 10%, rgba(106, 176, 255, 0.28), transparent 60%),
+        radial-gradient(900px 600px at 85% 0%, rgba(255, 163, 91, 0.18), transparent 60%),
+        radial-gradient(1000px 700px at 50% 100%, rgba(84, 255, 182, 0.15), transparent 60%);
+      --text: #e7edf6;
+      --muted: #a6b3c6;
+      --accent: #6ab0ff;
+      --accent-2: #ffa35b;
+      --line: rgba(255, 255, 255, 0.08);
+      --card: rgba(18, 24, 38, 0.85);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Space Grotesk', system-ui, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      min-height: 100vh;
+    }
+
+    .page {
+      position: relative;
+      overflow: hidden;
+      background: var(--bg-glow);
+      padding: 32px 20px 80px;
+    }
+
+    .grid-lines {
+      position: absolute;
+      inset: 0;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+      background-size: 48px 48px;
+      pointer-events: none;
+      opacity: 0.5;
+    }
+
+    .shell {
+      position: relative;
+      max-width: 1200px;
+      margin: 0 auto;
+      z-index: 1;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 12px 0 32px;
+    }
+
+    .logo {
+      font-family: 'Fraunces', serif;
+      font-size: 28px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .nav {
+      display: flex;
+      gap: 18px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .nav a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+      gap: 32px;
+      align-items: center;
+      border: 1px solid var(--line);
+      background: var(--card);
+      border-radius: 28px;
+      padding: 32px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+    }
+
+    .hero h1 {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(32px, 4vw, 52px);
+      margin: 0 0 12px;
+    }
+
+    .hero p {
+      color: var(--muted);
+      line-height: 1.6;
+      margin: 0 0 24px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .pill {
+      padding: 10px 16px;
+      border-radius: 999px;
+      background: rgba(106, 176, 255, 0.15);
+      border: 1px solid rgba(106, 176, 255, 0.5);
+      font-size: 13px;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+
+    .stat-card {
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 18px;
+      background: rgba(14, 19, 30, 0.75);
+    }
+
+    .stat-card h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+    }
+
+    .ticker {
+      margin: 28px 0 18px;
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      font-size: 13px;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .ticker-track {
+      position: relative;
+      overflow: hidden;
+      flex: 1;
+      height: 24px;
+    }
+
+    .ticker-track span {
+      position: absolute;
+      white-space: nowrap;
+      animation: ticker 16s linear infinite;
+    }
+
+    .section {
+      margin-top: 32px;
+    }
+
+    .section h2 {
+      font-family: 'Fraunces', serif;
+      font-size: 26px;
+      margin: 0 0 14px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 18px;
+      background: var(--card);
+      min-height: 190px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      opacity: 0;
+      transform: translateY(18px);
+      animation: rise 0.6s ease forwards;
+    }
+
+    .card:nth-child(2) { animation-delay: 0.1s; }
+    .card:nth-child(3) { animation-delay: 0.2s; }
+    .card:nth-child(4) { animation-delay: 0.3s; }
+
+    .card .meta {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .card a {
+      color: var(--text);
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .card p {
+      color: var(--muted);
+      margin: 0;
+      line-height: 1.5;
+      font-size: 14px;
+    }
+
+    .side-stack {
+      display: grid;
+      gap: 16px;
+    }
+
+    .signal {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 16px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(11, 15, 20, 0.6);
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: var(--accent);
+      box-shadow: 0 0 12px rgba(106, 176, 255, 0.7);
+    }
+
+    .signal strong {
+      font-size: 14px;
+    }
+
+    footer {
+      margin-top: 36px;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    @keyframes rise {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes ticker {
+      from { transform: translateX(0); }
+      to { transform: translateX(-100%); }
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .card,
+      .ticker-track span {
+        animation: none;
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="grid-lines"></div>
+    <div class="shell">
+      <header>
+        <div class="logo">Atlas</div>
+        <nav class="nav">
+          <a href="#signals">Signals</a>
+          <a href="#digest">Digest</a>
+          <a href="#latest">Latest</a>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <div>
+          <div class="pill">Live intelligence</div>
+          <h1>Atlas Newswire: fast, focused, and human readable.</h1>
+          <p>Curated headlines, ranked by impact. The backend pipeline can feed this page with fresh data at a steady cadence.</p>
+          <div class="hero-actions">
+            <div class="pill">Pipeline ready</div>
+            <div class="pill">AI summaries</div>
+            <div class="pill">RSS coverage</div>
+          </div>
+        </div>
+        <div class="side-stack" id="signals">
+          <div class="stat-card">
+            <h3>Coverage</h3>
+            <p>Global feeds and niche sources for rapid signal detection.</p>
+          </div>
+          <div class="signal">
+            <span class="dot"></span>
+            <div>
+              <strong>Momentum watch</strong>
+              <div class="meta">Markets, policy, startups</div>
+            </div>
+          </div>
+          <div class="signal">
+            <span class="dot" style="background: var(--accent-2); box-shadow: 0 0 12px rgba(255, 163, 91, 0.7);"></span>
+            <div>
+              <strong>Breaking lens</strong>
+              <div class="meta">Critical updates only</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="ticker">
+        <span>Pulse</span>
+        <div class="ticker-track"><span id="ticker-text">Loading live feed...</span></div>
+      </div>
+
+      <section class="section" id="digest">
+        <h2>Daily digest</h2>
+        <div class="cards" id="digest-cards"></div>
+      </section>
+
+      <section class="section" id="latest">
+        <h2>Latest signals</h2>
+        <div class="cards" id="latest-cards"></div>
+      </section>
+
+      <footer>Atlas pipeline data refreshes whenever the backend runs.</footer>
+    </div>
+  </div>
+
+  <script>
+    const fallbackItems = [
+      {
+        title: 'AI policy shifts reshape global rollout timelines',
+        url: '#',
+        summary: 'Regulators align on a staged framework for model approvals while enterprises adjust launch calendars.',
+        category: 'policy',
+        source: 'Atlas Sample',
+        published: 'Today'
+      },
+      {
+        title: 'Supply chain trackers show cooling pressure in key corridors',
+        url: '#',
+        summary: 'Logistics indices dip for the first time in weeks, suggesting short-term relief for importers.',
+        category: 'markets',
+        source: 'Atlas Sample',
+        published: 'Today'
+      },
+      {
+        title: 'Satellite data highlights energy demand rebound',
+        url: '#',
+        summary: 'Power usage spikes in urban centers point to renewed activity in manufacturing belts.',
+        category: 'energy',
+        source: 'Atlas Sample',
+        published: 'Today'
+      },
+      {
+        title: 'Frontier startups compete for secure AI stacks',
+        url: '#',
+        summary: 'New entrants race to deliver on-device safety layers and real-time observability.',
+        category: 'startups',
+        source: 'Atlas Sample',
+        published: 'Today'
+      }
+    ];
+
+    const tickerText = document.getElementById('ticker-text');
+    const digestCards = document.getElementById('digest-cards');
+    const latestCards = document.getElementById('latest-cards');
+
+    function renderCards(items, root, limit) {
+      root.innerHTML = '';
+      items.slice(0, limit).forEach((item) => {
+        const card = document.createElement('article');
+        card.className = 'card';
+        card.innerHTML = `
+          <div class="meta">${item.category || 'signal'} · ${item.source || 'Atlas'}</div>
+          <a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>
+          <p>${item.summary || ''}</p>
+          <div class="meta">${item.published || ''}</div>
+        `;
+        root.appendChild(card);
+      });
+    }
+
+    function updateTicker(items) {
+      const parts = items.map((item) => item.title).join(' · ');
+      tickerText.textContent = parts || 'No items yet.';
+    }
+
+    async function loadNews() {
+      try {
+        const response = await fetch('./data/news.json', { cache: 'no-store' });
+        if (!response.ok) throw new Error('No data');
+        const payload = await response.json();
+        const items = Array.isArray(payload.items) ? payload.items : payload;
+        if (!items.length) throw new Error('Empty');
+        updateTicker(items);
+        renderCards(items, digestCards, 4);
+        renderCards(items.slice().reverse(), latestCards, 6);
+      } catch (err) {
+        updateTicker(fallbackItems);
+        renderCards(fallbackItems, digestCards, 4);
+        renderCards(fallbackItems, latestCards, 4);
+      }
+    }
+
+    loadNews();
+  </script>
+</body>
+</html>
