@@ -453,7 +453,7 @@ const UnitSection = ({ unit }: { unit: Unit }): JSX.Element => {
                           <HoverLabel
                             text="Start"
                             textColor={unit.textColor}
-                            offsetX={-10}
+                            offsetX={-35}
                           />
                         ) : null}
                         <LessonCompletionSvg
