@@ -5,6 +5,10 @@
 atlas-site/.env
 atlas-site/.env.*
 !atlas-site/.env.example
+!academia/auth-api/.env.example
+!HORUS AI/.env.example
+
+_tools/
 
 
 # Node
