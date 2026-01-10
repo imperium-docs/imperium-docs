@@ -45,13 +45,6 @@ import { units } from "~/utils/units";
 
 type TileStatus = "LOCKED" | "ACTIVE" | "COMPLETE";
 
-type TileAnchor = {
-  x: number;
-  y: number;
-  width: number;
-  height: number;
-};
-
 const tileStatus = (tile: Tile, lessonsCompleted: number): TileStatus => {
   const lessonsPerTile = 4;
   const tilesCompleted = Math.floor(lessonsCompleted / lessonsPerTile);
@@ -139,6 +132,9 @@ const tileLeftClassNames = [
 
 type TileLeftClassName = (typeof tileLeftClassNames)[number];
 
+const tileLeftOffsets = [0, -45, -70, -45, 0, 45, 70, 45] as const;
+type TileLeftOffset = (typeof tileLeftOffsets)[number];
+
 const getTileLeftClassName = ({
   index,
   unitNumber,
@@ -160,6 +156,54 @@ const getTileLeftClassName = ({
   return classNames[index % classNames.length] ?? "left-0";
 };
 
+const getTileLeftOffsetPx = ({
+  index,
+  unitNumber,
+  tilesLength,
+}: {
+  index: number;
+  unitNumber: number;
+  tilesLength: number;
+}): TileLeftOffset => {
+  if (index >= tilesLength - 1) {
+    return 0;
+  }
+
+  const offsets =
+    unitNumber % 2 === 1
+      ? tileLeftOffsets
+      : [...tileLeftOffsets.slice(4), ...tileLeftOffsets.slice(0, 4)];
+
+  return offsets[index % offsets.length] ?? 0;
+};
+
+const tileTooltipLeftOffsets = [140, 95, 70, 95, 140, 185, 210, 185] as const;
+
+type TileTooltipLeftOffset = (typeof tileTooltipLeftOffsets)[number];
+
+const getTileTooltipLeftOffset = ({
+  index,
+  unitNumber,
+  tilesLength,
+}: {
+  index: number;
+  unitNumber: number;
+  tilesLength: number;
+}): TileTooltipLeftOffset => {
+  if (index >= tilesLength - 1) {
+    return tileTooltipLeftOffsets[0];
+  }
+
+  const offsets =
+    unitNumber % 2 === 1
+      ? tileTooltipLeftOffsets
+      : [
+          ...tileTooltipLeftOffsets.slice(4),
+          ...tileTooltipLeftOffsets.slice(0, 4),
+        ];
+
+  return offsets[index % offsets.length] ?? tileTooltipLeftOffsets[0];
+};
 
 const getTileColors = ({
   tileType,
@@ -189,7 +233,6 @@ const TileTooltip = ({
   description,
   status,
   closeTooltip,
-  tileAnchor,
 }: {
   selectedTile: number | null;
   index: number;
@@ -198,14 +241,8 @@ const TileTooltip = ({
   description: string;
   status: TileStatus;
   closeTooltip: () => void;
-  tileAnchor: TileAnchor | null;
 }) => {
   const tileTooltipRef = useRef<HTMLDivElement | null>(null);
-  const isActive = selectedTile === index;
-  const tooltipLeft = tileAnchor ? `${tileAnchor.x}px` : "50%";
-  const tooltipTop = tileAnchor
-    ? `${tileAnchor.y + tileAnchor.height / 2 + 16}px`
-    : "0px";
 
   useEffect(() => {
     const containsTileTooltip = (event: MouseEvent) => {
@@ -228,34 +265,35 @@ const TileTooltip = ({
   return (
     <div
       className={[
-        "absolute z-30 -translate-x-1/2 transition-all duration-300",
-        isActive
-          ? "opacity-100 scale-100 translate-y-0"
-          : "pointer-events-none opacity-0 scale-95 -translate-y-2",
+        "relative h-0 w-full",
+        index === selectedTile ? "" : "invisible",
       ].join(" ")}
       ref={tileTooltipRef}
-      style={{ left: tooltipLeft, top: tooltipTop }}
-      aria-hidden={!isActive}
     >
       <div
         className={[
-          "relative flex w-[300px] flex-col gap-4 rounded-xl p-4 font-bold",
+          "absolute z-30 flex w-[300px] flex-col gap-4 rounded-xl p-4 font-bold transition-all duration-300",
           status === "ACTIVE"
             ? activeBackgroundColor
             : status === "LOCKED"
               ? "border-2 border-gray-200 bg-gray-100"
               : "bg-yellow-400",
+          index === selectedTile ? "top-4 scale-100" : "-top-14 scale-0",
         ].join(" ")}
+        style={{ left: "calc(50% - 150px)" }}
       >
         <div
           className={[
-            "absolute left-1/2 top-[-8px] h-4 w-4 -translate-x-1/2 rotate-45",
+            "absolute left-[140px] top-[-8px] h-4 w-4 rotate-45",
             status === "ACTIVE"
               ? activeBackgroundColor
               : status === "LOCKED"
                 ? "border-l-2 border-t-2 border-gray-200 bg-gray-100"
                 : "bg-yellow-400",
           ].join(" ")}
+          style={{
+            left: getTileTooltipLeftOffset({ index, unitNumber, tilesLength }),
+          }}
         ></div>
         <div
           className={[
@@ -271,7 +309,7 @@ const TileTooltip = ({
         </div>
         {status === "ACTIVE" ? (
           <Link
-            href="/?lesson=1"
+            href="/lesson"
             className={[
               "flex w-full items-center justify-center rounded-xl border-b-4 border-gray-200 bg-white p-3 uppercase",
               activeTextColor,
@@ -288,7 +326,7 @@ const TileTooltip = ({
           </button>
         ) : (
           <Link
-            href="/?lesson=1"
+            href="/lesson"
             className="flex w-full items-center justify-center rounded-xl border-b-4 border-yellow-200 bg-white p-3 uppercase text-yellow-400"
           >
             Practice +5 XP
@@ -304,7 +342,6 @@ const UnitSection = ({ unit }: { unit: Unit }): JSX.Element => {
 
   const [selectedTile, setSelectedTile] = useState<null | number>(null);
   const [trailPaths, setTrailPaths] = useState<string[]>([]);
-  const [tileCenters, setTileCenters] = useState<Array<TileAnchor | null>>([]);
   const trackRef = useRef<HTMLDivElement | null>(null);
   const tileRefs = useRef<Array<HTMLDivElement | null>>([]);
 
@@ -359,22 +396,17 @@ const UnitSection = ({ unit }: { unit: Unit }): JSX.Element => {
     const computeTrail = () => {
       if (!trackRef.current) return;
       const parentRect = trackRef.current.getBoundingClientRect();
-      const centers = tileRefs.current.map((el) => {
-        if (!el) return null;
-        const rect = el.getBoundingClientRect();
-        return {
-          x: rect.left + rect.width / 2 - parentRect.left,
-          y: rect.top + rect.height / 2 - parentRect.top,
-          width: rect.width,
-          height: rect.height,
-        };
-      });
-      setTileCenters(centers);
-      const validCenters = centers.filter(
-        (point): point is TileAnchor => Boolean(point),
-      );
-      const paths = validCenters.slice(0, -1).map((point, index) => {
-        const next = validCenters[index + 1];
+      const centers = tileRefs.current
+        .filter(Boolean)
+        .map((el) => {
+          const rect = el!.getBoundingClientRect();
+          return {
+            x: rect.left + rect.width / 2 - parentRect.left,
+            y: rect.top + rect.height / 2 - parentRect.top,
+          };
+        });
+      const paths = centers.slice(0, -1).map((point, index) => {
+        const next = centers[index + 1];
         if (!next) return "";
         const midY = (point.y + next.y) / 2;
         return `M ${point.x} ${point.y} C ${point.x} ${midY} ${next.x} ${midY} ${next.x} ${next.y}`;
@@ -450,11 +482,7 @@ const UnitSection = ({ unit }: { unit: Unit }): JSX.Element => {
                             textColor={unit.textColor}
                           />
                         ) : selectedTile !== i && status === "ACTIVE" ? (
-                          <HoverLabel
-                            text="Start"
-                            textColor={unit.textColor}
-                            offsetX={-35}
-                          />
+                          <HoverLabel text="Start" textColor={unit.textColor} />
                         ) : null}
                         <LessonCompletionSvg
                           lessonsCompleted={lessonsCompleted}
@@ -470,14 +498,16 @@ const UnitSection = ({ unit }: { unit: Unit }): JSX.Element => {
                             }),
                           ].join(" ")}
                           onClick={() => {
-                            setSelectedTile(i);
                             if (
                               tile.type === "fast-forward" &&
                               status === "LOCKED"
                             ) {
-                              void router.push("/?lesson=1");
+                              void router.push(
+                                `/lesson?fast-forward=${unit.unitNumber}`,
+                              );
                               return;
                             }
+                            setSelectedTile(i);
                           }}
                         >
                           <TileIcon tileType={tile.type} status={status} />
@@ -500,7 +530,6 @@ const UnitSection = ({ unit }: { unit: Unit }): JSX.Element => {
                           tileRefs.current[i] = el;
                         }}
                         onClick={() => {
-                          setSelectedTile(i);
                           if (status === "ACTIVE") {
                             increaseLessonsCompleted(4);
                             increaseLingots(1);
@@ -542,7 +571,6 @@ const UnitSection = ({ unit }: { unit: Unit }): JSX.Element => {
                 })()}
                 status={status}
                 closeTooltip={closeTooltip}
-                tileAnchor={tileCenters[i] ?? null}
               />
             </Fragment>
           );
@@ -645,7 +673,7 @@ const Learn = () => {
           ))}
           <div className="sticky bottom-28 left-0 right-0 flex items-end justify-between">
             <Link
-              href="/?lesson=1"
+              href="/lesson?practice"
               className="absolute left-4 flex h-16 w-16 items-center justify-center rounded-full border-2 border-b-4 border-gray-200 bg-white transition hover:bg-gray-50 hover:brightness-90 md:left-0"
             >
               <span className="sr-only">Practice exercise</span>
@@ -707,23 +735,30 @@ const LessonCompletionSvg = ({
 const HoverLabel = ({
   text,
   textColor,
-  offsetX = 0,
 }: {
   text: string;
   textColor: `text-${string}`;
-  offsetX?: number;
 }) => {
+  const hoverElement = useRef<HTMLDivElement | null>(null);
+  const [width, setWidth] = useState(72);
+
+  useEffect(() => {
+    setWidth(hoverElement.current?.clientWidth ?? width);
+  }, [hoverElement.current?.clientWidth, width]);
+
   return (
     <div
-      className={`absolute left-1/2 z-10 w-max -translate-x-1/2 animate-bounce rounded-lg border-2 border-gray-200 bg-white px-3 py-2 font-bold uppercase ${textColor}`}
+      className={`absolute z-10 w-max animate-bounce rounded-lg border-2 border-gray-200 bg-white px-3 py-2 font-bold uppercase ${textColor}`}
       style={{
-        bottom: "calc(100% + 8px)",
-        marginLeft: `${offsetX}px`,
+        top: "-25%",
+        left: `calc(50% - ${width / 2}px)`,
       }}
+      ref={hoverElement}
     >
       {text}
       <div
-        className="absolute -bottom-2 left-1/2 h-3 w-3 -translate-x-1/2 rotate-45 border-b-2 border-r-2 border-gray-200 bg-white"
+        className="absolute h-3 w-3 rotate-45 border-b-2 border-r-2 border-gray-200 bg-white"
+        style={{ left: "calc(50% - 8px)", bottom: "-8px" }}
       ></div>
     </div>
   );
@@ -753,7 +788,7 @@ const UnitHeader = ({
           <p className="text-lg">{description}</p>
         </div>
         <Link
-          href={`https://imperium.local/guidebook/${language.code}/${unitNumber}`}
+          href={`https://duolingo.com/guidebook/${language.code}/${unitNumber}`}
           className={[
             "flex items-center gap-3 rounded-2xl border-2 border-b-4 p-3 transition hover:text-gray-100",
             borderColor,

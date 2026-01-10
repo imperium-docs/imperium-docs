@@ -45,6 +45,15 @@ export const LeftBar = ({ selectedTab }: { selectedTab: Tab | null }) => {
           isCollapsed ? "lg:w-24" : "lg:w-64",
         ].join(" ")}
       >
+        <Link
+          href="/learn"
+          className={[
+            "mb-2 ml-5 mt-5 hidden text-3xl font-bold text-[#58cc02] lg:block",
+            isCollapsed ? "lg:hidden" : "",
+          ].join(" ")}
+        >
+          academia
+        </Link>
         <button
           className="hidden items-center gap-2 rounded-xl border border-white/10 px-3 py-2 text-xs font-bold uppercase text-white/80 transition hover:bg-white/10 lg:flex"
           onClick={() => setIsCollapsed((value) => !value)}
@@ -125,7 +134,7 @@ export const LeftBar = ({ selectedTab }: { selectedTab: Tab | null }) => {
               <div className="flex flex-col py-2">
                 <Link
                   className="flex items-center gap-4 px-5 py-2 text-left uppercase hover:bg-white/10"
-                  href="https://imperium.local/schools"
+                  href="https://schools.duolingo.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -134,7 +143,7 @@ export const LeftBar = ({ selectedTab }: { selectedTab: Tab | null }) => {
                 </Link>
                 <Link
                   className="flex items-center gap-4 px-5 py-2 text-left uppercase hover:bg-white/10"
-                  href="https://imperium.local/podcast"
+                  href="https://podcast.duolingo.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -159,7 +168,7 @@ export const LeftBar = ({ selectedTab }: { selectedTab: Tab | null }) => {
                 </Link>
                 <Link
                   className="px-5 py-2 text-left uppercase hover:bg-white/10"
-                  href="https://imperium.local/support"
+                  href="https://support.duolingo.com/hc/en-us"
                 >
                   Help
                 </Link>

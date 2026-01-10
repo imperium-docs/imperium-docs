@@ -3,21 +3,8 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
-PIPELINE_ROOT = Path(__file__).resolve().parents[1]
-
-
-def resolve_atlas_site_dir(start: Path) -> Path:
-    override = os.getenv("ATLAS_SITE_DIR")
-    if override:
-        return Path(override).expanduser()
-    for parent in (start, *start.parents):
-        candidate = parent / "atlas-site"
-        if candidate.is_dir():
-            return candidate
-    return start / "atlas-site"
-
-
-ATLAS_SITE_DIR = resolve_atlas_site_dir(PIPELINE_ROOT)
+REPO_ROOT = Path(__file__).resolve().parents[2]
+ATLAS_SITE_DIR = REPO_ROOT / "atlas-site"
 
 FEED_PATH = ATLAS_SITE_DIR / "feed.json"
 STATE_PATH = ATLAS_SITE_DIR / "state.json"
@@ -80,7 +67,7 @@ WINDOW_HOURS = [48, 24 * 7, 24 * 30]
 LONG_WINDOW_MIN_SCORE = float(os.getenv("ATLAS_LONG_WINDOW_MIN_SCORE", "2.5"))
 MIN_BODY_LENGTH = int(os.getenv("ATLAS_MIN_BODY_LENGTH", "500"))
 
-LOG_DIR = PIPELINE_ROOT / "logs"
+LOG_DIR = REPO_ROOT / "atlas-pipeline" / "logs"
 
 LLM_ENABLED = os.getenv("ATLAS_LLM_ENABLED", "false").lower() == "true"
 LLM_PROVIDER = (os.getenv("ATLAS_LLM_PROVIDER") or "openrouter").lower()

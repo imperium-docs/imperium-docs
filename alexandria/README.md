@@ -7,7 +7,7 @@ Scrinium roda em HTML/CSS/JS puro com Video.js carregado sob demanda. Os rails e
 - `index.html`: pagina Scrinium.
 - `scrinium-data.json`: dados normalizados (itens + rails).
 - `scrinium.js`: preview manager, modal player, progresso e telemetria.
-- `scrinium.css`: tema visual + overrides do Video.js.
+- `alexandria.css`: tema visual + overrides do Video.js.
 - `assets/vendor/`: Video.js e CSS.
 - `assets/vtt/`: legendas/chapters de exemplo.
 

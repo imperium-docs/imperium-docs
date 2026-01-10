@@ -25,8 +25,8 @@ Somente estas variaveis sao usadas:
 
 ## Rodar localmente
 ```bash
-python -m pip install -r "../ATLAS PAGE/ATLAS BACKEND/atlas-pipeline/requirements.txt"
-python "../ATLAS PAGE/ATLAS BACKEND/atlas-pipeline/src/main.py"
+python -m pip install -r ../atlas-pipeline/requirements.txt
+python ../atlas-pipeline/src/main.py
 ```
 
 ## Autopublish (Node)
