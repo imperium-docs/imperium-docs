@@ -24,6 +24,15 @@ pnpm install
 pnpm dev
 ```
 
+## Run Local (one command)
+
+```bash
+cd ordem
+pnpm ordem:up
+```
+
+Isso sobe o Postgres via Docker, aplica migrations/seed de analytics e inicia web + API.
+
 Web: http://localhost:3000/ordem
 API: http://localhost:3001
 
@@ -41,6 +50,40 @@ pnpm typecheck
 ## Environment
 
 See `apps/api/.env.example` and `apps/web/.env.example`.
+
+## Analytics + Admin
+
+O painel institucional fica em `/admin` (Next.js) e usa a API Fastify como backend.
+
+Requisitos adicionais:
+- PostgreSQL para analytics.
+
+Setup rapido (analytics):
+1) Configure `ANALYTICS_DATABASE_URL` em `apps/api/.env`.
+2) Rode migrations: `pnpm --filter @ordem/api analytics:migrate`.
+3) Seed inicial: `pnpm --filter @ordem/api analytics:seed`.
+4) Inicie os apps: `pnpm dev` e acesse `http://localhost:3000/admin`.
+
+Credenciais seed:
+- admin@imperium.local / imperium-admin-please-change
+- analyst@imperium.local / imperium-analyst-please-change
+
+## Event catalog
+
+Resumo (namespace):
+- auth.*
+- consent.*
+- system.*
+- atlas.*
+- academia.*
+- ordem.*
+- alexandria.*
+- billing.*
+
+Como adicionar evento novo:
+1) Atualize `apps/api/src/analytics/catalog.ts` com schema + sample.
+2) Rode `pnpm --filter @ordem/api analytics:seed` para popular o catalogo.
+3) Instrumente o tracker no frontend com `trackEvent`.
 
 ## Mini App setup
 

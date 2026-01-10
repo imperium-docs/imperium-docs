@@ -11,7 +11,9 @@
     "build": "pnpm -r build",
     "start": "pnpm -r --parallel start",
     "lint": "pnpm -r lint",
-    "typecheck": "pnpm -r typecheck"
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "ordem:up": "pnpm install && node scripts/setup-env.js && docker compose -f docker-compose.yml up -d && node scripts/wait-for-postgres.js && pnpm --filter @ordem/api analytics:migrate && pnpm --filter @ordem/api analytics:seed && pnpm dev"
   },
   "volta": {
     "node": "20.11.1",
