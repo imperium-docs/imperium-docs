@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "autopublish": "tsx scripts/autopublish.ts",
-    "atlas:cron": "python ../atlas-pipeline/src/main.py",
+    "atlas:cron": "python \"../ATLAS PAGE/ATLAS BACKEND/atlas-pipeline/src/main.py\"",
     "verify:pipeline": "tsx scripts/verify-pipeline.ts",
     "build": "echo 'Skipping build'",
     "autopublish:ci": "tsx scripts/autopublish.ts"

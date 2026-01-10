@@ -1,20 +1,246 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Atlas Site</title>
-  </head>
-  <body>
-    <header class="site-header">
-      <nav class="main-tabs" aria-label="Principal">
-        <a class="tab">Atlas</a>
-        <a class="tab" href="/atlas-site/alexandria.html">Alexandria</a>
-      </nav>
-    </header>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>IMPERIUM â€” Atlas (Prototype)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-imperium">
+  <div id="dark-overlay"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <svg class="eagle" viewBox="0 0 64 64" aria-hidden focusable="false">
+        <path d="M32 4c-4 6-12 10-16 18 6-2 10-2 16 0 6-2 10-2 16 0-4-8-12-12-16-18z" fill="currentColor" />
+      </svg>
+      <div class="title">IMPERIUM</div>
+    </div>
+
+    <nav class="main-tabs" aria-label="Principal">
+      <a class="tab active">Atlas</a>
+      <a class="tab" href="http://localhost:5173/">Academia</a>
+      <a class="tab" href="ordem/">Ordem</a>
+      <a class="tab" href="/scrinium/">Scrinium</a>
+    </nav>
+
+    <nav class="admin-links" aria-label="Institucional">
+      <a>Sobre</a>
+      <a>Manifesto</a>
+      <a>Metodologia</a>
+      <a>Arquivo</a>
+    </nav>
+
+    <div class="auth-actions" aria-label="Autenticação">
+      <a class="auth-btn" href="http://localhost:5173/?login">Sign in</a>
+      <a class="auth-btn" href="http://localhost:5173/?sign-up">Sign up</a>
+    </div>
+  </header>
+
     <main>
-      <h1>Atlas Site</h1>
-      <p>Se voce esta vendo esta pagina, o Live Server encontrou o index.html.</p>
-    </main>
-  </body>
+    <div class="page-titles">
+      <h1 class="main-title" data-text="Atlas">Atlas</h1>
+      <h2 class="main-subtitle" data-text="Mapa vivo do mundo">Mapa vivo do mundo</h2>
+    </div>
+    <div id="atlas-feed" class="atlas-feed" aria-live="polite"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-anchor">
+      <div class="brand-small">IMPERIUM â€” ATLAS</div>
+      <div class="record">Registro do presente como arquivo permanente.</div>
+    </div>
+
+    <form class="prometheus" action="#" onsubmit="event.preventDefault();">
+      <label class="prom-label">PROMETHEUS</label>
+      <div class="prom-row">
+        <input placeholder="Seu e-mail (transmissÃ£o privada)" aria-label="E-mail Prometheus" />
+        <button type="submit">Inscrever</button>
+      </div>
+    </form>
+
+    <nav class="footer-links">
+      <a>Sobre</a>
+      <a>Termos</a>
+      <a>Privacidade</a>
+      <a>Contato</a>
+    </nav>
+  </footer>
+  <div class="page-tail" aria-hidden="true"></div>
+
+  <script>
+    // Parallax effect for background
+    let ticking = false;
+    function updateParallax() {
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          const scrolled = window.scrollY;
+          const isMobile = window.innerWidth <= 768;
+          const factor = isMobile ? 0 : 1; // 1:1 movement on desktop
+          document.body.style.backgroundPositionY = (-160 - scrolled * factor) + 'px';
+          ticking = false;
+        });
+        ticking = true;
+      }
+    }
+    window.addEventListener('scroll', updateParallax);
+    window.addEventListener('resize', () => {
+      updateParallax();
+    });
+    updateParallax(); // initial
+
+    // Mouse illumination effect (reveal through dark overlay)
+    const overlay = document.getElementById('dark-overlay');
+    document.addEventListener('mousemove', (e) => {
+      const x = (e.clientX / window.innerWidth) * 100;
+      const y = (e.clientY / window.innerHeight) * 100;
+      overlay.style.background = `radial-gradient(circle at ${x}% ${y}%, transparent 0%, rgba(0, 0, 0, 0.8) 40%)`;
+    });
+    document.addEventListener('mouseleave', () => {
+      overlay.style.background = 'rgba(0, 0, 0, 0.8)';
+    });
+
+    const titleEls = document.querySelectorAll('.main-title, .main-subtitle');
+    const hoverMargin = 26;
+    function updateTitles(e) {
+      const px = e.clientX;
+      const py = e.clientY;
+      titleEls.forEach((el) => {
+        const rect = el.getBoundingClientRect();
+        const inX = px >= rect.left - hoverMargin && px <= rect.right + hoverMargin;
+        const inY = py >= rect.top - hoverMargin && py <= rect.bottom + hoverMargin;
+        if (inX && inY) {
+          const x = ((px - rect.left) / rect.width) * 100;
+          const y = ((py - rect.top) / rect.height) * 100;
+          document.documentElement.style.setProperty('--cursor-x', `${x}%`);
+          document.documentElement.style.setProperty('--cursor-y', `${y}%`);
+          el.classList.add('is-hovered');
+        } else {
+          el.classList.remove('is-hovered');
+        }
+      });
+    }
+    document.addEventListener('mousemove', updateTitles);
+    document.addEventListener('mouseleave', () => {
+      titleEls.forEach((el) => el.classList.remove('is-hovered'));
+      document.documentElement.style.setProperty('--cursor-x', '-100%');
+      document.documentElement.style.setProperty('--cursor-y', '-100%');
+    });
+
+    const feedRoot = document.getElementById('atlas-feed');
+    const FEED_URL = 'feed.json';
+
+    function safeParseDate(value) {
+      if (!value) return null;
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return null;
+      return date;
+    }
+
+    function formatDate(item) {
+      if (item.dateLocal) return item.dateLocal;
+      const date = safeParseDate(item.publishedAtISO || item.published_at);
+      if (!date) return '';
+      return date.toLocaleDateString('pt-BR', { year: 'numeric', month: 'short', day: '2-digit' });
+    }
+
+    function getItemLink(item) {
+      const recordPath = item.recordCardPath;
+      if (recordPath && typeof recordPath === 'string') return recordPath;
+      return item.canonicalUrl || item.canonical_url || '#';
+    }
+
+    function normalizeFeedItems(payload) {
+      if (Array.isArray(payload)) return payload;
+      if (payload && Array.isArray(payload.items)) return payload.items;
+      return [];
+    }
+
+    function sortByRecency(a, b) {
+      const dateA = safeParseDate(a.item.publishedAtISO || a.item.dateLocal || a.item.published_at);
+      const dateB = safeParseDate(b.item.publishedAtISO || b.item.dateLocal || b.item.published_at);
+      if (dateA && dateB) return dateB - dateA || a.index - b.index;
+      if (dateA) return -1;
+      if (dateB) return 1;
+      return a.index - b.index;
+    }
+
+    function renderFeedItems(items) {
+      if (!feedRoot || !items.length) return;
+      const fragment = document.createDocumentFragment();
+
+      items.forEach((item) => {
+        const entry = document.createElement('article');
+        entry.className = 'atlas-feed-item';
+
+        const titleLink = document.createElement('a');
+        titleLink.className = 'atlas-feed-title';
+        titleLink.href = getItemLink(item);
+        titleLink.textContent = item.title || 'Sem titulo';
+        if (!titleLink.href || titleLink.href === '#') {
+          titleLink.removeAttribute('href');
+        }
+
+        const meta = document.createElement('div');
+        meta.className = 'atlas-feed-meta';
+
+        const tags = [];
+        if (item.signal_type || item.signalType) tags.push(item.signal_type || item.signalType);
+        if (item.theme) tags.push(item.theme);
+        if (item.slot) tags.push(item.slot);
+
+        if (tags.length) {
+          const tagEl = document.createElement('span');
+          tagEl.className = 'atlas-feed-tags';
+          tagEl.textContent = tags.join(' · ');
+          meta.appendChild(tagEl);
+        }
+
+        const dateText = formatDate(item);
+        if (dateText) {
+          const dateEl = document.createElement('span');
+          dateEl.className = 'atlas-feed-date';
+          dateEl.textContent = dateText;
+          meta.appendChild(dateEl);
+        }
+
+        if (item.docStatus) {
+          const statusEl = document.createElement('span');
+          statusEl.className = 'atlas-feed-status';
+          statusEl.textContent = item.docStatus;
+          meta.appendChild(statusEl);
+        }
+
+        entry.appendChild(titleLink);
+        if (meta.childNodes.length) entry.appendChild(meta);
+        fragment.appendChild(entry);
+      });
+
+      feedRoot.appendChild(fragment);
+    }
+
+    async function loadFeed() {
+      if (!feedRoot) return;
+      try {
+        const response = await fetch(`${FEED_URL}?t=${Date.now()}`, { cache: 'no-store' });
+        if (!response.ok) return;
+        const payload = await response.json();
+        const items = normalizeFeedItems(payload)
+          .map((item, index) => ({ item, index }))
+          .sort(sortByRecency)
+          .map((entry) => entry.item);
+        renderFeedItems(items);
+      } catch (error) {
+        // Fail silently when feed is missing or malformed.
+      }
+    }
+
+    loadFeed();
+  </script>
+
+</body>
 </html>
+
+
+
+
