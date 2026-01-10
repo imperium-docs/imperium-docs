@@ -1,0 +1,47 @@
+providers:
+  colab_endpoint:
+    type: http_async
+    base_url: "https://example-colab.invalid"
+    capabilities:
+      txt2vid: true
+      img2vid: false
+    endpoints:
+      submit: "/submit"
+      poll: "/poll/{job_id}"
+      fetch: "/fetch/{job_id}"
+    cost_score: 2
+  kaggle_endpoint:
+    type: http_async
+    base_url: "https://example-kaggle.invalid"
+    capabilities:
+      txt2vid: true
+      img2vid: true
+    endpoints:
+      submit: "/submit"
+      poll: "/poll/{job_id}"
+      fetch: "/fetch/{job_id}"
+    cost_score: 3
+  self_hosted_gpu:
+    type: http_async
+    base_url: "http://localhost:9000"
+    capabilities:
+      txt2vid: true
+      img2vid: true
+    endpoints:
+      submit: "/submit"
+      poll: "/poll/{job_id}"
+      fetch: "/fetch/{job_id}"
+    cost_score: 1
+  spec_only:
+    type: spec_only
+    base_url: ""
+    capabilities:
+      txt2vid: true
+      img2vid: true
+    cost_score: 0
+
+chain:
+  - provider: "colab_endpoint"
+  - provider: "kaggle_endpoint"
+  - provider: "self_hosted_gpu"
+  - provider: "spec_only"

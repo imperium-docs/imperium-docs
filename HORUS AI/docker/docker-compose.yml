@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  horus-ai:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../artifacts:/app/artifacts
+      - ../logs:/app/logs
+      - ../configs:/app/configs

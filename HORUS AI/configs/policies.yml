@@ -1,0 +1,33 @@
+timeouts:
+  submit_s: 30
+  poll_s: 15
+  fetch_s: 60
+retry:
+  max_attempts: 2
+  backoff_s: 2
+circuit_breaker:
+  failure_threshold: 3
+  recovery_time_s: 60
+routing:
+  strategy: "cost_aware"
+  cost_aware: true
+health:
+  check_interval_s: 30
+  timeout_s: 5
+  enabled: true
+degrade_plan:
+  - resolution: "1080p"
+    fps: 30
+    duration_s: 16
+    steps: 50
+    guidance: 7.5
+  - resolution: "720p"
+    fps: 24
+    duration_s: 8
+    steps: 30
+    guidance: 6.0
+  - resolution: "480p"
+    fps: 20
+    duration_s: 4
+    steps: 20
+    guidance: 5.0
