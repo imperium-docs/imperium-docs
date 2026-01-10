@@ -29,7 +29,7 @@ export const LanguageDropDown = () => {
             return (
               <li key={language.code}>
                 <Link
-                  href={`https://${language.code}.duolingo.com/`}
+                  href={`https://imperium.local/${language.code}`}
                   tabIndex={0}
                   className="flex items-center gap-3 whitespace-nowrap rounded-xl p-3 hover:bg-gray-300"
                 >

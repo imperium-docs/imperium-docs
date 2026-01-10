@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { ComponentProps } from "react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import dayjs from "dayjs";
 import {
   BronzeLeagueSvg,
@@ -18,6 +18,7 @@ import { Flag } from "./Flag";
 import type { LoginScreenState } from "./LoginScreen";
 import { LoginScreen } from "./LoginScreen";
 import { useLeaderboardRank } from "~/hooks/useLeaderboard";
+import { fetchProviderStats } from "~/utils/authApi";
 
 export const RightBar = () => {
   const loggedIn = useBoundStore((x) => x.loggedIn);
@@ -35,6 +36,7 @@ export const RightBar = () => {
 
   const [loginScreenState, setLoginScreenState] =
     useState<LoginScreenState>("HIDDEN");
+  const showAuthDashboard = import.meta.env.VITE_AUTH_SHOW_DASHBOARD === "true";
 
   return (
     <>
@@ -157,6 +159,7 @@ export const RightBar = () => {
         {!loggedIn && (
           <CreateAProfileSection setLoginScreenState={setLoginScreenState} />
         )}
+        {showAuthDashboard && <AuthAnalyticsCard />}
       </aside>
       <LoginScreen
         loginScreenState={loginScreenState}
@@ -639,6 +642,57 @@ const CreateAProfileSection = ({
       >
         Sign in
       </button>
+    </article>
+  );
+};
+
+const AuthAnalyticsCard = () => {
+  const [stats, setStats] = useState<
+    Array<{ provider: string; clicks: number; success: number }>
+  >([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    let active = true;
+    const loadStats = async () => {
+      const data = await fetchProviderStats();
+      if (active) {
+        setStats(data);
+        setLoading(false);
+      }
+    };
+    void loadStats();
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  return (
+    <article className="glass-card flex flex-col gap-4 rounded-2xl border-2 border-gray-200 p-6 text-white">
+      <h2 className="text-lg font-bold">Conversao por provider</h2>
+      {loading ? (
+        <p className="text-sm text-gray-500">Carregando...</p>
+      ) : stats.length === 0 ? (
+        <p className="text-sm text-gray-500">Sem dados ainda.</p>
+      ) : (
+        <div className="flex flex-col gap-3 text-sm text-gray-200">
+          {stats.map((item) => {
+            const rate = item.clicks
+              ? Math.round((item.success / item.clicks) * 100)
+              : 0;
+            return (
+              <div key={item.provider} className="flex justify-between">
+                <span className="uppercase tracking-[1px]">
+                  {item.provider}
+                </span>
+                <span>
+                  {item.clicks} → {item.success} ({rate}%)
+                </span>
+              </div>
+            );
+          })}
+        </div>
+      )}
     </article>
   );
 };
